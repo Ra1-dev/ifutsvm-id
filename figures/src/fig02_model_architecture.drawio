@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="fig02_model_architecture" name="IFUTSVM-ID (corrected): two fitted planes">
+    <mxGraphModel dx="1280" dy="720" grid="1" page="1" pageWidth="1280" pageHeight="720">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="classes" value="Minority X1&lt;br&gt;Majority X2" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="52.000000000000014" y="310.0" width="180.0" height="120.0" as="geometry" />
+        </mxCell>
+        <mxCell id="prepare" value="Draw X2*, U, U*&lt;br&gt;Kernel IF scores&lt;br&gt;s_min, s_maj*" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="274.0" y="270.0" width="216.0" height="200.0" as="geometry" />
+        </mxCell>
+        <mxCell id="kernel" value="Kernel blocks&lt;br&gt;E, F*, G*, F2, G&lt;br&gt;D = [X1; X2*]" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="526.0" y="290.0" width="228.0" height="160.0" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" value="Plane-1 QP&lt;br&gt;Minority plane z1" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="796.0" y="180.0" width="204.00000000000003" height="120.0" as="geometry" />
+        </mxCell>
+        <mxCell id="q2" value="Plane-2 QP&lt;br&gt;Majority plane z2" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="796.0" y="440.0" width="204.00000000000003" height="120.0" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" value="Equation 32&lt;br&gt;Minimum&lt;br&gt;plane distance" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="1042.0" y="290.0" width="180.0" height="160.0" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0" parent="1" edge="1" source="classes" target="prepare" style="edgeStyle=none;html=1;endArrow=block;strokeColor=#2B706B;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-1" parent="1" edge="1" source="prepare" target="kernel" style="edgeStyle=none;html=1;endArrow=block;strokeColor=#2B706B;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-2" parent="1" edge="1" source="kernel" target="q1" style="edgeStyle=none;html=1;endArrow=block;strokeColor=#2B706B;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3" parent="1" edge="1" source="kernel" target="q2" style="edgeStyle=none;html=1;endArrow=block;strokeColor=#2B706B;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-4" parent="1" edge="1" source="q1" target="decision" style="edgeStyle=none;html=1;endArrow=block;strokeColor=#2B706B;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-5" parent="1" edge="1" source="q2" target="decision" style="edgeStyle=none;html=1;endArrow=block;strokeColor=#2B706B;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

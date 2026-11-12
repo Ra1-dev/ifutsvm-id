@@ -1,0 +1,32 @@
+{
+  "ratios": [
+    1,
+    3,
+    9,
+    30
+  ],
+  "penalties": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "fingerprint": "a80075230239d0bb771d36e8b135618638d342918d73d41c9b8ef665e7194064",
+  "criterion": "Across ratios 9 and 30 and all fixed penalties/seeds: positive mean balanced-accuracy difference and negative mean absolute-boundary-distance difference versus random averaging.",
+  "negative_control": "ratio=1",
+  "selection": "none",
+  "scope": "The threshold surrogate is not the IFUTSVM objective; transfer is an empirical hypothesis."
+}

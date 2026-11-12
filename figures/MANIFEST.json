@@ -1,0 +1,4444 @@
+{
+  "preview": false,
+  "summary_sha256": "fccc9a71442e8be402c3848bcdb02e5df0d2a47771218f96ee90d266e444ddee",
+  "figures": [
+    {
+      "name": "fig01_methodology_block_diagram",
+      "title": "Methodology: train, then evaluate",
+      "caption": "Scaling, Universum construction and fuzzy scores use training rows only; inner validation chooses parameters.",
+      "source_pointers": [
+        "/config"
+      ],
+      "files": [
+        {
+          "path": "figures/fig01_methodology_block_diagram.png",
+          "sha256": "dd3a1acb085935b9925bf7edfac84e6fb3f996514ad08c975ee7a248162858a3"
+        },
+        {
+          "path": "figures/fig01_methodology_block_diagram.pdf",
+          "sha256": "a6e6ae1015dcaffe8224e39458ade4fac1ff55729b40ecb08d131792dfd9fb14"
+        },
+        {
+          "path": "figures/src/fig01_methodology_block_diagram.drawio",
+          "sha256": "fe1dfe351f7252db50e5dc5d5e9dae1b29665b2631f4e2cbd161af6541465a00"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 11,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 480,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          1664
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Official KEEL data\nMinority = positive",
+            "bounds_pixels": [
+              307.97360000000003,
+              894.8807111111109,
+              892.9736,
+              1056.6584888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Stratified split\nTraining / test",
+            "bounds_pixels": [
+              1336.7936,
+              894.8807111111109,
+              1768.7936,
+              1056.6584888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Train-only\nencoding and scaling",
+            "bounds_pixels": [
+              2215.7064000000005,
+              894.8807111111109,
+              2870.7064000000005,
+              1056.6584888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Training Universum\nU and subset U*",
+            "bounds_pixels": [
+              3198.0967125,
+              894.8807111111109,
+              3792.9560875,
+              1056.6584888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Metrics and statistics\nPersist predictions",
+            "bounds_pixels": [
+              273.47360000000003,
+              383.6999111111111,
+              927.4736,
+              545.4776888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Decision rule\nNearest plane",
+            "bounds_pixels": [
+              1337.4732875,
+              383.6999111111111,
+              1768.1139125,
+              545.4776888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Two convex QPs\nFit both planes",
+            "bounds_pixels": [
+              2295.4485875000005,
+              383.6999111111111,
+              2790.9642125000005,
+              545.4776888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IF scores\nTraining geometry",
+            "bounds_pixels": [
+              3214.5967125,
+              383.6999111111111,
+              3776.4560875,
+              545.4776888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Methodology: train, then evaluate",
+            "bounds_pixels": [
+              184.32,
+              1499.7333333333333,
+              2257.32,
+              1606.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Scaling, Universum construction and fuzzy scores use training rows only; inner validation chooses\nparameters.",
+            "bounds_pixels": [
+              184.32,
+              1318.8023611111112,
+              3216.60125,
+              1468.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 0,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        1664
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig02_model_architecture",
+      "title": "IFUTSVM-ID (corrected): two fitted planes",
+      "caption": "Reduced kernel basis D = [X1; X2*]; default symmetric Universum constraints; all kernel blocks share bandwidth.",
+      "source_pointers": [
+        "/config"
+      ],
+      "files": [
+        {
+          "path": "figures/fig02_model_architecture.png",
+          "sha256": "42b9f72f21b7b2dee538921f0f8d3c2a6b76d756130e8f16352ecb20f7ef9889"
+        },
+        {
+          "path": "figures/fig02_model_architecture.pdf",
+          "sha256": "61035a642bfbaf40fc8813698b008e4ae1ff3720b680de1cb09866949f6e9f7d"
+        },
+        {
+          "path": "figures/src/fig02_model_architecture.drawio",
+          "sha256": "3cf74bb526dea58a9e33b0f6923fe334f452e290e8a288d136dd668dabcde25d"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 9,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 429,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Minority X1\nMajority X2",
+            "bounds_pixels": [
+              291.14880000000005,
+              921.3511111111111,
+              643.1488,
+              1083.128888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Draw X2*, U, U*\nKernel IF scores\ns_min, s_maj*",
+            "bounds_pixels": [
+              981.5048000000002,
+              880.9066666666666,
+              1476.5048000000002,
+              1123.5733333333333
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Kernel blocks\nE, F*, G*, F2, G\nD = [X1; X2*]",
+            "bounds_pixels": [
+              1814.0,
+              880.9066666666666,
+              2282.0,
+              1123.5733333333333
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Plane-1 QP\nMinority plane z1",
+            "bounds_pixels": [
+              2599.9952000000003,
+              1334.688711111111,
+              3133.9952000000003,
+              1496.4664888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Plane-2 QP\nMajority plane z2",
+            "bounds_pixels": [
+              2600.4952000000003,
+              508.01351111111103,
+              3133.4952000000003,
+              669.7912888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Equation 32\nMinimum\nplane distance",
+            "bounds_pixels": [
+              3383.8048000000003,
+              880.9066666666666,
+              3835.8048000000003,
+              1123.5733333333333
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected): two fitted planes",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2719.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Reduced kernel basis D = [X1; X2*]; default symmetric Universum constraints; all kernel blocks share\nbandwidth.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3329.53875,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 0,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig03_evaluation_protocol",
+      "title": "Two outer evaluation protocols",
+      "caption": "Outer test data never enter tuning, scaling, SMOTE or Universum fitting. Main selection: balanced accuracy.",
+      "source_pointers": [
+        "/config"
+      ],
+      "files": [
+        {
+          "path": "figures/fig03_evaluation_protocol.png",
+          "sha256": "77199c9088c15d7ee75dab79d0d103a02fc9dce2c78fcf9f0c60100fbb8b47c7"
+        },
+        {
+          "path": "figures/fig03_evaluation_protocol.pdf",
+          "sha256": "8e478b1dc461272686b6af1739762707f75690d8dcc54d8309b7afc0c93d1334"
+        },
+        {
+          "path": "figures/src/fig03_evaluation_protocol.drawio",
+          "sha256": "892b9d2bb4aadc9136c97c254373bb807fcd647818dc712cf2cdc7b59f52df0a"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 9,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 563,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Protocol A: 70/30 holdout\nSeeds 0, 1, 2, 3, 4",
+            "bounds_pixels": [
+              704.9534375000001,
+              1430.074311111111,
+              1486.4065625,
+              1591.8520888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Protocol B: nested 5-fold CV\nOuter shuffle seed 0",
+            "bounds_pixels": [
+              2568.0465625,
+              1430.074311111111,
+              3432.5934375,
+              1591.8520888888888
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Training only: 3-fold inner CV\n40 shared candidate proposals",
+            "bounds_pixels": [
+              620.5393750000001,
+              921.3511111111111,
+              1570.820625,
+              1083.128888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Training only: 3-fold inner CV\n40 shared candidate proposals",
+            "bounds_pixels": [
+              2525.179375,
+              921.3511111111111,
+              3475.460625,
+              1083.128888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Refit on the full outer training set\nEvaluate once on the held-out 30%",
+            "bounds_pixels": [
+              550.1018750000001,
+              412.6279111111111,
+              1641.258125,
+              574.4056888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Refit on the full outer training set\nEvaluate once on the held-out fold",
+            "bounds_pixels": [
+              2465.241875,
+              412.6279111111111,
+              3535.398125,
+              574.4056888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Two outer evaluation protocols",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2061.60125,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Outer test data never enter tuning, scaling, SMOTE or Universum fitting. Main selection: balanced\naccuracy.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3214.32,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 0,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig04_main_performance",
+      "title": "IFUTSVM-ID (corrected) trails simple baselines",
+      "caption": "Holdout balanced accuracy: IFUTSVM-ID (corrected) 80.7%, SVM (balanced) 83.0%, SMOTE + SVM 84.0%. Equal-weight means over 12 tasks; bars show SD between dataset means.",
+      "source_pointers": [
+        "/headline",
+        "/protocols/holdout/aggregate",
+        "/protocols/nested_cv/aggregate"
+      ],
+      "files": [
+        {
+          "path": "figures/fig04_main_performance.png",
+          "sha256": "f5124c9cd1a460202ecb176acb9114bffa028bccf049178a3c7158fbfc705fe9"
+        },
+        {
+          "path": "figures/fig04_main_performance.pdf",
+          "sha256": "a7238c4fa656947b2f92dc9cd4b07477c39da2718ecec0449e083443e280c652"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 26,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 499,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Score (%)",
+            "bounds_pixels": [
+              1531.3173243087558,
+              190.513263888889,
+              1856.8485743087558,
+              257.528888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              1004.5,
+              275.3066666666668,
+              1043.5,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              1320.041474654378,
+              275.3066666666668,
+              1398.041474654378,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              1655.0829493087558,
+              275.3066666666668,
+              1733.0829493087558,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              1990.1244239631337,
+              275.3066666666668,
+              2068.1244239631337,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              2305.6658986175116,
+              275.3066666666668,
+              2422.6658986175116,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SVM (balanced)",
+            "bounds_pixels": [
+              507.8888888888889,
+              1600.0765634449592,
+              992.8888888888889,
+              1662.2987856671814
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SMOTE + SVM",
+            "bounds_pixels": [
+              546.8888888888889,
+              1403.2960191484913,
+              992.8888888888889,
+              1465.5182413707134
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "TSVM",
+            "bounds_pixels": [
+              819.8888888888889,
+              1206.5154748520235,
+              992.8888888888889,
+              1268.7376970742457
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "UTSVM",
+            "bounds_pixels": [
+              774.8888888888889,
+              1009.7349305555557,
+              992.8888888888889,
+              1071.957152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published\ncode)",
+            "bounds_pixels": [
+              289.8888888888889,
+              766.2725286201988,
+              992.8888888888889,
+              915.6301675090878
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published\ncode, scaled)",
+            "bounds_pixels": [
+              289.8888888888889,
+              569.491984323731,
+              992.8888888888889,
+              718.8496232126199
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              272.3420138888889,
+              419.3932976661521,
+              992.8888888888889,
+              481.6155198883743
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced accuracy",
+            "bounds_pixels": [
+              1334.0829493087558,
+              1736.515625,
+              2054.082949308756,
+              1812.6666666666667
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "Score (%)",
+            "bounds_pixels": [
+              3099.311425691244,
+              190.513263888889,
+              3424.842675691244,
+              257.528888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              2572.494101382488,
+              275.3066666666668,
+              2611.494101382488,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              2888.035576036866,
+              275.3066666666668,
+              2966.035576036866,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              3223.077050691244,
+              275.3066666666668,
+              3301.077050691244,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              3558.118525345622,
+              275.3066666666668,
+              3636.118525345622,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              3873.66,
+              275.3066666666668,
+              3990.66,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "G-mean",
+            "bounds_pixels": [
+              3111.077050691244,
+              1736.515625,
+              3413.077050691244,
+              1812.0711805555557
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "Holdout",
+            "bounds_pixels": [
+              2822.2163236047104,
+              517.9733333333335,
+              3064.2163236047104,
+              580.1955555555556
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Outer CV",
+            "bounds_pixels": [
+              2822.2163236047104,
+              424.64000000000004,
+              3102.2163236047104,
+              486.8622222222223
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected) trails simple baselines",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              3009.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Holdout balanced accuracy: IFUTSVM-ID (corrected) 80.7%, SVM (balanced) 83.0%, SMOTE + SVM 84.0%. Equal-\nweight means over 12 tasks; bars show SD between dataset means.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3677.335625,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 4,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig05_roc_curves",
+      "title": "ROC on predeclared imbalance levels",
+      "caption": "Minimum, lower-median and maximum dataset IR; seed zero. Curves use persisted minority-positive decision scores, with no performance-based dataset choice.",
+      "source_pointers": [
+        "/artifact_plan/representative_datasets",
+        "/presentation_illustrations"
+      ],
+      "files": [
+        {
+          "path": "figures/fig05_roc_curves.png",
+          "sha256": "9125bab6e079c3741545ab4caddb718e474923d558b557bf9c1eb47d18a3e3b4"
+        },
+        {
+          "path": "figures/fig05_roc_curves.pdf",
+          "sha256": "6fa29e477f2c82cf590c6595ce0061b96096a9648a5514fe5f43424a1e19521b"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 35,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 612,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "False-positive rate",
+            "bounds_pixels": [
+              509.2370454545454,
+              490.0332638888889,
+              1123.1120454545453,
+              557.0488888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0.0",
+            "bounds_pixels": [
+              237.72000000000003,
+              574.8266666666667,
+              335.72,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.5",
+            "bounds_pixels": [
+              767.1745454545454,
+              574.8266666666667,
+              865.1745454545454,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "1.0",
+            "bounds_pixels": [
+              1296.6290909090908,
+              574.8266666666667,
+              1394.6290909090908,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority true-positive rate",
+            "bounds_pixels": [
+              72.81548611111111,
+              737.04,
+              139.83111111111117,
+              1613.04
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0.0",
+            "bounds_pixels": [
+              157.6088888888889,
+              629.5749305555555,
+              255.6088888888889,
+              691.7971527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.5",
+            "bounds_pixels": [
+              157.6088888888889,
+              1136.4549305555556,
+              255.6088888888889,
+              1198.6771527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "1.0",
+            "bounds_pixels": [
+              157.6088888888889,
+              1643.3349305555557,
+              255.6088888888889,
+              1705.557152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "pima\nIR = 1.87",
+            "bounds_pixels": [
+              638.6745454545454,
+              1682.8726909722222,
+              993.6745454545454,
+              1864.8310243055555
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "False-positive rate",
+            "bounds_pixels": [
+              1843.4625,
+              490.0332638888889,
+              2457.3375,
+              557.0488888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0.0",
+            "bounds_pixels": [
+              1571.9454545454544,
+              574.8266666666667,
+              1669.9454545454544,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.5",
+            "bounds_pixels": [
+              2101.4,
+              574.8266666666667,
+              2199.4,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "1.0",
+            "bounds_pixels": [
+              2630.8545454545456,
+              574.8266666666667,
+              2728.8545454545456,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.0",
+            "bounds_pixels": [
+              1491.8343434343433,
+              629.5749305555555,
+              1589.8343434343433,
+              691.7971527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.5",
+            "bounds_pixels": [
+              1491.8343434343433,
+              1136.4549305555556,
+              1589.8343434343433,
+              1198.6771527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "1.0",
+            "bounds_pixels": [
+              1491.8343434343433,
+              1643.3349305555557,
+              1589.8343434343433,
+              1705.557152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast3\nIR = 8.10",
+            "bounds_pixels": [
+              1972.9,
+              1682.8726909722222,
+              2327.9,
+              1864.2355381944444
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "False-positive rate",
+            "bounds_pixels": [
+              3177.6879545454544,
+              490.0332638888889,
+              3791.5629545454544,
+              557.0488888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0.0",
+            "bounds_pixels": [
+              2906.170909090909,
+              574.8266666666667,
+              3004.170909090909,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.5",
+            "bounds_pixels": [
+              3435.6254545454544,
+              574.8266666666667,
+              3533.6254545454544,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "1.0",
+            "bounds_pixels": [
+              3965.08,
+              574.8266666666667,
+              4063.08,
+              637.0488888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.0",
+            "bounds_pixels": [
+              2826.0597979797976,
+              629.5749305555555,
+              2924.0597979797976,
+              691.7971527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0.5",
+            "bounds_pixels": [
+              2826.0597979797976,
+              1136.4549305555556,
+              2924.0597979797976,
+              1198.6771527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "1.0",
+            "bounds_pixels": [
+              2826.0597979797976,
+              1643.3349305555557,
+              2924.0597979797976,
+              1705.557152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "abalone9-18\nIR = 16.40",
+            "bounds_pixels": [
+              3246.6254545454544,
+              1682.8726909722222,
+              3722.6254545454544,
+              1864.8310243055555
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "ROC on predeclared imbalance levels",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2435.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Minimum, lower-median and maximum dataset IR; seed zero. Curves use persisted minority-positive decision\nscores, with no performance-based dataset choice.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3569.78875,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SVM (balanced)",
+            "bounds_pixels": [
+              753.3488888888892,
+              369.3866666666667,
+              1238.3488888888892,
+              431.60888888888894
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SMOTE + SVM",
+            "bounds_pixels": [
+              753.3488888888892,
+              276.05333333333334,
+              1199.3488888888892,
+              338.27555555555557
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "TSVM",
+            "bounds_pixels": [
+              753.3488888888892,
+              182.72000000000008,
+              926.3488888888892,
+              244.9422222222223
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "UTSVM",
+            "bounds_pixels": [
+              1524.5711111111113,
+              369.3866666666667,
+              1742.5711111111113,
+              431.60888888888894
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published code)",
+            "bounds_pixels": [
+              1524.5711111111113,
+              276.05333333333334,
+              2420.5711111111113,
+              338.27555555555557
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published code,\nscaled)",
+            "bounds_pixels": [
+              2706.7933333333335,
+              333.15576388888894,
+              3598.7933333333335,
+              482.51340277777786
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              2706.7933333333335,
+              239.8224305555556,
+              3427.3402083333335,
+              302.0446527777778
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 16,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig06_confusion_matrices",
+      "title": "Class errors across all holdout seeds",
+      "caption": "IFUTSVM-ID (corrected) versus SMOTE + SVM (best complete-benchmark mean balanced accuracy). Counts summed over 5 seeds; cell shade and percent are row recall (0-100%).",
+      "source_pointers": [
+        "/presentation_illustrations",
+        "/protocols/holdout/aggregate"
+      ],
+      "files": [
+        {
+          "path": "figures/fig06_confusion_matrices.png",
+          "sha256": "1ed07f034c6e3c0d9c9eae073b71b2836762395f8ba782439bf17b2d200f2d3d"
+        },
+        {
+          "path": "figures/fig06_confusion_matrices.pdf",
+          "sha256": "deea360314777b768d75db40bf5846c63e3d2bf22b0224a1a82948c8bf8f19bf"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 66,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 1004,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "570\n76.0%",
+            "bounds_pixels": [
+              584.4991836734694,
+              1540.5617432950191,
+              809.4991836734694,
+              1711.2561877394635
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "180\n24.0%",
+            "bounds_pixels": [
+              1036.4175510204082,
+              1540.5617432950191,
+              1261.4175510204082,
+              1711.2561877394635
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "138\n34.1%",
+            "bounds_pixels": [
+              584.4991836734694,
+              1290.299674329502,
+              809.4991836734694,
+              1460.9941187739464
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "267\n65.9%",
+            "bounds_pixels": [
+              1036.4175510204082,
+              1290.299674329502,
+              1261.4175510204082,
+              1460.9941187739464
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              571.9991836734694,
+              1157.1825287356323,
+              821.9991836734694,
+              1219.4047509578545
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              1023.4175510204082,
+              1157.1825287356323,
+              1274.4175510204082,
+              1219.4047509578545
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "True",
+            "bounds_pixels": [
+              104.48444444444449,
+              1429.6763685344827,
+              171.15111111111116,
+              1571.8794935344827
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              189.92888888888893,
+              1587.323896072797,
+              439.92888888888893,
+              1649.5461182950191
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              188.92888888888893,
+              1337.06182710728,
+              439.92888888888893,
+              1399.284049329502
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "pima\nIFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              478.95055484693876,
+              1751.9926909722221,
+              1366.9661798469388,
+              1934.5465104166667
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "1863\n93.9%",
+            "bounds_pixels": [
+              1904.1008163265305,
+              1540.5617432950191,
+              2129.1008163265305,
+              1711.2561877394635
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "122\n6.1%",
+            "bounds_pixels": [
+              2378.5191836734693,
+              1540.5617432950191,
+              2558.5191836734693,
+              1711.2561877394635
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "34\n13.9%",
+            "bounds_pixels": [
+              1904.1008163265305,
+              1290.299674329502,
+              2129.1008163265305,
+              1460.9941187739464
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "211\n86.1%",
+            "bounds_pixels": [
+              2356.0191836734693,
+              1290.299674329502,
+              2581.0191836734693,
+              1460.9941187739464
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              1891.6008163265305,
+              1157.1825287356323,
+              2141.6008163265305,
+              1219.4047509578545
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              2343.0191836734693,
+              1157.1825287356323,
+              2594.0191836734693,
+              1219.4047509578545
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "True",
+            "bounds_pixels": [
+              1424.0860770975055,
+              1429.6763685344827,
+              1490.7527437641722,
+              1571.8794935344827
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              1509.53052154195,
+              1587.323896072797,
+              1759.53052154195,
+              1649.5461182950191
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              1508.53052154195,
+              1337.06182710728,
+              1759.53052154195,
+              1399.284049329502
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast3\nIFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              1798.5521875,
+              1751.9926909722221,
+              2686.5678125,
+              1933.9510243055556
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "983\n95.0%",
+            "bounds_pixels": [
+              3223.7024489795917,
+              1540.5617432950191,
+              3448.7024489795917,
+              1711.2561877394635
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "52\n5.0%",
+            "bounds_pixels": [
+              3698.1208163265305,
+              1540.5617432950191,
+              3878.1208163265305,
+              1711.2561877394635
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "40\n61.5%",
+            "bounds_pixels": [
+              3223.7024489795917,
+              1290.299674329502,
+              3448.7024489795917,
+              1460.9941187739464
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "25\n38.5%",
+            "bounds_pixels": [
+              3675.6208163265305,
+              1290.299674329502,
+              3900.6208163265305,
+              1460.9941187739464
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              3211.2024489795917,
+              1157.1825287356323,
+              3461.2024489795917,
+              1219.4047509578545
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              3662.6208163265305,
+              1157.1825287356323,
+              3913.6208163265305,
+              1219.4047509578545
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "True",
+            "bounds_pixels": [
+              2743.6877097505667,
+              1429.6763685344827,
+              2810.354376417233,
+              1571.8794935344827
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              2829.132154195011,
+              1587.323896072797,
+              3079.132154195011,
+              1649.5461182950191
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              2828.132154195011,
+              1337.06182710728,
+              3079.132154195011,
+              1399.284049329502
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "abalone9-18\nIFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              3118.153820153061,
+              1751.9926909722221,
+              4006.169445153061,
+              1934.5465104166667
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "568\n75.7%",
+            "bounds_pixels": [
+              584.4991836734694,
+              589.5658812260535,
+              809.4991836734694,
+              760.2603256704981
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "182\n24.3%",
+            "bounds_pixels": [
+              1036.4175510204082,
+              589.5658812260535,
+              1261.4175510204082,
+              760.2603256704981
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "119\n29.4%",
+            "bounds_pixels": [
+              584.4991836734694,
+              339.30381226053635,
+              809.4991836734694,
+              509.9982567049808
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "286\n70.6%",
+            "bounds_pixels": [
+              1036.4175510204082,
+              339.30381226053635,
+              1261.4175510204082,
+              509.9982567049808
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "Predicted",
+            "bounds_pixels": [
+              765.2786798469388,
+              121.3932638888889,
+              1080.6380548469388,
+              188.4088888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              571.9991836734694,
+              206.18666666666667,
+              821.9991836734694,
+              268.4088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              1023.4175510204082,
+              206.18666666666667,
+              1274.4175510204082,
+              268.4088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "True",
+            "bounds_pixels": [
+              104.48444444444449,
+              478.6805064655173,
+              171.15111111111116,
+              620.8836314655173
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              189.92888888888893,
+              636.3280340038314,
+              439.92888888888893,
+              698.5502562260536
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              188.92888888888893,
+              386.0659650383141,
+              439.92888888888893,
+              448.28818726053635
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "pima\nSMOTE + SVM",
+            "bounds_pixels": [
+              649.9583673469388,
+              800.9968289032566,
+              1195.9583673469388,
+              982.95516223659
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "1857\n93.6%",
+            "bounds_pixels": [
+              1904.1008163265305,
+              589.5658812260535,
+              2129.1008163265305,
+              760.2603256704981
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "128\n6.4%",
+            "bounds_pixels": [
+              2378.5191836734693,
+              589.5658812260535,
+              2558.5191836734693,
+              760.2603256704981
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "24\n9.8%",
+            "bounds_pixels": [
+              1926.6008163265305,
+              339.30381226053635,
+              2106.6008163265305,
+              509.9982567049808
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "221\n90.2%",
+            "bounds_pixels": [
+              2356.0191836734693,
+              339.30381226053635,
+              2581.0191836734693,
+              509.9982567049808
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "Predicted",
+            "bounds_pixels": [
+              2084.8803125,
+              121.3932638888889,
+              2400.2396875,
+              188.4088888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              1891.6008163265305,
+              206.18666666666667,
+              2141.6008163265305,
+              268.4088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              2343.0191836734693,
+              206.18666666666667,
+              2594.0191836734693,
+              268.4088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "True",
+            "bounds_pixels": [
+              1424.0860770975055,
+              478.6805064655173,
+              1490.7527437641722,
+              620.8836314655173
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              1509.53052154195,
+              636.3280340038314,
+              1759.53052154195,
+              698.5502562260536
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              1508.53052154195,
+              386.0659650383141,
+              1759.53052154195,
+              448.28818726053635
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast3\nSMOTE + SVM",
+            "bounds_pixels": [
+              1969.56,
+              800.9968289032566,
+              2515.56,
+              982.3596761254789
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "901\n87.1%",
+            "bounds_pixels": [
+              3223.7024489795917,
+              589.5658812260535,
+              3448.7024489795917,
+              760.2603256704981
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "134\n12.9%",
+            "bounds_pixels": [
+              3675.6208163265305,
+              589.5658812260535,
+              3900.6208163265305,
+              760.2603256704981
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "20\n30.8%",
+            "bounds_pixels": [
+              3223.7024489795917,
+              339.30381226053635,
+              3448.7024489795917,
+              509.9982567049808
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "45\n69.2%",
+            "bounds_pixels": [
+              3675.6208163265305,
+              339.30381226053635,
+              3900.6208163265305,
+              509.9982567049808
+            ],
+            "font_points": 16.0
+          },
+          {
+            "text": "Predicted",
+            "bounds_pixels": [
+              3404.481945153061,
+              121.3932638888889,
+              3719.841320153061,
+              188.4088888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              3211.2024489795917,
+              206.18666666666667,
+              3461.2024489795917,
+              268.4088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              3662.6208163265305,
+              206.18666666666667,
+              3913.6208163265305,
+              268.4088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "True",
+            "bounds_pixels": [
+              2743.6877097505667,
+              478.6805064655173,
+              2810.354376417233,
+              620.8836314655173
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Majority",
+            "bounds_pixels": [
+              2829.132154195011,
+              636.3280340038314,
+              3079.132154195011,
+              698.5502562260536
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Minority",
+            "bounds_pixels": [
+              2828.132154195011,
+              386.0659650383141,
+              3079.132154195011,
+              448.28818726053635
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "abalone9-18\nSMOTE + SVM",
+            "bounds_pixels": [
+              3289.161632653061,
+              800.9968289032566,
+              3835.161632653061,
+              982.95516223659
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "Class errors across all holdout seeds",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2407.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected) versus SMOTE + SVM (best complete-benchmark mean balanced accuracy). Counts summed\nover 5 seeds; cell shade and percent are row recall (0-100%).",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3811.866875,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 93,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig07_learning_curves",
+      "title": "Learning curves: IFUTSVM-ID (corrected) and SVM (balanced)",
+      "caption": "abalone9-18; parameters fixed at original training-selected values. Mean and SD over 3 inner folds; outer test rows excluded. Descriptive curves, not new tuning.",
+      "source_pointers": [
+        "/course_curves/plan/learning",
+        "/course_curves/groups"
+      ],
+      "files": [
+        {
+          "path": "figures/fig07_learning_curves.png",
+          "sha256": "70f7173562cff6f412cc9b484b0d67944db30a4ee8710781b7bc38ee27fe7bf3"
+        },
+        {
+          "path": "figures/fig07_learning_curves.pdf",
+          "sha256": "fc2dbdcf22bb6d06c5a54f953b195a62e160acfa53393a06a332143274f8029f"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 41,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 613,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Training rows (fold mean)",
+            "bounds_pixels": [
+              720.0128125000001,
+              397.8732638888889,
+              1573.7471875,
+              464.8888888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              308.18,
+              482.6666666666667,
+              347.18,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              515.5381767160211,
+              482.6666666666667,
+              593.5381767160211,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              722.8963534320424,
+              482.6666666666667,
+              839.8963534320424,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "150",
+            "bounds_pixels": [
+              949.7545301480634,
+              482.6666666666667,
+              1066.7545301480634,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "200",
+            "bounds_pixels": [
+              1176.6127068640847,
+              482.6666666666667,
+              1293.6127068640847,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "250",
+            "bounds_pixels": [
+              1403.470883580106,
+              482.6666666666667,
+              1520.470883580106,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "300",
+            "bounds_pixels": [
+              1630.329060296127,
+              482.6666666666667,
+              1747.329060296127,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "350",
+            "bounds_pixels": [
+              1857.1872370121482,
+              482.6666666666667,
+              1974.1872370121482,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Score (%)",
+            "bounds_pixels": [
+              94.77548611111114,
+              989.234375,
+              161.79111111111115,
+              1314.765625
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              257.5688888888889,
+              557.625456871345,
+              296.5688888888889,
+              619.8476790935673
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              218.56888888888892,
+              759.7307200292397,
+              296.5688888888889,
+              821.952942251462
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "40",
+            "bounds_pixels": [
+              218.56888888888892,
+              961.8359831871345,
+              296.5688888888889,
+              1024.0582054093568
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "60",
+            "bounds_pixels": [
+              218.56888888888892,
+              1163.9412463450294,
+              296.5688888888889,
+              1226.1634685672516
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "80",
+            "bounds_pixels": [
+              218.56888888888892,
+              1366.046509502924,
+              296.5688888888889,
+              1428.2687317251462
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              179.56888888888892,
+              1568.1517726608188,
+              296.5688888888889,
+              1630.373994883041
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Accuracy",
+            "bounds_pixels": [
+              973.0440625000001,
+              1736.5156249999998,
+              1320.7159375,
+              1812.0711805555554
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "Training rows (fold mean)",
+            "bounds_pixels": [
+              2768.0128125,
+              397.8732638888889,
+              3621.7471875,
+              464.8888888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              2356.18,
+              482.6666666666667,
+              2395.18,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              2563.538176716021,
+              482.6666666666667,
+              2641.538176716021,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              2770.896353432042,
+              482.6666666666667,
+              2887.896353432042,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "150",
+            "bounds_pixels": [
+              2997.754530148063,
+              482.6666666666667,
+              3114.754530148063,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "200",
+            "bounds_pixels": [
+              3224.6127068640844,
+              482.6666666666667,
+              3341.6127068640844,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "250",
+            "bounds_pixels": [
+              3451.4708835801057,
+              482.6666666666667,
+              3568.4708835801057,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "300",
+            "bounds_pixels": [
+              3678.329060296127,
+              482.6666666666667,
+              3795.329060296127,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "350",
+            "bounds_pixels": [
+              3905.187237012148,
+              482.6666666666667,
+              4022.187237012148,
+              544.8888888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Score (%)",
+            "bounds_pixels": [
+              2142.7754861111107,
+              989.234375,
+              2209.7911111111107,
+              1314.765625
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              2305.5688888888885,
+              557.625456871345,
+              2344.5688888888885,
+              619.8476790935673
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              2266.5688888888885,
+              759.7307200292397,
+              2344.5688888888885,
+              821.952942251462
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "40",
+            "bounds_pixels": [
+              2266.5688888888885,
+              961.8359831871345,
+              2344.5688888888885,
+              1024.0582054093568
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "60",
+            "bounds_pixels": [
+              2266.5688888888885,
+              1163.9412463450294,
+              2344.5688888888885,
+              1226.1634685672516
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "80",
+            "bounds_pixels": [
+              2266.5688888888885,
+              1366.046509502924,
+              2344.5688888888885,
+              1428.2687317251462
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              2227.5688888888885,
+              1568.1517726608188,
+              2344.5688888888885,
+              1630.373994883041
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced accuracy",
+            "bounds_pixels": [
+              2834.88,
+              1736.5156249999998,
+              3554.88,
+              1812.6666666666665
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "Learning curves: IFUTSVM-ID (corrected) and SVM (balanced)",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              3906.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "abalone9-18; parameters fixed at original training-selected values. Mean and SD over 3 inner folds; outer\ntest rows excluded. Descriptive curves, not new tuning.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3452.41375,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected) / training",
+            "bounds_pixels": [
+              1099.9243402777781,
+              299.0933333333333,
+              2119.4712152777784,
+              361.31555555555553
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected) / validation",
+            "bounds_pixels": [
+              1099.9243402777781,
+              205.75999999999996,
+              2185.4712152777784,
+              267.98222222222216
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SVM (balanced) / training",
+            "bounds_pixels": [
+              2484.137881944445,
+              299.0933333333333,
+              3268.137881944445,
+              361.31555555555553
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SVM (balanced) / validation",
+            "bounds_pixels": [
+              2484.137881944445,
+              205.75999999999996,
+              3334.137881944445,
+              267.98222222222216
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 9,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig08_validation_curves",
+      "title": "Validation sensitivity within outer training",
+      "caption": "IFUTSVM-ID (corrected), abalone9-18; vary one parameter, with all others fixed at original training-selected values. Mean and SD across inner folds; descriptive reuse of inner selection, not an unbiased test estimate.",
+      "source_pointers": [
+        "/course_curves/plan/validation",
+        "/course_curves/groups/paper"
+      ],
+      "files": [
+        {
+          "path": "figures/fig08_validation_curves.png",
+          "sha256": "4767b448034f6365e9d9f44893a9db82b169d23303a4a7e2f6a4d222a654c494"
+        },
+        {
+          "path": "figures/fig08_validation_curves.pdf",
+          "sha256": "33f3bb6bc60030662e4e2bbc24755084a68ad457bda17a9e922b789c4f559ef6"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 37,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 563,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "C",
+            "bounds_pixels": [
+              1123.38,
+              225.21652777777763,
+              1170.38,
+              291.8831944444443
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "$\\mathdefault{10^{-3}}$",
+            "bounds_pixels": [
+              329.15272727272725,
+              309.6609722222221,
+              475.15272727272725,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{10^{-2}}$",
+            "bounds_pixels": [
+              577.3951515151514,
+              309.6609722222221,
+              723.3951515151514,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{10^{-1}}$",
+            "bounds_pixels": [
+              825.6375757575756,
+              310.6609722222221,
+              971.6375757575756,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{10^{0}}$",
+            "bounds_pixels": [
+              1091.8799999999999,
+              309.6609722222221,
+              1201.8799999999999,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{10^{1}}$",
+            "bounds_pixels": [
+              1340.1224242424241,
+              310.6609722222221,
+              1450.1224242424241,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{10^{2}}$",
+            "bounds_pixels": [
+              1588.3648484848484,
+              309.6609722222221,
+              1698.3648484848484,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{10^{3}}$",
+            "bounds_pixels": [
+              1836.6072727272726,
+              309.6609722222221,
+              1946.6072727272726,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced accuracy (%)",
+            "bounds_pixels": [
+              94.77548611111112,
+              685.8599999999999,
+              161.79111111111115,
+              1456.86
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              257.5688888888889,
+              401.39031517094,
+              296.5688888888889,
+              463.61253739316226
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              218.56888888888892,
+              653.9441613247863,
+              296.5688888888889,
+              716.1663835470085
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "40",
+            "bounds_pixels": [
+              218.56888888888892,
+              906.4980074786325,
+              296.5688888888889,
+              968.7202297008548
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "60",
+            "bounds_pixels": [
+              218.56888888888892,
+              1159.0518536324787,
+              296.5688888888889,
+              1221.2740758547009
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "80",
+            "bounds_pixels": [
+              218.56888888888892,
+              1411.605699786325,
+              296.5688888888889,
+              1473.8279220085471
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              179.56888888888892,
+              1664.159545940171,
+              296.5688888888889,
+              1726.3817681623932
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Training",
+            "bounds_pixels": [
+              1605.9081250000002,
+              564.0533333333332,
+              1848.7675000000002,
+              626.2755555555553
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Validation",
+            "bounds_pixels": [
+              1605.9081250000002,
+              470.71999999999974,
+              1910.0800000000002,
+              532.942222222222
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Kernel bandwidth (mu)",
+            "bounds_pixels": [
+              2812.13,
+              224.8675694444443,
+              3577.63,
+              291.8831944444443
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "$\\mathdefault{2^{-3}}$",
+            "bounds_pixels": [
+              2396.652727272727,
+              309.6609722222221,
+              2503.652727272727,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{2^{-2}}$",
+            "bounds_pixels": [
+              2644.8951515151516,
+              309.6609722222221,
+              2751.8951515151516,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{2^{-1}}$",
+            "bounds_pixels": [
+              2893.137575757576,
+              310.6609722222221,
+              3000.137575757576,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{2^{0}}$",
+            "bounds_pixels": [
+              3159.88,
+              309.6609722222221,
+              3229.88,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{2^{1}}$",
+            "bounds_pixels": [
+              3408.122424242424,
+              310.6609722222221,
+              3478.122424242424,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{2^{2}}$",
+            "bounds_pixels": [
+              3656.3648484848486,
+              309.6609722222221,
+              3726.3648484848486,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "$\\mathdefault{2^{3}}$",
+            "bounds_pixels": [
+              3904.607272727273,
+              309.6609722222221,
+              3974.607272727273,
+              383.60888888888877
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced accuracy (%)",
+            "bounds_pixels": [
+              2142.7754861111107,
+              685.8599999999999,
+              2209.7911111111107,
+              1456.86
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              2305.5688888888885,
+              401.39031517094,
+              2344.5688888888885,
+              463.61253739316226
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              2266.5688888888885,
+              653.9441613247863,
+              2344.5688888888885,
+              716.1663835470085
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "40",
+            "bounds_pixels": [
+              2266.5688888888885,
+              906.4980074786325,
+              2344.5688888888885,
+              968.7202297008548
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "60",
+            "bounds_pixels": [
+              2266.5688888888885,
+              1159.0518536324787,
+              2344.5688888888885,
+              1221.2740758547009
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "80",
+            "bounds_pixels": [
+              2266.5688888888885,
+              1411.605699786325,
+              2344.5688888888885,
+              1473.8279220085471
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              2227.5688888888885,
+              1664.159545940171,
+              2344.5688888888885,
+              1726.3817681623932
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Training",
+            "bounds_pixels": [
+              3653.9081249999995,
+              564.0533333333332,
+              3896.7674999999995,
+              626.2755555555553
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Validation",
+            "bounds_pixels": [
+              3653.9081249999995,
+              470.71999999999974,
+              3958.0799999999995,
+              532.942222222222
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Validation sensitivity within outer training",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2754.491875,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected), abalone9-18; vary one parameter, with all others fixed at original training-\nselected values. Mean and SD across inner folds; descriptive reuse of inner selection, not an unbiased\ntest estimate.",
+            "bounds_pixels": [
+              184.32,
+              1884.1235416666664,
+              3346.60125,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 4,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig09_reproduction",
+      "title": "Published accuracies: matches and measured gaps",
+      "caption": "IFUTSVM-ID (corrected): accuracy-selected holdout means; balanced accuracy uses the same predictions. Explanation categories do not identify undocumented author settings.",
+      "source_pointers": [
+        "/reproduction/datasets"
+      ],
+      "files": [
+        {
+          "path": "figures/fig09_reproduction.png",
+          "sha256": "eebb77871119661a7e2c10d94dabee3fb90e1995888734a7ea07bf912c9a63ea"
+        },
+        {
+          "path": "figures/fig09_reproduction.pdf",
+          "sha256": "5245809bc4e6e99b63b9ca2c91448cd4c76fc7e29f99d180e1770b83535fc179"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 37,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 755,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Score (%)",
+            "bounds_pixels": [
+              1496.114375,
+              236.59326388888888,
+              1821.645625,
+              303.6088888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              676.82,
+              321.38666666666666,
+              715.82,
+              383.6088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              1042.344,
+              321.38666666666666,
+              1120.344,
+              383.6088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "40",
+            "bounds_pixels": [
+              1427.368,
+              321.38666666666666,
+              1505.368,
+              383.6088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "60",
+            "bounds_pixels": [
+              1812.3920000000003,
+              321.38666666666666,
+              1890.3920000000003,
+              383.6088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "80",
+            "bounds_pixels": [
+              2197.416,
+              321.38666666666666,
+              2275.416,
+              383.6088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              2562.94,
+              321.38666666666666,
+              2679.94,
+              383.6088888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "abalone9-18",
+            "bounds_pixels": [
+              279.20888888888896,
+              1623.7509305555557,
+              665.208888888889,
+              1685.9731527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "ecoli-0-1_vs_5",
+            "bounds_pixels": [
+              229.20888888888896,
+              1514.2588472222221,
+              665.208888888889,
+              1576.5331527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "ecoli3",
+            "bounds_pixels": [
+              482.20888888888896,
+              1404.8709305555558,
+              665.208888888889,
+              1467.093152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "ecoli4",
+            "bounds_pixels": [
+              482.20888888888896,
+              1295.4309305555557,
+              665.208888888889,
+              1357.653152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "glass4",
+            "bounds_pixels": [
+              468.20888888888896,
+              1185.9909305555557,
+              665.208888888889,
+              1248.2131527777779
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "haberman",
+            "bounds_pixels": [
+              350.30263888888896,
+              1076.5509305555556,
+              665.208888888889,
+              1138.7731527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "new-thyroid1",
+            "bounds_pixels": [
+              258.56826388888896,
+              967.1109305555556,
+              665.208888888889,
+              1029.3331527777777
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "pima",
+            "bounds_pixels": [
+              511.20888888888896,
+              857.6709305555556,
+              665.208888888889,
+              919.8931527777779
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "vehicle1",
+            "bounds_pixels": [
+              406.20888888888896,
+              748.2309305555556,
+              665.208888888889,
+              810.4531527777779
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast1",
+            "bounds_pixels": [
+              457.20888888888896,
+              638.7909305555555,
+              665.208888888889,
+              701.0131527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast-2_vs_4",
+            "bounds_pixels": [
+              265.20888888888896,
+              529.2988472222221,
+              665.208888888889,
+              591.5731527777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast3",
+            "bounds_pixels": [
+              457.20888888888896,
+              419.91093055555564,
+              665.208888888889,
+              482.13315277777787
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Configuration contrast",
+            "bounds_pixels": [
+              2785.28,
+              1631.224888888889,
+              3477.28,
+              1693.447111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Within tolerance",
+            "bounds_pixels": [
+              2785.28,
+              1521.7848888888889,
+              3291.920625,
+              1584.007111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Within tolerance",
+            "bounds_pixels": [
+              2785.28,
+              1412.344888888889,
+              3291.920625,
+              1474.5671111111112
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Within tolerance",
+            "bounds_pixels": [
+              2785.28,
+              1302.904888888889,
+              3291.920625,
+              1365.1271111111112
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Configuration contrast",
+            "bounds_pixels": [
+              2785.28,
+              1193.464888888889,
+              3477.28,
+              1255.687111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Within tolerance",
+            "bounds_pixels": [
+              2785.28,
+              1084.0248888888889,
+              3291.920625,
+              1146.247111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Within tolerance",
+            "bounds_pixels": [
+              2785.28,
+              974.5848888888889,
+              3291.920625,
+              1036.8071111111112
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Within tolerance",
+            "bounds_pixels": [
+              2785.28,
+              865.144888888889,
+              3291.920625,
+              927.3671111111112
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Majority collapse; repeated column",
+            "bounds_pixels": [
+              2785.28,
+              755.704888888889,
+              3873.920625,
+              817.9271111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Pre-specified accuracy probe",
+            "bounds_pixels": [
+              2785.28,
+              646.2648888888889,
+              3677.4675,
+              708.4871111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced-accuracy hypothesis",
+            "bounds_pixels": [
+              2785.28,
+              536.8248888888888,
+              3727.28,
+              599.047111111111
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced-accuracy hypothesis",
+            "bounds_pixels": [
+              2785.28,
+              427.384888888889,
+              3727.28,
+              489.6071111111112
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Published accuracies: matches and measured gaps",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              3269.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected): accuracy-selected holdout means; balanced accuracy uses the same predictions.\nExplanation categories do not identify undocumented author settings.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3459.41375,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Published ACC",
+            "bounds_pixels": [
+              1114.2604166666672,
+              182.72000000000003,
+              1557.0729166666672,
+              244.94222222222226
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Our accuracy",
+            "bounds_pixels": [
+              1793.5173611111115,
+              182.72000000000003,
+              2205.5173611111113,
+              244.94222222222226
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Our balanced accuracy",
+            "bounds_pixels": [
+              2441.961805555556,
+              182.72000000000003,
+              3155.961805555556,
+              244.94222222222226
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 0,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig10_critical_difference",
+      "title": "Balanced-accuracy critical differences",
+      "caption": "Friedman/Nemenyi across all tasks; each predeclared protocol is a separate test family. The ruler shows the critical rank difference; post-hoc inference uses the omnibus gate.",
+      "source_pointers": [
+        "/main_statistics/friedman_nemenyi"
+      ],
+      "files": [
+        {
+          "path": "figures/fig10_critical_difference.png",
+          "sha256": "9c7cf3d2a3485ea1b163e71867b598d0e016bc4087260cc6efc1fc9845ef13d9"
+        },
+        {
+          "path": "figures/fig10_critical_difference.pdf",
+          "sha256": "4224aa331e24d261d60cc21b63fe9a5e652317ffa2d5fd37a0d13bff76ce8f78"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 30,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 583,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "CD = 2.600",
+            "bounds_pixels": [
+              1485.5882199468965,
+              1598.1400833333335,
+              1844.5882199468965,
+              1660.3623055555558
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Mean rank (lower is better)",
+            "bounds_pixels": [
+              1518.329189189189,
+              190.513263888889,
+              2429.329189189189,
+              257.528888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "1",
+            "bounds_pixels": [
+              1409.4643243243245,
+              275.3066666666668,
+              1448.4643243243245,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "2",
+            "bounds_pixels": [
+              1591.085945945946,
+              275.3066666666668,
+              1630.085945945946,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "3",
+            "bounds_pixels": [
+              1772.7075675675676,
+              275.3066666666668,
+              1811.7075675675676,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "4",
+            "bounds_pixels": [
+              1954.329189189189,
+              275.3066666666668,
+              1993.329189189189,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              2135.9508108108107,
+              275.3066666666668,
+              2174.9508108108107,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "6",
+            "bounds_pixels": [
+              2317.5724324324324,
+              275.3066666666668,
+              2356.5724324324324,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "7",
+            "bounds_pixels": [
+              2499.1940540540536,
+              275.3066666666668,
+              2538.1940540540536,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SMOTE + SVM",
+            "bounds_pixels": [
+              915.528888888889,
+              1415.8149305555557,
+              1361.528888888889,
+              1478.037152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SVM (balanced)",
+            "bounds_pixels": [
+              876.528888888889,
+              1248.7749305555558,
+              1361.528888888889,
+              1310.997152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "UTSVM",
+            "bounds_pixels": [
+              1143.528888888889,
+              1081.7349305555558,
+              1361.528888888889,
+              1143.957152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              640.982013888889,
+              914.6949305555556,
+              1361.528888888889,
+              976.9171527777779
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "TSVM",
+            "bounds_pixels": [
+              1188.528888888889,
+              747.6549305555557,
+              1361.528888888889,
+              809.877152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published code)",
+            "bounds_pixels": [
+              465.528888888889,
+              580.6149305555557,
+              1361.528888888889,
+              642.837152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published code, scaled)",
+            "bounds_pixels": [
+              227.528888888889,
+              413.5749305555556,
+              1361.528888888889,
+              475.79715277777785
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Holdout: p = 2.13e-07\n12 datasets",
+            "bounds_pixels": [
+              1550.829189189189,
+              1705.9126909722222,
+              2396.829189189189,
+              1888.4665104166668
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "CD = 2.600",
+            "bounds_pixels": [
+              2903.6898415685177,
+              1598.1400833333335,
+              3262.6898415685177,
+              1660.3623055555558
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Mean rank (lower is better)",
+            "bounds_pixels": [
+              2936.4308108108107,
+              190.513263888889,
+              3847.4308108108107,
+              257.528888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "1",
+            "bounds_pixels": [
+              2827.5659459459457,
+              275.3066666666668,
+              2866.5659459459457,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "2",
+            "bounds_pixels": [
+              3009.1875675675674,
+              275.3066666666668,
+              3048.1875675675674,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "3",
+            "bounds_pixels": [
+              3190.809189189189,
+              275.3066666666668,
+              3229.809189189189,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "4",
+            "bounds_pixels": [
+              3372.4308108108107,
+              275.3066666666668,
+              3411.4308108108107,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              3554.0524324324324,
+              275.3066666666668,
+              3593.0524324324324,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "6",
+            "bounds_pixels": [
+              3735.6740540540536,
+              275.3066666666668,
+              3774.6740540540536,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "7",
+            "bounds_pixels": [
+              3917.2956756756753,
+              275.3066666666668,
+              3956.2956756756753,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Outer CV: p = 7.26e-06\n12 datasets",
+            "bounds_pixels": [
+              2948.5089358108107,
+              1705.9126909722222,
+              3835.3526858108107,
+              1887.8710243055557
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "Balanced-accuracy critical differences",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2475.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Friedman/Nemenyi across all tasks; each predeclared protocol is a separate test family. The ruler shows\nthe critical rank difference; post-hoc inference uses the omnibus gate.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3398.47625,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 4,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig11_ablation",
+      "title": "All pre-specified Universum contrasts",
+      "caption": "Paired differences versus IFUTSVM-ID (corrected): equal-weight mean and SD across 12 dataset means. Every pre-specified variant is retained.",
+      "source_pointers": [
+        "/research/ablation",
+        "/research/plan/variants"
+      ],
+      "files": [
+        {
+          "path": "figures/fig11_ablation.png",
+          "sha256": "38b9027b770735ecb4b871ec2eb9b7ae6cdfc6d3ad78bfe7cbdc67c88734e23b"
+        },
+        {
+          "path": "figures/fig11_ablation.pdf",
+          "sha256": "07ecf698a7485777d8907af8927dd2c3ea95af0875dd8be446a17933583120a1"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 26,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 864,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "Paired G-mean difference (percentage points)",
+            "bounds_pixels": [
+              2305.703125,
+              190.513263888889,
+              3838.296875,
+              257.528888888889
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "\u22126",
+            "bounds_pixels": [
+              2261.056833548113,
+              275.3066666666668,
+              2352.056833548113,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "\u22124",
+            "bounds_pixels": [
+              2514.3446789049162,
+              275.3066666666668,
+              2605.3446789049162,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "\u22122",
+            "bounds_pixels": [
+              2767.63252426172,
+              275.3066666666668,
+              2858.63252426172,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              3046.920369618523,
+              275.3066666666668,
+              3085.920369618523,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "2",
+            "bounds_pixels": [
+              3300.2082149753264,
+              275.3066666666668,
+              3339.2082149753264,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "4",
+            "bounds_pixels": [
+              3553.49606033213,
+              275.3066666666668,
+              3592.49606033213,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "6",
+            "bounds_pixels": [
+              3806.7839056889334,
+              275.3066666666668,
+              3845.7839056889334,
+              337.528888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (no Universum)",
+            "bounds_pixels": [
+              1282.7688888888888,
+              1715.596748737374,
+              2139.768888888889,
+              1777.818970959596
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (published Universum)",
+            "bounds_pixels": [
+              1060.7688888888888,
+              1621.3422032828285,
+              2139.768888888889,
+              1683.5644255050506
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              1419.2220138888888,
+              1527.087657828283,
+              2139.768888888889,
+              1589.3098800505052
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (Gaussian-noise Universum)",
+            "bounds_pixels": [
+              890.7688888888888,
+              1432.8331123737375,
+              2139.768888888889,
+              1495.0553345959597
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional Gaussian)",
+            "bounds_pixels": [
+              1068.7688888888888,
+              1338.578566919192,
+              2139.768888888889,
+              1400.8007891414143
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected; u \u00d7 0.25)",
+            "bounds_pixels": [
+              1110.2220138888888,
+              1244.3240214646466,
+              2139.768888888889,
+              1306.5462436868688
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected; u \u00d7 0.5)",
+            "bounds_pixels": [
+              1149.2220138888888,
+              1150.069476010101,
+              2139.768888888889,
+              1212.2916982323231
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected; u \u00d7 2)",
+            "bounds_pixels": [
+              1208.2220138888888,
+              1055.8149305555557,
+              2139.768888888889,
+              1118.037152777778
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected; IF scores off)",
+            "bounds_pixels": [
+              1005.5813888888888,
+              961.5603851010101,
+              2139.768888888889,
+              1023.7826073232324
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected; paper-dual sign)",
+            "bounds_pixels": [
+              901.2063888888888,
+              867.3058396464646,
+              2139.768888888889,
+              929.5280618686869
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional Gaussian; u \u00d7 0.25)",
+            "bounds_pixels": [
+              759.7688888888888,
+              773.0512941919192,
+              2139.768888888889,
+              835.2735164141415
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional Gaussian; u \u00d7 0.5)",
+            "bounds_pixels": [
+              798.7688888888888,
+              678.7967487373736,
+              2139.768888888889,
+              741.0189709595959
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional Gaussian; u \u00d7 2)",
+            "bounds_pixels": [
+              857.7688888888888,
+              584.5422032828282,
+              2139.768888888889,
+              646.7644255050504
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional Gaussian; IF scores off)",
+            "bounds_pixels": [
+              655.1282638888888,
+              490.2876578282827,
+              2139.768888888889,
+              552.509880050505
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional Gaussian; paper-dual sign)",
+            "bounds_pixels": [
+              550.7532638888888,
+              396.03311237373725,
+              2139.768888888889,
+              458.2553345959595
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "All pre-specified Universum contrasts",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2458.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Paired differences versus IFUTSVM-ID (corrected): equal-weight mean and SD across 12 dataset means. Every\npre-specified variant is retained.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3590.991875,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 0,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    },
+    {
+      "name": "fig12_label_noise",
+      "title": "Robustness to corrupted training labels",
+      "caption": "Only training labels are flipped; outer test labels remain clean. Identical flip permutations and tuning budgets for all models. Mean and SD across the fixed holdout seeds.",
+      "source_pointers": [
+        "/research/noise",
+        "/research/plan/noise_levels",
+        "/research/plan/noise_models"
+      ],
+      "files": [
+        {
+          "path": "figures/fig12_label_noise.png",
+          "sha256": "8db0aba7a083affbb435fae70920dbd553d806f044cb83f458a586185dffbd2f"
+        },
+        {
+          "path": "figures/fig12_label_noise.pdf",
+          "sha256": "fe5e0b79dec505069d70606eb1372fc638f4009fa170fd65436b228c7817d65a"
+        }
+      ],
+      "measured_minimum_font_points": 14.0,
+      "text_bounds_checked": 58,
+      "minimum_fitted_slide_font_points": 14.0,
+      "slide_canvas_pixels": [
+        1280,
+        720
+      ],
+      "pdf_character_bounds_checked": 592,
+      "saved_png_text_bounds": {
+        "canvas_pixels": [
+          4096,
+          2304
+        ],
+        "render_dpi": 320,
+        "minimum_margin_at_1280_pixels": 8,
+        "texts": [
+          {
+            "text": "0",
+            "bounds_pixels": [
+              393.9242751842752,
+              1110.3747582697201,
+              432.9242751842752,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              617.8456511056511,
+              1110.3747582697201,
+              656.8456511056511,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "10",
+            "bounds_pixels": [
+              822.267027027027,
+              1110.3747582697201,
+              900.267027027027,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              1270.109778869779,
+              1110.3747582697201,
+              1348.109778869779,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              298.5288888888889,
+              1173.91691528838,
+              337.5288888888889,
+              1236.1391375106023
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              259.5288888888889,
+              1283.8405794105174,
+              337.5288888888889,
+              1346.0628016327396
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              259.5288888888889,
+              1393.764243532655,
+              337.5288888888889,
+              1455.9864657548771
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              259.5288888888889,
+              1503.6879076547923,
+              337.5288888888889,
+              1565.9101298770145
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              220.5288888888889,
+              1613.6115717769298,
+              337.5288888888889,
+              1675.833793999152
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "abalone9-18",
+            "bounds_pixels": [
+              623.2670270270269,
+              1713.475625,
+              1099.2670270270269,
+              1789.6266666666668
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              1724.0172481572479,
+              1110.3747582697201,
+              1763.0172481572479,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              1947.938624078624,
+              1110.3747582697201,
+              1986.938624078624,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "10",
+            "bounds_pixels": [
+              2152.3599999999997,
+              1110.3747582697201,
+              2230.3599999999997,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              2600.2027518427512,
+              1110.3747582697201,
+              2678.2027518427512,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              1628.6218618618616,
+              1173.91691528838,
+              1667.6218618618616,
+              1236.1391375106023
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              1589.6218618618616,
+              1283.8405794105174,
+              1667.6218618618616,
+              1346.0628016327396
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              1589.6218618618616,
+              1393.764243532655,
+              1667.6218618618616,
+              1455.9864657548771
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              1589.6218618618616,
+              1503.6879076547923,
+              1667.6218618618616,
+              1565.9101298770145
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              1550.6218618618616,
+              1613.6115717769298,
+              1667.6218618618616,
+              1675.833793999152
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "ecoli4",
+            "bounds_pixels": [
+              2078.3599999999997,
+              1713.475625,
+              2304.3599999999997,
+              1789.6266666666668
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              3054.1102211302205,
+              1110.3747582697201,
+              3093.1102211302205,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              3278.0315970515962,
+              1110.3747582697201,
+              3317.0315970515962,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "10",
+            "bounds_pixels": [
+              3482.452972972972,
+              1110.3747582697201,
+              3560.452972972972,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              3930.295724815724,
+              1110.3747582697201,
+              4008.295724815724,
+              1172.5969804919423
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              2958.714834834834,
+              1173.91691528838,
+              2997.714834834834,
+              1236.1391375106023
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              2919.714834834834,
+              1283.8405794105174,
+              2997.714834834834,
+              1346.0628016327396
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              2919.714834834834,
+              1393.764243532655,
+              2997.714834834834,
+              1455.9864657548771
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              2919.714834834834,
+              1503.6879076547923,
+              2997.714834834834,
+              1565.9101298770145
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              2880.714834834834,
+              1613.6115717769298,
+              2997.714834834834,
+              1675.833793999152
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "haberman",
+            "bounds_pixels": [
+              3327.1170354729725,
+              1713.475625,
+              3715.7889104729725,
+              1789.6266666666668
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              393.9242751842752,
+              298.34666666666675,
+              432.9242751842752,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              617.8456511056511,
+              298.34666666666675,
+              656.8456511056511,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "10",
+            "bounds_pixels": [
+              822.267027027027,
+              298.34666666666675,
+              900.267027027027,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              1270.109778869779,
+              298.34666666666675,
+              1348.109778869779,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              298.5288888888889,
+              361.8888236853266,
+              337.5288888888889,
+              424.1110459075488
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              259.5288888888889,
+              471.812487807464,
+              337.5288888888889,
+              534.0347100296863
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              259.5288888888889,
+              581.7361519296013,
+              337.5288888888889,
+              643.9583741518236
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              259.5288888888889,
+              691.6598160517387,
+              337.5288888888889,
+              753.882038273961
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              220.5288888888889,
+              801.5834801738762,
+              337.5288888888889,
+              863.8057023960985
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "pima",
+            "bounds_pixels": [
+              766.2670270270269,
+              901.4475333969466,
+              956.2670270270269,
+              977.5985750636132
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              1724.0172481572479,
+              298.34666666666675,
+              1763.0172481572479,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "5",
+            "bounds_pixels": [
+              1947.938624078624,
+              298.34666666666675,
+              1986.938624078624,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "10",
+            "bounds_pixels": [
+              2152.3599999999997,
+              298.34666666666675,
+              2230.3599999999997,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "20",
+            "bounds_pixels": [
+              2600.2027518427512,
+              298.34666666666675,
+              2678.2027518427512,
+              360.568888888889
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "0",
+            "bounds_pixels": [
+              1628.6218618618616,
+              361.8888236853266,
+              1667.6218618618616,
+              424.1110459075488
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "25",
+            "bounds_pixels": [
+              1589.6218618618616,
+              471.812487807464,
+              1667.6218618618616,
+              534.0347100296863
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "50",
+            "bounds_pixels": [
+              1589.6218618618616,
+              581.7361519296013,
+              1667.6218618618616,
+              643.9583741518236
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "75",
+            "bounds_pixels": [
+              1589.6218618618616,
+              691.6598160517387,
+              1667.6218618618616,
+              753.882038273961
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "100",
+            "bounds_pixels": [
+              1550.6218618618616,
+              801.5834801738762,
+              1667.6218618618616,
+              863.8057023960985
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "yeast3",
+            "bounds_pixels": [
+              2062.8599999999997,
+              901.4475333969466,
+              2319.8599999999997,
+              977.0030889525021
+            ],
+            "font_points": 17.0
+          },
+          {
+            "text": "IFUTSVM-ID (corrected)",
+            "bounds_pixels": [
+              3236.5640840840833,
+              748.095884754029,
+              3957.1109590840833,
+              810.3181069762512
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "IFUTSVM-ID (conditional\nGaussian)",
+            "bounds_pixels": [
+              3236.5640840840833,
+              567.6271347540289,
+              3980.5640840840833,
+              716.9847736429178
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "SVM (balanced)",
+            "bounds_pixels": [
+              3236.5640840840833,
+              474.2938014206956,
+              3721.5640840840833,
+              536.5160236429178
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "Balanced accuracy (%)",
+            "bounds_pixels": [
+              102.4,
+              674.3400000000001,
+              169.41562500000003,
+              1445.3400000000001
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Training labels flipped (%)",
+            "bounds_pixels": [
+              1693.3184375,
+              156.78437499999998,
+              2566.5215625,
+              223.79999999999998
+            ],
+            "font_points": 15.0
+          },
+          {
+            "text": "Robustness to corrupted training labels",
+            "bounds_pixels": [
+              184.32,
+              2139.7333333333336,
+              2594.32,
+              2246.4
+            ],
+            "font_points": 24.0
+          },
+          {
+            "text": "Only training labels are flipped; outer test labels remain clean. Identical flip permutations and tuning\nbudgets for all models. Mean and SD across the fixed holdout seeds.",
+            "bounds_pixels": [
+              184.32,
+              1958.802361111111,
+              3305.5075,
+              2108.16
+            ],
+            "font_points": 14.0
+          },
+          {
+            "text": "CSCI447P031 | Saved source: results/summary.json",
+            "bounds_pixels": [
+              184.32,
+              37.992,
+              1770.72625,
+              100.26630555555556
+            ],
+            "font_points": 14.0
+          }
+        ]
+      },
+      "subplot_label_pairs_checked": 10,
+      "command": "python -m experiments.presentation_figures",
+      "png_pixels": [
+        4096,
+        2304
+      ],
+      "measured_dpi": [
+        319.9892,
+        319.9892
+      ]
+    }
+  ],
+  "pending": [],
+  "minimum_font_points": 14,
+  "reference_width_pixels": 1280,
+  "model_colors": {
+    "svm_balanced": "#0072B2",
+    "smote_svm": "#E69F00",
+    "tsvm": "#56B4E9",
+    "utsvm": "#CC79A7",
+    "faithful_raw": "#666666",
+    "faithful_scaled": "#999999",
+    "paper": "#000000",
+    "random_average": "#000000",
+    "conditional_gaussian": "#009E73"
+  },
+  "script_sha256": "d5c1aa49bb95c986e947f0f1a7538cf876b719481e7e44a1e2481bdc790bbf34"
+}

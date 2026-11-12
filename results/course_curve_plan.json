@@ -1,0 +1,78 @@
+{
+  "learning": {
+    "dataset": "abalone9-18",
+    "outer_split": "holdout-0",
+    "models": [
+      "paper",
+      "svm_balanced"
+    ],
+    "fractions": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "parameters": {
+      "paper": {
+        "C": 1.0,
+        "Cu": 1.0,
+        "C3": 0.001,
+        "eps": 0.3,
+        "mu": 8.0
+      },
+      "svm_balanced": {
+        "C": 10.0,
+        "Cu": 1.0,
+        "C3": 0.001,
+        "eps": 0.6,
+        "mu": 8.0
+      }
+    },
+    "inner_folds": 3,
+    "subset_seed": 20261116,
+    "rule": "Nested stratified prefixes inside each inner training fold; no original outer test rows. Parameters are those already selected by balanced-accuracy inner CV on the original outer training set."
+  },
+  "validation": {
+    "dataset": "abalone9-18",
+    "model": "paper",
+    "outer_split": "holdout-0",
+    "parameters": {
+      "C": 1.0,
+      "Cu": 1.0,
+      "C3": 0.001,
+      "eps": 0.3,
+      "mu": 8.0
+    },
+    "sweeps": {
+      "C": [
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0,
+        1000.0
+      ],
+      "mu": [
+        0.125,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0,
+        8.0
+      ]
+    },
+    "rule": "Vary one parameter; all others fixed at the original training-selected values. Descriptive curves, no new selection."
+  },
+  "limitation": "Curve parameters reuse original inner selection: validation curves are descriptive and not an unbiased generalization estimate. Outer tests remain excluded.",
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy"
+  ],
+  "source_hash": "b2008b1597c1d53e073b8abdd9231a2af89c19f282b46c4f253f0ff2eef4a911",
+  "artifact_plan_sha256": "edce808610db3e04e82a452088f72b396d32418567a2fccfa01b7ca9053d001a",
+  "artifact_registration_commit": "5e63367b1e783dcf990eef89beb24d2148b1eba5",
+  "script_sha256": "c767099f051c754af97c25db239cefbed6bb9f71c0506886a8c57da2754c0a71"
+}

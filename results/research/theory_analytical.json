@@ -1,0 +1,47 @@
+{
+  "conditional_moments": {
+    "samples": 50000,
+    "maximum_absolute_log_density_ratio": 3.547743605217599e-16,
+    "mean_error_l2": 0.005867275267816121,
+    "relative_covariance_error": 0.008640008434690965
+  },
+  "threshold_surrogate": {
+    "separation": 2.0,
+    "alpha": 1.0,
+    "lambda_": 1.0,
+    "rows": [
+      {
+        "ratio": 1,
+        "prior_threshold": -0.0,
+        "anchored_threshold": -0.0,
+        "prior_balanced_error": 0.15865525393145707,
+        "anchored_balanced_error": 0.15865525393145707,
+        "balanced_optimal_error": 0.15865525393145707
+      },
+      {
+        "ratio": 3,
+        "prior_threshold": -0.5493061443340549,
+        "anchored_threshold": -0.27465307216702745,
+        "prior_balanced_error": 0.19337958869753474,
+        "anchored_balanced_error": 0.1676678217108216,
+        "balanced_optimal_error": 0.15865525393145707
+      },
+      {
+        "ratio": 9,
+        "prior_threshold": -1.0986122886681098,
+        "anchored_threshold": -0.5493061443340549,
+        "prior_balanced_error": 0.27860124489132143,
+        "anchored_balanced_error": 0.19337958869753474,
+        "balanced_optimal_error": 0.15865525393145707
+      },
+      {
+        "ratio": 30,
+        "prior_threshold": -1.7005986908310777,
+        "anchored_threshold": -0.8502993454155389,
+        "prior_balanced_error": 0.3808419960453443,
+        "anchored_balanced_error": 0.23631780216836093,
+        "balanced_optimal_error": 0.15865525393145707
+      }
+    ]
+  }
+}

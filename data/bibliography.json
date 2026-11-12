@@ -1,0 +1,306 @@
+{
+  "checked_on": "2026-11-10",
+  "scope": "Bibliographic metadata, checked against linked paper, publisher or author/institution records. No abstracts or third-party code reproduced.",
+  "entries": [
+    {
+      "key": "tanveer2025ifutsvm",
+      "type": "misc",
+      "section": 2,
+      "fields": {
+        "author": "Tanveer, M. and Quadir, A.",
+        "title": "Robust Universum Twin Support Vector Machine for Imbalanced Data",
+        "year": "2025",
+        "eprint": "2410.20335v2",
+        "archivePrefix": "arXiv",
+        "primaryClass": "cs.LG",
+        "doi": "10.48550/arXiv.2410.20335",
+        "url": "https://arxiv.org/abs/2410.20335v2",
+        "note": "Version 2, 18 April 2025; version used in this project"
+      },
+      "sources": [
+        "https://arxiv.org/abs/2410.20335v2"
+      ],
+      "verification_note": "Version-specific title and author order; the original 2024 version had a different title and author order."
+    },
+    {
+      "key": "alcala2009keel",
+      "type": "article",
+      "section": 2,
+      "fields": {
+        "author": "Alcal{\\'a}-Fdez, J. and S{\\'a}nchez, L. and Garc{\\'i}a, S. and del Jesus, M. J. and Ventura, S. and Garrell, J. M. and Otero, J. and Romero, C. and Bacardit, J. and Rivas, V. M. and Fern{\\'a}ndez, J. C. and Herrera, F.",
+        "title": "{KEEL}: A Software Tool to Assess Evolutionary Algorithms for Data Mining Problems",
+        "journal": "Soft Computing",
+        "volume": "13",
+        "number": "3",
+        "pages": "307--318",
+        "year": "2009",
+        "doi": "10.1007/s00500-008-0323-y",
+        "url": "https://link.springer.com/article/10.1007/s00500-008-0323-y"
+      },
+      "sources": [
+        "https://link.springer.com/article/10.1007/s00500-008-0323-y",
+        "https://sci2s.ugr.es/keel/pdf/keel/articulo/Alcalaetal-SoftComputing-Keel1.0.pdf"
+      ]
+    },
+    {
+      "key": "cortes1995svm",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "Cortes, Corinna and Vapnik, Vladimir",
+        "title": "Support-Vector Networks",
+        "journal": "Machine Learning",
+        "volume": "20",
+        "pages": "273--297",
+        "year": "1995",
+        "doi": "10.1007/BF00994018",
+        "url": "https://research.google/pubs/support-vector-networks/"
+      },
+      "sources": [
+        "https://research.google/pubs/support-vector-networks/",
+        "https://doi.org/10.1007/BF00994018"
+      ]
+    },
+    {
+      "key": "jayadeva2007twin",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "{Jayadeva} and Khemchandani, R. and Chandra, S.",
+        "title": "Twin Support Vector Machines for Pattern Classification",
+        "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "volume": "29",
+        "number": "5",
+        "pages": "905--910",
+        "year": "2007",
+        "doi": "10.1109/TPAMI.2007.1068"
+      },
+      "sources": [
+        "https://arxiv.org/html/2410.20335v2#bib.bib6",
+        "reference/IFUTSVM-ID/IFUTSVM-ID-Supplementary.pdf#references-5"
+      ],
+      "verification_note": "Author/year/volume/pages checked against supplied paper reference; DOI corroborated by bibliographic index. Publisher endpoint unavailable during checking."
+    },
+    {
+      "key": "qi2012universum",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "Qi, Zhiquan and Tian, Yingjie and Shi, Yong",
+        "title": "Twin Support Vector Machine with Universum Data",
+        "journal": "Neural Networks",
+        "volume": "36",
+        "pages": "112--119",
+        "year": "2012",
+        "doi": "10.1016/j.neunet.2012.09.004",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0893608012002304"
+      },
+      "sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0893608012002304",
+        "https://pubmed.ncbi.nlm.nih.gov/23079379/"
+      ]
+    },
+    {
+      "key": "richhariya2020reduced",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "Richhariya, B. and Tanveer, M.",
+        "title": "A Reduced Universum Twin Support Vector Machine for Class Imbalance Learning",
+        "journal": "Pattern Recognition",
+        "volume": "102",
+        "pages": "107150",
+        "year": "2020",
+        "doi": "10.1016/j.patcog.2019.107150"
+      },
+      "sources": [
+        "https://github.com/mtanveer1/A-reduced-universum-twin-support-vector-machine-for-class-imbalance-learning-RUTSVM-CIL"
+      ]
+    },
+    {
+      "key": "kumari2023ifusvm",
+      "type": "inproceedings",
+      "section": 3,
+      "fields": {
+        "author": "Kumari, Anuradha and Ganaie, M. A. and Tanveer, M.",
+        "title": "Intuitionistic Fuzzy Universum Support Vector Machine",
+        "booktitle": "Neural Information Processing (ICONIP 2022), Part I",
+        "publisher": "Springer",
+        "pages": "236--247",
+        "year": "2023",
+        "doi": "10.1007/978-3-031-30105-6_20",
+        "url": "https://dspace.iiti.ac.in/handle/123456789/12472"
+      },
+      "sources": [
+        "https://dspace.iiti.ac.in/handle/123456789/12472",
+        "reference/IFUTSVM-ID/IFUTSVM-ID-Supplementary.pdf#references-8"
+      ],
+      "verification_note": "Conference year is 2022; published proceedings year is 2023."
+    },
+    {
+      "key": "tanveer2023ifwlstsvm",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "Tanveer, M. and Ganaie, M. A. and Bhattacharjee, A. and Lin, C. T.",
+        "title": "Intuitionistic Fuzzy Weighted Least Squares Twin {SVMs}",
+        "journal": "IEEE Transactions on Cybernetics",
+        "volume": "53",
+        "number": "7",
+        "pages": "4400--4409",
+        "year": "2023",
+        "doi": "10.1109/TCYB.2022.3165879"
+      },
+      "sources": [
+        "https://rnd.iiti.ac.in/docs/Research%20Spectrum%20Volume%201%20Issue%202%20%281%29.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/35687632/"
+      ],
+      "verification_note": "Final issue year 2023; supplementary reference cites early-access year 2022."
+    },
+    {
+      "key": "kumari2024cgftsvm",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "Kumari, Anuradha and Tanveer, M. and Lin, C. T. and {Alzheimer's Disease Neuroimaging Initiative}",
+        "title": "Class Probability and Generalized Bell Fuzzy Twin {SVM} for Imbalanced Data",
+        "journal": "IEEE Transactions on Fuzzy Systems",
+        "volume": "32",
+        "number": "5",
+        "pages": "3037--3048",
+        "year": "2024",
+        "doi": "10.1109/TFUZZ.2024.3366936",
+        "url": "https://adni.loni.usc.edu/adni-publications/Kumari_2024_Class%20Probability%20and%20Generalized.pdf"
+      },
+      "sources": [
+        "https://adni.loni.usc.edu/adni-publications/Kumari_2024_Class%20Probability%20and%20Generalized.pdf",
+        "https://dspace.iiti.ac.in/handle/123456789/13539"
+      ],
+      "verification_note": "Includes consortium author as shown on the paper first page."
+    },
+    {
+      "key": "chawla2002smote",
+      "type": "article",
+      "section": 3,
+      "fields": {
+        "author": "Chawla, N. V. and Bowyer, K. W. and Hall, L. O. and Kegelmeyer, W. P.",
+        "title": "{SMOTE}: Synthetic Minority Over-sampling Technique",
+        "journal": "Journal of Artificial Intelligence Research",
+        "volume": "16",
+        "pages": "321--357",
+        "year": "2002",
+        "doi": "10.1613/jair.953",
+        "url": "https://arxiv.org/abs/1106.1813"
+      },
+      "sources": [
+        "https://arxiv.org/abs/1106.1813"
+      ],
+      "verification_note": "Cites journal year 2002, not later arXiv upload year."
+    },
+    {
+      "key": "sinz2007universum",
+      "type": "inproceedings",
+      "section": 4,
+      "fields": {
+        "author": "Sinz, Fabian H. and Chapelle, Olivier and Agarwal, Alekh and Sch{\\\"o}lkopf, Bernhard",
+        "title": "An Analysis of Inference with the Universum",
+        "booktitle": "Advances in Neural Information Processing Systems",
+        "volume": "20",
+        "year": "2007",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2007/file/a8e864d04c95572d1aece099af852d0a-Paper.pdf"
+      },
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2007/file/a8e864d04c95572d1aece099af852d0a-Paper.pdf"
+      ],
+      "verification_note": "Author order follows the paper PDF; the current proceedings landing page lists a different order."
+    },
+    {
+      "key": "pedregosa2011sklearn",
+      "type": "article",
+      "section": 5,
+      "fields": {
+        "author": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\\'E}douard",
+        "title": "Scikit-learn: Machine Learning in Python",
+        "journal": "Journal of Machine Learning Research",
+        "volume": "12",
+        "pages": "2825--2830",
+        "year": "2011",
+        "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+      },
+      "sources": [
+        "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+      ]
+    },
+    {
+      "key": "friedman1937ranks",
+      "type": "article",
+      "section": 6,
+      "fields": {
+        "author": "Friedman, Milton",
+        "title": "The Use of Ranks to Avoid the Assumption of Normality Implicit in the Analysis of Variance",
+        "journal": "Journal of the American Statistical Association",
+        "volume": "32",
+        "number": "200",
+        "pages": "675--701",
+        "year": "1937",
+        "doi": "10.1080/01621459.1937.10503522"
+      },
+      "sources": [
+        "https://hvr-tms2tm.stanford.edu/objects/57342/the-use-of-ranks-to-avoid-the-assumption-of-normality-implic",
+        "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf#page=29"
+      ]
+    },
+    {
+      "key": "nemenyi1963comparisons",
+      "type": "phdthesis",
+      "section": 6,
+      "fields": {
+        "author": "Nemenyi, Peter B.",
+        "title": "Distribution-Free Multiple Comparisons",
+        "school": "Princeton University",
+        "year": "1963"
+      },
+      "sources": [
+        "https://books.google.com/books/about/Distribution_free_Multiple_Comparisons.html?id=mK7VguPKk-kC",
+        "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf#page=30"
+      ],
+      "verification_note": "Thesis metadata and citation verified; no claim to have obtained or read the complete thesis."
+    },
+    {
+      "key": "demsar2006comparisons",
+      "type": "article",
+      "section": 6,
+      "fields": {
+        "author": "Dem{\\v{s}}ar, Janez",
+        "title": "Statistical Comparisons of Classifiers over Multiple Data Sets",
+        "journal": "Journal of Machine Learning Research",
+        "volume": "7",
+        "pages": "1--30",
+        "year": "2006",
+        "url": "https://www.jmlr.org/papers/v7/demsar06a.html"
+      },
+      "sources": [
+        "https://www.jmlr.org/papers/v7/demsar06a.html"
+      ]
+    },
+    {
+      "key": "holm1979multiple",
+      "type": "article",
+      "section": 6,
+      "fields": {
+        "author": "Holm, Sture",
+        "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+        "journal": "Scandinavian Journal of Statistics",
+        "volume": "6",
+        "pages": "65--70",
+        "year": "1979",
+        "url": "https://www.jstor.org/stable/4615733"
+      },
+      "sources": [
+        "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf#page=29",
+        "https://www.jstor.org/stable/4615733"
+      ],
+      "verification_note": "Publication metadata corroborated in Demsar references; full JSTOR text not retrieved."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "variants": {
+    "published_scaled": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "discrepancies": [
+        "DSC-34"
+      ]
+    },
+    "raw_features": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "discrepancies": [
+        "DSC-01",
+        "DSC-02"
+      ]
+    },
+    "paper_dual": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "discrepancies": [
+        "DSC-11"
+      ]
+    },
+    "paper_primal": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "discrepancies": [
+        "DSC-11"
+      ]
+    },
+    "demo_ridge": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "discrepancies": [
+        "DSC-09",
+        "DSC-34"
+      ]
+    },
+    "unstratified": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "discrepancies": [
+        "DSC-29"
+      ]
+    },
+    "full_basis": {
+      "seeds": [
+        0
+      ],
+      "discrepancies": [
+        "DSC-30"
+      ]
+    },
+    "rkhs_norm": {
+      "seeds": [
+        0
+      ],
+      "discrepancies": [
+        "DSC-31"
+      ]
+    },
+    "drop_nominal": {
+      "seeds": [
+        0
+      ],
+      "datasets": [
+        "abalone9-18"
+      ],
+      "discrepancies": [
+        "DSC-38"
+      ]
+    }
+  },
+  "fingerprint": "6b838f561283ae2471fa3905b773270568211b74d550bc682f696f3e94acb3ee",
+  "selection": "none; all fixed variants retained",
+  "datasets": [
+    "abalone9-18",
+    "ecoli-0-1_vs_5",
+    "ecoli3",
+    "ecoli4",
+    "glass4",
+    "haberman",
+    "new-thyroid1",
+    "pima",
+    "vehicle1",
+    "yeast1",
+    "yeast-2_vs_4",
+    "yeast3"
+  ],
+  "C3": "unreported in paper; explicit default, except demo_ridge",
+  "storage_repair": {
+    "records": 385,
+    "renamed": 12,
+    "original_fingerprint": "dff9024c60cff9957e9d6606d152bda15b59f6b27ff7d8ccc482726a7d335c82"
+  }
+}

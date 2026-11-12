@@ -1,0 +1,41 @@
+{
+  "budget": 40,
+  "inner_folds": 3,
+  "workers": 4,
+  "logical_cpus": 8,
+  "output": "results",
+  "source_hash": "b2008b1597c1d53e073b8abdd9231a2af89c19f282b46c4f253f0ff2eef4a911",
+  "revision": "9d4ea3b2d70458232e441fbc692e9291bfbe3de9",
+  "datasets": [
+    "abalone9-18",
+    "ecoli-0-1_vs_5",
+    "ecoli3",
+    "ecoli4",
+    "glass4",
+    "haberman",
+    "new-thyroid1",
+    "pima",
+    "vehicle1",
+    "yeast1",
+    "yeast-2_vs_4",
+    "yeast3"
+  ],
+  "models": [
+    "svm_balanced",
+    "smote_svm",
+    "tsvm",
+    "utsvm",
+    "faithful_raw",
+    "faithful_scaled",
+    "paper"
+  ],
+  "baseline_basis": "reduced",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "clarabel": "0.11.1",
+    "imbalanced-learn": "0.14.2",
+    "pyarrow": "26.0.1"
+  }
+}

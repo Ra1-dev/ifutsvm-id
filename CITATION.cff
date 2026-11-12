@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this project and the original IFUTSVM-ID paper listed below."
+type: software
+title: "Verified IFUTSVM-ID and a minority-generative Universum"
+version: 0.1.0
+authors:
+  - family-names: Meiramuly
+    given-names: Rauan
+  - family-names: Issatayev
+    given-names: Raiymbek
+license: MIT
+abstract: "Independent Python implementation with executable-faithful and corrected modes, a conditional-Gaussian Universum, and reproducible experiments for imbalanced classification."
+keywords:
+  - imbalanced classification
+  - twin support vector machines
+  - Universum learning
+  - reproducible research
+references:
+  - type: article
+    title: "Robust Universum Twin Support Vector Machine for Imbalanced Data"
+    authors:
+      - family-names: Tanveer
+        given-names: M.
+      - family-names: Quadir
+        given-names: A.
+    year: 2025
+    url: "https://arxiv.org/abs/2410.20335v2"
+    notes: "Version 2, 18 April 2025; original preprint posted in 2024."

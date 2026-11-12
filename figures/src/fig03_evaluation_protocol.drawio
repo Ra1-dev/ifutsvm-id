@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="fig03_evaluation_protocol" name="Two outer evaluation protocols">
+    <mxGraphModel dx="1280" dy="720" grid="1" page="1" pageWidth="1280" pageHeight="720">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="Protocol A: 70/30 holdout&lt;br&gt;Seeds 0, 1, 2, 3, 4" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="82.0" y="162.50000000000003" width="516.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="Protocol B: nested 5-fold CV&lt;br&gt;Outer shuffle seed 0" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="682.0" y="162.50000000000003" width="516.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="at" value="Training only: 3-fold inner CV&lt;br&gt;40 shared candidate proposals" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="82.0" y="322.5" width="516.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="bt" value="Training only: 3-fold inner CV&lt;br&gt;40 shared candidate proposals" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="682.0" y="322.5" width="516.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="ae" value="Refit on the full outer training set&lt;br&gt;Evaluate once on the held-out 30%" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="82.0" y="482.50000000000006" width="516.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="be" value="Refit on the full outer training set&lt;br&gt;Evaluate once on the held-out fold" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="682.0" y="482.50000000000006" width="516.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0" parent="1" edge="1" source="a" target="at" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-1" parent="1" edge="1" source="at" target="ae" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-2" parent="1" edge="1" source="b" target="bt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3" parent="1" edge="1" source="bt" target="be" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

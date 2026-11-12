@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="fig01_methodology_block_diagram" name="Methodology: train, then evaluate">
+    <mxGraphModel dx="1280" dy="720" grid="1" page="1" pageWidth="1280" pageHeight="720">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="data" value="Official KEEL data&lt;br&gt;Minority = positive" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="58.0" y="175.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="split" value="Stratified split&lt;br&gt;Training / test" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="358.0" y="175.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="scale" value="Train-only&lt;br&gt;encoding and scaling" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="670.0" y="175.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="u" value="Training Universum&lt;br&gt;U and subset U*" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="970.0" y="175.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics" value="Metrics and statistics&lt;br&gt;Persist predictions" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="58.0" y="415.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" value="Decision rule&lt;br&gt;Nearest plane" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="358.0" y="415.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="qp" value="Two convex QPs&lt;br&gt;Fit both planes" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="670.0" y="415.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="if" value="IF scores&lt;br&gt;Training geometry" parent="1" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4F7;strokeColor=#55748B;fontSize=20;">
+          <mxGeometry x="970.0" y="415.0" width="252.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0" parent="1" edge="1" source="data" target="split" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-1" parent="1" edge="1" source="split" target="scale" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-2" parent="1" edge="1" source="scale" target="u" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3" parent="1" edge="1" source="u" target="if" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-4" parent="1" edge="1" source="if" target="qp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-5" parent="1" edge="1" source="qp" target="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-6" parent="1" edge="1" source="decision" target="metrics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2B706B;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

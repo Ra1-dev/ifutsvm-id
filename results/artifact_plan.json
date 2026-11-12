@@ -1,0 +1,93 @@
+{
+  "main_source_hash": "b2008b1597c1d53e073b8abdd9231a2af89c19f282b46c4f253f0ff2eef4a911",
+  "representative_datasets": [
+    "pima",
+    "yeast3",
+    "abalone9-18"
+  ],
+  "representative_rule": "Sort by full-data imbalance ratio then name; select minimum, lower median, maximum. No prediction or model metric is used.",
+  "roc": "For each representative dataset, use all main models, seed zero, persisted minority-positive scores.",
+  "confusion": "Sum all five holdout confusion matrices on each representative dataset; paper versus the baseline with greatest equal-weight holdout balanced accuracy on all twelve datasets. Descriptive comparison, not deployment selection.",
+  "learning": {
+    "dataset": "abalone9-18",
+    "outer_split": "holdout-0",
+    "models": [
+      "paper",
+      "svm_balanced"
+    ],
+    "fractions": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "parameters": {
+      "paper": {
+        "C": 1.0,
+        "Cu": 1.0,
+        "C3": 0.001,
+        "eps": 0.3,
+        "mu": 8.0
+      },
+      "svm_balanced": {
+        "C": 10.0,
+        "Cu": 1.0,
+        "C3": 0.001,
+        "eps": 0.6,
+        "mu": 8.0
+      }
+    },
+    "inner_folds": 3,
+    "subset_seed": 20261116,
+    "rule": "Nested stratified prefixes inside each inner training fold; no original outer test rows. Parameters are those already selected by balanced-accuracy inner CV on the original outer training set."
+  },
+  "validation": {
+    "dataset": "abalone9-18",
+    "model": "paper",
+    "outer_split": "holdout-0",
+    "parameters": {
+      "C": 1.0,
+      "Cu": 1.0,
+      "C3": 0.001,
+      "eps": 0.3,
+      "mu": 8.0
+    },
+    "sweeps": {
+      "C": [
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0,
+        1000.0
+      ],
+      "mu": [
+        0.125,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0,
+        8.0
+      ]
+    },
+    "rule": "Vary one parameter; all others fixed at the original training-selected values. Descriptive curves, no new selection."
+  },
+  "notebook": {
+    "dataset": "glass4",
+    "dataset_rule": "Fewest rows, then name; no performance criterion.",
+    "models": [
+      "paper"
+    ],
+    "protocols": [
+      "holdout",
+      "nested_cv"
+    ],
+    "budget": 40,
+    "inner_folds": 3,
+    "rule": "Execute all five outer splits of each protocol and inner tuning in a fresh temporary output inside the notebook; never reuse fitted caches. Full comparison comes from saved results."
+  },
+  "limitation": "Curve parameters reuse original inner selection: validation curves are descriptive and not an unbiased generalization estimate. Outer tests remain excluded."
+}

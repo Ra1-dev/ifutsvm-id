@@ -1,0 +1,9 @@
+{
+  "records_checked": 336,
+  "high_imbalance_pairs": 72,
+  "balanced_accuracy_delta": 0.0001527777777777779,
+  "boundary_distance_delta": 0.01758124799494904,
+  "supported": false,
+  "archive_sha256": "d6ddf0f9bb3e941c14c83dfe06966341dc061fcafd4824aa360eafbb2125147c",
+  "preregistration_sha256": "ff156fe4222f35ed88f8550853e3d6e812976ad5acd868cdc241e870032a251c"
+}

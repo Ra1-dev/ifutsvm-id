@@ -1,0 +1,51 @@
+{
+  "dataset": "abalone9-18",
+  "outer_split": "holdout-0",
+  "seed": 0,
+  "inner_folds": 3,
+  "model": "paper",
+  "parameters": {
+    "C": 1.0,
+    "C3": 1.0,
+    "Cu": 1.0,
+    "eps": 0.3,
+    "mu": 1.0
+  },
+  "learning_fractions": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "validation": {
+    "C": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "mu": [
+      0.125,
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ]
+  },
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy"
+  ],
+  "selection": "None: default parameters are illustrative; curves never select a main comparison model.",
+  "dataset_rule": "First dataset in the pre-specified list, not selected for favorable curves.",
+  "split_rule": "Only outer training rows; three stratified validation folds. Learning subsets use nested class-stratified prefixes within each training fold.",
+  "uncertainty": "Mean and sample SD over validation folds; SD is descriptive fold variation, not a confidence interval.",
+  "source_hash": "b2008b1597c1d53e073b8abdd9231a2af89c19f282b46c4f253f0ff2eef4a911",
+  "script_sha256": "4e0bd333244d953b255ef7e2c2247e863f0287c9b16ad8b90ff6629920c2ce8c"
+}

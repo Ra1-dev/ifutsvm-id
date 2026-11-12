@@ -1,0 +1,73 @@
+Dataset,Published method,Measured model,Published ACC %,Our ACC %,Our balanced ACC %,Dimensions
+abalone9-18,UTSVM,UTSVM,82.38,86.00 ± 8.43,82.47 ± 3.82,Different raw feature count
+abalone9-18,RUTSVM-CIL,not implemented,88.73,not implemented,not implemented,Different raw feature count
+abalone9-18,IF-USVM,not implemented,72.06,not implemented,not implemented,Different raw feature count
+abalone9-18,IFW-LSTSVM,not implemented,89.89,not implemented,not implemented,Different raw feature count
+abalone9-18,CGFTSVM-ID,not implemented,89.80,not implemented,not implemented,Different raw feature count
+abalone9-18,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),89.95,91.64 ± 2.68,66.72 ± 6.30,Different raw feature count
+ecoli-0-1_vs_5,UTSVM,UTSVM,80.00,94.72 ± 3.60,89.55 ± 5.45,Same raw dimensions
+ecoli-0-1_vs_5,RUTSVM-CIL,not implemented,76.57,not implemented,not implemented,Same raw dimensions
+ecoli-0-1_vs_5,IF-USVM,not implemented,79.25,not implemented,not implemented,Same raw dimensions
+ecoli-0-1_vs_5,IFW-LSTSVM,not implemented,93.06,not implemented,not implemented,Same raw dimensions
+ecoli-0-1_vs_5,CGFTSVM-ID,not implemented,97.22,not implemented,not implemented,Same raw dimensions
+ecoli-0-1_vs_5,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),97.22,97.22 ± 1.39,89.39 ± 6.38,Same raw dimensions
+ecoli3,UTSVM,UTSVM,87.78,91.09 ± 2.43,83.83 ± 4.31,Same raw dimensions
+ecoli3,RUTSVM-CIL,not implemented,80.56,not implemented,not implemented,Same raw dimensions
+ecoli3,IF-USVM,not implemented,72.78,not implemented,not implemented,Same raw dimensions
+ecoli3,IFW-LSTSVM,not implemented,90.00,not implemented,not implemented,Same raw dimensions
+ecoli3,CGFTSVM-ID,not implemented,90.00,not implemented,not implemented,Same raw dimensions
+ecoli3,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),91.00,87.52 ± 3.47,86.62 ± 2.34,Same raw dimensions
+ecoli4,UTSVM,UTSVM,93.75,97.23 ± 2.92,90.72 ± 6.72,Same raw dimensions
+ecoli4,RUTSVM-CIL,not implemented,92.12,not implemented,not implemented,Same raw dimensions
+ecoli4,IF-USVM,not implemented,93.75,not implemented,not implemented,Same raw dimensions
+ecoli4,IFW-LSTSVM,not implemented,92.00,not implemented,not implemented,Same raw dimensions
+ecoli4,CGFTSVM-ID,not implemented,91.00,not implemented,not implemented,Same raw dimensions
+ecoli4,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),96.00,97.23 ± 2.47,89.16 ± 5.88,Same raw dimensions
+glass4,UTSVM,UTSVM,90.44,93.85 ± 6.25,89.71 ± 10.05,Same raw dimensions
+glass4,RUTSVM-CIL,not implemented,90.31,not implemented,not implemented,Same raw dimensions
+glass4,IF-USVM,not implemented,89.75,not implemented,not implemented,Same raw dimensions
+glass4,IFW-LSTSVM,not implemented,87.31,not implemented,not implemented,Same raw dimensions
+glass4,CGFTSVM-ID,not implemented,90.88,not implemented,not implemented,Same raw dimensions
+glass4,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),91.98,92.62 ± 6.74,89.06 ± 12.40,Same raw dimensions
+haberman,UTSVM,UTSVM,75.82,70.87 ± 5.77,60.07 ± 6.41,Same raw dimensions
+haberman,RUTSVM-CIL,not implemented,75.02,not implemented,not implemented,Same raw dimensions
+haberman,IF-USVM,not implemented,75.82,not implemented,not implemented,Same raw dimensions
+haberman,IFW-LSTSVM,not implemented,75.82,not implemented,not implemented,Same raw dimensions
+haberman,CGFTSVM-ID,not implemented,75.82,not implemented,not implemented,Same raw dimensions
+haberman,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),75.82,75.00 ± 5.49,64.22 ± 5.33,Same raw dimensions
+new-thyroid1,UTSVM,UTSVM,98.44,96.62 ± 2.53,94.34 ± 5.20,Same raw dimensions
+new-thyroid1,RUTSVM-CIL,not implemented,96.88,not implemented,not implemented,Same raw dimensions
+new-thyroid1,IF-USVM,not implemented,95.31,not implemented,not implemented,Same raw dimensions
+new-thyroid1,IFW-LSTSVM,not implemented,95.44,not implemented,not implemented,Same raw dimensions
+new-thyroid1,CGFTSVM-ID,not implemented,93.85,not implemented,not implemented,Same raw dimensions
+new-thyroid1,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),96.88,97.23 ± 2.01,93.27 ± 5.98,Same raw dimensions
+pima,UTSVM,UTSVM,69.57,74.55 ± 2.57,70.92 ± 3.71,Same raw dimensions
+pima,RUTSVM-CIL,not implemented,66.09,not implemented,not implemented,Same raw dimensions
+pima,IF-USVM,not implemented,73.04,not implemented,not implemented,Same raw dimensions
+pima,IFW-LSTSVM,not implemented,61.30,not implemented,not implemented,Same raw dimensions
+pima,CGFTSVM-ID,not implemented,70.26,not implemented,not implemented,Same raw dimensions
+pima,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),71.74,72.47 ± 4.27,70.96 ± 2.54,Same raw dimensions
+vehicle1,UTSVM,UTSVM,75.49,85.20 ± 0.77,81.07 ± 3.47,Same raw dimensions
+vehicle1,RUTSVM-CIL,not implemented,71.94,not implemented,not implemented,Same raw dimensions
+vehicle1,IF-USVM,not implemented,69.96,not implemented,not implemented,Same raw dimensions
+vehicle1,IFW-LSTSVM,not implemented,76.68,not implemented,not implemented,Same raw dimensions
+vehicle1,CGFTSVM-ID,not implemented,74.58,not implemented,not implemented,Same raw dimensions
+vehicle1,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),69.96,80.63 ± 1.51,74.87 ± 3.69,Same raw dimensions
+yeast1,UTSVM,UTSVM,91.16,69.69 ± 3.97,69.30 ± 2.03,Same raw dimensions
+yeast1,RUTSVM-CIL,not implemented,74.03,not implemented,not implemented,Same raw dimensions
+yeast1,IF-USVM,not implemented,91.56,not implemented,not implemented,Same raw dimensions
+yeast1,IFW-LSTSVM,not implemented,71.91,not implemented,not implemented,Same raw dimensions
+yeast1,CGFTSVM-ID,not implemented,74.16,not implemented,not implemented,Same raw dimensions
+yeast1,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),92.14,71.03 ± 1.14,71.85 ± 1.14,Same raw dimensions
+yeast-2_vs_4,UTSVM,UTSVM,77.08,92.65 ± 2.87,82.83 ± 11.24,Same raw dimensions
+yeast-2_vs_4,RUTSVM-CIL,not implemented,75.56,not implemented,not implemented,Same raw dimensions
+yeast-2_vs_4,IF-USVM,not implemented,71.24,not implemented,not implemented,Same raw dimensions
+yeast-2_vs_4,IFW-LSTSVM,not implemented,71.56,not implemented,not implemented,Same raw dimensions
+yeast-2_vs_4,CGFTSVM-ID,not implemented,77.89,not implemented,not implemented,Same raw dimensions
+yeast-2_vs_4,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),79.22,92.39 ± 1.96,82.69 ± 8.53,Same raw dimensions
+yeast3,UTSVM,UTSVM,86.18,93.41 ± 0.86,89.14 ± 1.65,Same raw dimensions
+yeast3,RUTSVM-CIL,not implemented,83.48,not implemented,not implemented,Same raw dimensions
+yeast3,IF-USVM,not implemented,84.92,not implemented,not implemented,Same raw dimensions
+yeast3,IFW-LSTSVM,not implemented,89.21,not implemented,not implemented,Same raw dimensions
+yeast3,CGFTSVM-ID,not implemented,85.61,not implemented,not implemented,Same raw dimensions
+yeast3,IFUTSVM-ID (as published),IFUTSVM-ID (corrected),89.44,93.00 ± 4.07,89.99 ± 1.27,Same raw dimensions

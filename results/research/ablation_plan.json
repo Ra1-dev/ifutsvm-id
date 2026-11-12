@@ -1,0 +1,124 @@
+{
+  "fingerprint": "0669a2623a177d3dab5daef447682d16c0d5616952ba7a4ce234efcde5a58fc7",
+  "product_source_hash": "b2008b1597c1d53e073b8abdd9231a2af89c19f282b46c4f253f0ff2eef4a911",
+  "budget": 40,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "clarabel": "0.11.1",
+    "imbalanced-learn": "0.14.2",
+    "pyarrow": "26.0.1"
+  },
+  "inner_folds": 3,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "datasets": [
+    "abalone9-18",
+    "ecoli-0-1_vs_5",
+    "ecoli3",
+    "ecoli4",
+    "glass4",
+    "haberman",
+    "new-thyroid1",
+    "pima",
+    "vehicle1",
+    "yeast1",
+    "yeast-2_vs_4",
+    "yeast3"
+  ],
+  "candidate_seed_entropy": 20261110,
+  "variants": {
+    "no_universum": {
+      "universum": "random_average",
+      "Cu": 0.0
+    },
+    "code_universum": {
+      "universum": "published"
+    },
+    "random_average": {
+      "universum": "random_average"
+    },
+    "isotropic_noise": {
+      "universum": "isotropic"
+    },
+    "conditional_gaussian": {
+      "universum": "conditional"
+    },
+    "random_average_size_0.25": {
+      "universum": "random_average",
+      "size_multiplier": 0.25
+    },
+    "random_average_size_0.5": {
+      "universum": "random_average",
+      "size_multiplier": 0.5
+    },
+    "random_average_size_2": {
+      "universum": "random_average",
+      "size_multiplier": 2.0
+    },
+    "random_average_if_off": {
+      "universum": "random_average",
+      "if_scores": false
+    },
+    "random_average_paper_dual": {
+      "universum": "random_average",
+      "universum_side2": "paper_dual"
+    },
+    "conditional_gaussian_size_0.25": {
+      "universum": "conditional",
+      "size_multiplier": 0.25
+    },
+    "conditional_gaussian_size_0.5": {
+      "universum": "conditional",
+      "size_multiplier": 0.5
+    },
+    "conditional_gaussian_size_2": {
+      "universum": "conditional",
+      "size_multiplier": 2.0
+    },
+    "conditional_gaussian_if_off": {
+      "universum": "conditional",
+      "if_scores": false
+    },
+    "conditional_gaussian_paper_dual": {
+      "universum": "conditional",
+      "universum_side2": "paper_dual"
+    }
+  },
+  "design": "One-factor ablations around random_average and conditional_gaussian; not a factorial interaction study.",
+  "size_rule": "ceil(max(m2-m1,ceil(m1/2))*multiplier), at least 1; U_star=min(ceil(m1/2),u).",
+  "code_rule": "Published spaced pairs, padding and internal U resampling; all other paper components fixed. Actual code U count retained.",
+  "generator_hyperparameters": "None tuned; numerical covariance ridge fixed at 1e-8.",
+  "selection_metric": "balanced_accuracy",
+  "failure_policy": "Failed inner fit consumes candidate; rank valid candidates on training CV only. Outer evaluation failure never triggers reselection.",
+  "noise_datasets": [
+    "abalone9-18",
+    "ecoli4",
+    "haberman",
+    "pima",
+    "yeast3"
+  ],
+  "noise_levels": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "noise_models": [
+    "random_average",
+    "conditional_gaussian",
+    "svm_balanced"
+  ],
+  "noise_selection": "Fixed coverage of nominal/high-IR, small high-IR, small low-IR, larger low-IR, larger moderate-IR data; not selected on strategy outcomes.",
+  "noise_rule": "Flip floor(rate*n_outer_train) rows from a fixed random permutation, shared by models; nested inner validation sees the noisy training labels. Outer test labels always clean.",
+  "expected_ablation_outer": 900,
+  "expected_noise_outer": 300,
+  "comparison": "Paired seed differences against random_average; mean/std over five seeds. Dataset means are the units for across-dataset tests.",
+  "theory": "Original refuted synthetic prediction retained. KEEL transfer and IR relation are external-validity evidence, not a retrospective replacement hypothesis."
+}

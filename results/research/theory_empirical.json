@@ -1,0 +1,3478 @@
+{
+  "runs": [
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.842,
+      "nearest_boundary_abs": 0.04638279744817906,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.842,
+      "nearest_boundary_abs": 0.0488512040677664,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.842,
+      "nearest_boundary_abs": 0.046382797447927254,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.827,
+      "nearest_boundary_abs": 0.14871665387743543,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.842,
+      "nearest_boundary_abs": 0.04638279744576801,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.837,
+      "nearest_boundary_abs": 0.29796394038344426,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.842,
+      "nearest_boundary_abs": 0.04638279744566187,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-0/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8540000000000001,
+      "nearest_boundary_abs": 0.10915058077063064,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.855,
+      "nearest_boundary_abs": 0.07090066857103076,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8540000000000001,
+      "nearest_boundary_abs": 0.10915058078759537,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.852,
+      "nearest_boundary_abs": 0.18007360279701573,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8540000000000001,
+      "nearest_boundary_abs": 0.10915058078075293,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.855,
+      "nearest_boundary_abs": 0.14441741387813117,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8540000000000001,
+      "nearest_boundary_abs": 0.1091505807787784,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-1/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8345,
+      "nearest_boundary_abs": 0.013109635708050965,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8340000000000001,
+      "nearest_boundary_abs": 0.03938581406461408,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8345,
+      "nearest_boundary_abs": 0.013109635705263162,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8345,
+      "nearest_boundary_abs": 0.08534169090450265,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8345,
+      "nearest_boundary_abs": 0.013109635706387133,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.833,
+      "nearest_boundary_abs": 0.187643865912663,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8345,
+      "nearest_boundary_abs": 0.013109635706844406,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-2/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.812,
+      "nearest_boundary_abs": 0.3426932083827846,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-3/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8135,
+      "nearest_boundary_abs": 0.327419008939248,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-3/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.812,
+      "nearest_boundary_abs": 0.3426932083814677,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-3/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8160000000000001,
+      "nearest_boundary_abs": 0.32377982760938295,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-3/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.812,
+      "nearest_boundary_abs": 0.34269320838263323,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-3/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8055,
+      "nearest_boundary_abs": 0.35997185012097616,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-1/seed-3/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.812,
+      "nearest_boundary_abs": 0.3426932083827337,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-3/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8240000000000001,
+      "nearest_boundary_abs": 0.10856323558640774,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8225,
+      "nearest_boundary_abs": 0.12750925343466324,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8240000000000001,
+      "nearest_boundary_abs": 0.10856323558572162,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8235,
+      "nearest_boundary_abs": 0.12327929766825074,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8240000000000001,
+      "nearest_boundary_abs": 0.10856323558526804,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8305,
+      "nearest_boundary_abs": 0.22181491957799862,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8240000000000001,
+      "nearest_boundary_abs": 0.10856323558615845,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-4/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8035000000000001,
+      "nearest_boundary_abs": 0.7421252039399028,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8035000000000001,
+      "nearest_boundary_abs": 0.7530592098216649,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.803,
+      "nearest_boundary_abs": 0.7404659785401871,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.802,
+      "nearest_boundary_abs": 0.7963354113285849,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.801,
+      "nearest_boundary_abs": 0.7352276194425105,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.786,
+      "nearest_boundary_abs": 0.7525205423236828,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.801,
+      "nearest_boundary_abs": 0.7352276215783499,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-5/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.846,
+      "nearest_boundary_abs": 0.12106925973048917,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8454999999999999,
+      "nearest_boundary_abs": 0.17922450260683623,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.846,
+      "nearest_boundary_abs": 0.121069259728867,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8405,
+      "nearest_boundary_abs": 0.2657992848395954,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.846,
+      "nearest_boundary_abs": 0.12106925972808565,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.846,
+      "nearest_boundary_abs": 0.08159456288230836,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.846,
+      "nearest_boundary_abs": 0.12106925972942705,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-6/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.827,
+      "nearest_boundary_abs": 0.2979732084246454,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8305,
+      "nearest_boundary_abs": 0.297520930082251,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.827,
+      "nearest_boundary_abs": 0.2861431817099882,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8295,
+      "nearest_boundary_abs": 0.2868342228986299,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.827,
+      "nearest_boundary_abs": 0.2803933173524751,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.835,
+      "nearest_boundary_abs": 0.3221675344200058,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.827,
+      "nearest_boundary_abs": 0.2803933173527918,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-7/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7875,
+      "nearest_boundary_abs": 0.384862037770118,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7909999999999999,
+      "nearest_boundary_abs": 0.3841780891001021,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7875,
+      "nearest_boundary_abs": 0.3848620377709052,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7705,
+      "nearest_boundary_abs": 0.4467570188133695,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7875,
+      "nearest_boundary_abs": 0.3848620377690264,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.771,
+      "nearest_boundary_abs": 0.37248501401048967,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7875,
+      "nearest_boundary_abs": 0.38486203777037054,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-8/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7205,
+      "nearest_boundary_abs": 0.6013345883651855,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7215,
+      "nearest_boundary_abs": 0.5965748149849359,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7205,
+      "nearest_boundary_abs": 0.6013345883648594,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.726,
+      "nearest_boundary_abs": 0.4533076952337423,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7205,
+      "nearest_boundary_abs": 0.6013345883644675,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7124999999999999,
+      "nearest_boundary_abs": 0.23320073821092935,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7205,
+      "nearest_boundary_abs": 0.6013345883651267,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-9/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8395,
+      "nearest_boundary_abs": 0.29300581239646784,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8400000000000001,
+      "nearest_boundary_abs": 0.2805015115921649,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8395,
+      "nearest_boundary_abs": 0.2930058123929417,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8385,
+      "nearest_boundary_abs": 0.3137722486741728,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8395,
+      "nearest_boundary_abs": 0.29300581239716433,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.839,
+      "nearest_boundary_abs": 0.3086239707642594,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8395,
+      "nearest_boundary_abs": 0.2930058123971626,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-10/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8325,
+      "nearest_boundary_abs": 0.18907955986443442,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/none-Cu-0.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8340000000000001,
+      "nearest_boundary_abs": 0.21805518610920746,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8325,
+      "nearest_boundary_abs": 0.18907955986392144,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8315,
+      "nearest_boundary_abs": 0.2684095184387755,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8325,
+      "nearest_boundary_abs": 0.1890795598644109,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8245,
+      "nearest_boundary_abs": 0.3286959429730326,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 1,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8325,
+      "nearest_boundary_abs": 0.18907955986390923,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-1/seed-11/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8285,
+      "nearest_boundary_abs": 0.2833603326119528,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.827,
+      "nearest_boundary_abs": 0.25928078094498064,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8285,
+      "nearest_boundary_abs": 0.281492759229526,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8320000000000001,
+      "nearest_boundary_abs": 0.18916194120259,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8285,
+      "nearest_boundary_abs": 0.2814927592314766,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8205,
+      "nearest_boundary_abs": 0.36188641173524183,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8285,
+      "nearest_boundary_abs": 0.2814927592305614,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-0/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8265,
+      "nearest_boundary_abs": 0.33065085656035104,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8234999999999999,
+      "nearest_boundary_abs": 0.3424642490657596,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8265,
+      "nearest_boundary_abs": 0.33065085656027915,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.818,
+      "nearest_boundary_abs": 0.3307818107490983,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8265,
+      "nearest_boundary_abs": 0.330650856560846,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8160000000000001,
+      "nearest_boundary_abs": 0.359735367518117,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8265,
+      "nearest_boundary_abs": 0.3306508565556992,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-1/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8065,
+      "nearest_boundary_abs": 0.27941633344234845,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8109999999999999,
+      "nearest_boundary_abs": 0.27607193002440744,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8065,
+      "nearest_boundary_abs": 0.279416333442756,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8260000000000001,
+      "nearest_boundary_abs": 0.265777951955129,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8065,
+      "nearest_boundary_abs": 0.27941633344248434,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.817,
+      "nearest_boundary_abs": 0.3431741390714479,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8065,
+      "nearest_boundary_abs": 0.27941633344254274,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-2/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8165,
+      "nearest_boundary_abs": 0.4400517275347505,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8145,
+      "nearest_boundary_abs": 0.4625792420668739,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8180000000000001,
+      "nearest_boundary_abs": 0.41918950276393924,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.815,
+      "nearest_boundary_abs": 0.49585644345357704,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8240000000000001,
+      "nearest_boundary_abs": 0.3545815321494568,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8115,
+      "nearest_boundary_abs": 0.46824912504389476,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8255,
+      "nearest_boundary_abs": 0.34190272088114215,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-3/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8115,
+      "nearest_boundary_abs": 0.21770062520719138,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8109999999999999,
+      "nearest_boundary_abs": 0.21598092548404466,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8115,
+      "nearest_boundary_abs": 0.2177006252107696,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8155,
+      "nearest_boundary_abs": 0.14591168910025398,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8115,
+      "nearest_boundary_abs": 0.21770062520584013,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8160000000000001,
+      "nearest_boundary_abs": 0.16761417077242535,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8115,
+      "nearest_boundary_abs": 0.21770062520656225,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-4/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.803,
+      "nearest_boundary_abs": 0.42084550640374907,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-5/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.804,
+      "nearest_boundary_abs": 0.4275852835069021,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-5/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.803,
+      "nearest_boundary_abs": 0.4208455064082498,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-5/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8155,
+      "nearest_boundary_abs": 0.3705645092739488,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-5/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.803,
+      "nearest_boundary_abs": 0.42084550641094165,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-5/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.817,
+      "nearest_boundary_abs": 0.39757239988308263,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-5/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.803,
+      "nearest_boundary_abs": 0.4208455064037809,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-5/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8140000000000001,
+      "nearest_boundary_abs": 0.377010086324245,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8160000000000001,
+      "nearest_boundary_abs": 0.38345268381219216,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8135,
+      "nearest_boundary_abs": 0.37613219415303517,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.81,
+      "nearest_boundary_abs": 0.4681349639922932,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8135,
+      "nearest_boundary_abs": 0.37613219414950483,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.812,
+      "nearest_boundary_abs": 0.4293361280989802,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8135,
+      "nearest_boundary_abs": 0.3761321941375577,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-6/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.819,
+      "nearest_boundary_abs": 0.261079622095612,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8185,
+      "nearest_boundary_abs": 0.26482892639514327,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8195,
+      "nearest_boundary_abs": 0.24966181971392934,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8160000000000001,
+      "nearest_boundary_abs": 0.1835243324483457,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8195,
+      "nearest_boundary_abs": 0.2496618197142935,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8235,
+      "nearest_boundary_abs": 0.08096567109356059,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8195,
+      "nearest_boundary_abs": 0.24966181971385842,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-7/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7965,
+      "nearest_boundary_abs": 0.044016537217064555,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7995,
+      "nearest_boundary_abs": 0.039466802602062784,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7989999999999999,
+      "nearest_boundary_abs": 0.04619411833250191,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7929999999999999,
+      "nearest_boundary_abs": 0.16052040040319515,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7989999999999999,
+      "nearest_boundary_abs": 0.04722264790012974,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7869999999999999,
+      "nearest_boundary_abs": 0.27679533473965007,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7989999999999999,
+      "nearest_boundary_abs": 0.047222647899928166,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-3/seed-8/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8355,
+      "nearest_boundary_abs": 0.16521884408776363,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8360000000000001,
+      "nearest_boundary_abs": 0.1439360703256917,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8355,
+      "nearest_boundary_abs": 0.14861054278703714,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8375,
+      "nearest_boundary_abs": 0.023168448076020552,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.835,
+      "nearest_boundary_abs": 0.1379725192491772,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.837,
+      "nearest_boundary_abs": 0.07502939998487382,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.835,
+      "nearest_boundary_abs": 0.13797251924794102,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-9/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8355,
+      "nearest_boundary_abs": 0.09841318078049839,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8325,
+      "nearest_boundary_abs": 0.0900050666887749,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.8355,
+      "nearest_boundary_abs": 0.09841318080231473,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.829,
+      "nearest_boundary_abs": 0.07721929329748599,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8355,
+      "nearest_boundary_abs": 0.09841318078091013,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8260000000000001,
+      "nearest_boundary_abs": 0.0524015003152636,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.8355,
+      "nearest_boundary_abs": 0.09841318078071301,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-10/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7675,
+      "nearest_boundary_abs": 0.5469486409153658,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/none-Cu-0.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7689999999999999,
+      "nearest_boundary_abs": 0.533672775826037,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7675,
+      "nearest_boundary_abs": 0.5469486409140161,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7735,
+      "nearest_boundary_abs": 0.4507409100687767,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7675,
+      "nearest_boundary_abs": 0.5469486409134475,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7769999999999999,
+      "nearest_boundary_abs": 0.39469225102402294,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 3,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7675,
+      "nearest_boundary_abs": 0.5469486409195645,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-3/seed-11/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.6799999999999999,
+      "nearest_boundary_abs": 0.8580286415025863,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.683,
+      "nearest_boundary_abs": 0.8300268195874431,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.6799999999999999,
+      "nearest_boundary_abs": 0.8580286415057086,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.6779999999999999,
+      "nearest_boundary_abs": 0.5755418387313357,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.6799999999999999,
+      "nearest_boundary_abs": 0.8580286415052324,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.679,
+      "nearest_boundary_abs": 0.48267184212656344,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.6799999999999999,
+      "nearest_boundary_abs": 0.8580286415195656,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-0/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.845,
+      "nearest_boundary_abs": 0.06667188611894785,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-1/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7745,
+      "nearest_boundary_abs": 0.8858924392751982,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-1/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.764,
+      "nearest_boundary_abs": 0.8750479440967087,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-1/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7729999999999999,
+      "nearest_boundary_abs": 0.8297120652161747,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-1/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7505,
+      "nearest_boundary_abs": 1.0443499510585676,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-1/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.759,
+      "nearest_boundary_abs": 0.9514533211763379,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-1/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.751,
+      "nearest_boundary_abs": 1.0597161044761378,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-1/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8335,
+      "nearest_boundary_abs": 0.16561342262647738,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-2/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7655,
+      "nearest_boundary_abs": 0.8551699670127686,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-2/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7424999999999999,
+      "nearest_boundary_abs": 0.809447013998752,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-2/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7585,
+      "nearest_boundary_abs": 0.8486309554495071,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-2/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7685,
+      "nearest_boundary_abs": 0.6325833662044124,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-2/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.764,
+      "nearest_boundary_abs": 0.9214539271581862,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-2/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7745,
+      "nearest_boundary_abs": 0.46827928674812797,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-2/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7605,
+      "nearest_boundary_abs": 0.8270565152888518,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.758,
+      "nearest_boundary_abs": 0.8291344704655333,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7645,
+      "nearest_boundary_abs": 0.7982473316188715,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.74,
+      "nearest_boundary_abs": 0.9122683157896603,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7695,
+      "nearest_boundary_abs": 0.7442794050978944,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7395,
+      "nearest_boundary_abs": 0.7933594791288968,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.77,
+      "nearest_boundary_abs": 0.7435811236979301,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-3/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7230000000000001,
+      "nearest_boundary_abs": 0.19469763693808664,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.722,
+      "nearest_boundary_abs": 0.2032733245604334,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7230000000000001,
+      "nearest_boundary_abs": 0.1946976369381748,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.724,
+      "nearest_boundary_abs": 0.12469303767140527,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7230000000000001,
+      "nearest_boundary_abs": 0.1946976369381093,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.735,
+      "nearest_boundary_abs": 0.05887652995009186,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7230000000000001,
+      "nearest_boundary_abs": 0.19469763693787262,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-4/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7464999999999999,
+      "nearest_boundary_abs": 0.6486776228115947,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7464999999999999,
+      "nearest_boundary_abs": 0.6556488953614401,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7464999999999999,
+      "nearest_boundary_abs": 0.6399790005440652,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7475,
+      "nearest_boundary_abs": 0.6185048856932165,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7525,
+      "nearest_boundary_abs": 0.6187243876635974,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.757,
+      "nearest_boundary_abs": 0.550415359906804,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7525,
+      "nearest_boundary_abs": 0.6187243876635459,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-5/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7775,
+      "nearest_boundary_abs": 0.6157956678473201,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.778,
+      "nearest_boundary_abs": 0.6032274624983692,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7789999999999999,
+      "nearest_boundary_abs": 0.5832607053426873,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7875,
+      "nearest_boundary_abs": 0.5103148160072752,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7955,
+      "nearest_boundary_abs": 0.4150407734880635,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7855,
+      "nearest_boundary_abs": 0.46688650790795816,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7955,
+      "nearest_boundary_abs": 0.41452238446511075,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-6/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7885,
+      "nearest_boundary_abs": 0.4961715369348228,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-7/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.786,
+      "nearest_boundary_abs": 0.5079900311449153,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-7/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.792,
+      "nearest_boundary_abs": 0.4533722239752786,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-7/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.774,
+      "nearest_boundary_abs": 0.43350164491044263,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-7/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.8,
+      "nearest_boundary_abs": 0.3939699092909527,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-7/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.79,
+      "nearest_boundary_abs": 0.25179205427801615,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-7/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7985,
+      "nearest_boundary_abs": 0.41583300887934044,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-7/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7965,
+      "nearest_boundary_abs": 0.6221132613750325,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-8/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.791,
+      "nearest_boundary_abs": 0.1219511969275719,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-8/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7995,
+      "nearest_boundary_abs": 0.01528799059965696,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-8/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7845,
+      "nearest_boundary_abs": 0.4066838268578415,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-8/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7705,
+      "nearest_boundary_abs": 0.3125881189485845,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-8/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7665,
+      "nearest_boundary_abs": 0.34279631356984674,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-8/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7645,
+      "nearest_boundary_abs": 0.2896338711773332,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-9/seed-8/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7595000000000001,
+      "nearest_boundary_abs": 0.7665632837316244,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7625,
+      "nearest_boundary_abs": 0.7451209132369909,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7645,
+      "nearest_boundary_abs": 0.7341262217795329,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.768,
+      "nearest_boundary_abs": 0.6235513980280958,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7745,
+      "nearest_boundary_abs": 0.6531300317069653,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.786,
+      "nearest_boundary_abs": 0.5425722636647743,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7745,
+      "nearest_boundary_abs": 0.6531300316946387,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-9/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.756,
+      "nearest_boundary_abs": 0.4902723391021625,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-10/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7565,
+      "nearest_boundary_abs": 0.4520151852178909,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-10/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.757,
+      "nearest_boundary_abs": 0.45091288207285857,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-10/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7625,
+      "nearest_boundary_abs": 0.4523196469570967,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-10/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7575000000000001,
+      "nearest_boundary_abs": 0.445068513152145,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-10/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7675,
+      "nearest_boundary_abs": 0.47380127555659896,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-10/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7575000000000001,
+      "nearest_boundary_abs": 0.4450685131425112,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-9/seed-10/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7535000000000001,
+      "nearest_boundary_abs": 0.6612211635001124,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/none-Cu-0.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.751,
+      "nearest_boundary_abs": 0.6602539476860563,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7555000000000001,
+      "nearest_boundary_abs": 0.65970685027784,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.737,
+      "nearest_boundary_abs": 0.7299536198391182,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7555000000000001,
+      "nearest_boundary_abs": 0.6597068502779554,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7275,
+      "nearest_boundary_abs": 0.6839724563963286,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 9,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7555000000000001,
+      "nearest_boundary_abs": 0.6597068502778706,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-9/seed-11/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8335,
+      "nearest_boundary_abs": 0.40479701885998043,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-0/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.744,
+      "nearest_boundary_abs": 0.8041818925432441,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-0/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7375,
+      "nearest_boundary_abs": 1.1679033193794723,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-0/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7295,
+      "nearest_boundary_abs": 0.8994529627009625,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-0/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.73,
+      "nearest_boundary_abs": 1.139053248471788,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-0/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.711,
+      "nearest_boundary_abs": 1.7033838727496724,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-0/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 0,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7335,
+      "nearest_boundary_abs": 1.1427483339733413,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-0/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.746,
+      "nearest_boundary_abs": 0.7328899549961847,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.749,
+      "nearest_boundary_abs": 0.7146023204135441,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7495,
+      "nearest_boundary_abs": 0.6882181340248094,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7575000000000001,
+      "nearest_boundary_abs": 0.593594716216604,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.755,
+      "nearest_boundary_abs": 0.5844360466217446,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7585,
+      "nearest_boundary_abs": 0.49508856344575114,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 1,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.756,
+      "nearest_boundary_abs": 0.5846524169528242,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-1/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.844,
+      "nearest_boundary_abs": 0.02419515905084596,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-2/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7555000000000001,
+      "nearest_boundary_abs": 0.32257247523495897,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-2/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7775000000000001,
+      "nearest_boundary_abs": 0.34233046959355073,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-2/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.782,
+      "nearest_boundary_abs": 0.1761330197243029,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-2/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7444999999999999,
+      "nearest_boundary_abs": 0.3593850724151998,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-2/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.785,
+      "nearest_boundary_abs": 0.19488684381544794,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-2/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 2,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7615000000000001,
+      "nearest_boundary_abs": 0.3588549858829834,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-2/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.6819999999999999,
+      "nearest_boundary_abs": 1.0109399863099815,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.6825,
+      "nearest_boundary_abs": 1.0122129951081709,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.685,
+      "nearest_boundary_abs": 1.016032250492255,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.683,
+      "nearest_boundary_abs": 1.006754872136961,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.6905,
+      "nearest_boundary_abs": 1.0319852844552961,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.6765,
+      "nearest_boundary_abs": 1.077909592369998,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 3,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.694,
+      "nearest_boundary_abs": 1.038615623892594,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-3/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.748,
+      "nearest_boundary_abs": 0.485982169665668,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-4/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.757,
+      "nearest_boundary_abs": 0.13988365462676616,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-4/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7430000000000001,
+      "nearest_boundary_abs": 0.0755017893607463,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-4/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.753,
+      "nearest_boundary_abs": 0.25461966641255035,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-4/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7265,
+      "nearest_boundary_abs": 0.06073049291860618,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-4/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7484999999999999,
+      "nearest_boundary_abs": 0.23669265012630564,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-4/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 4,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.724,
+      "nearest_boundary_abs": 0.06626436462112138,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-4/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.659,
+      "nearest_boundary_abs": 1.3097428238658215,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.6565,
+      "nearest_boundary_abs": 1.3085121124636687,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.659,
+      "nearest_boundary_abs": 1.3097428238064333,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.6585,
+      "nearest_boundary_abs": 1.281524219654716,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.659,
+      "nearest_boundary_abs": 1.309742823863646,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.6675,
+      "nearest_boundary_abs": 1.2800230898213933,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 5,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.659,
+      "nearest_boundary_abs": 1.3097428238481437,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-5/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.8065,
+      "nearest_boundary_abs": 0.3726620615442444,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-6/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.752,
+      "nearest_boundary_abs": 0.024402863528475965,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-6/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7435,
+      "nearest_boundary_abs": 0.20113336405161567,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-6/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7390000000000001,
+      "nearest_boundary_abs": 0.0610926437354018,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-6/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7204999999999999,
+      "nearest_boundary_abs": 0.23680124579860756,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-6/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7495,
+      "nearest_boundary_abs": 0.16276653101556884,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-6/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 6,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.725,
+      "nearest_boundary_abs": 0.25501650010477334,
+      "roots": 4,
+      "file": "results/research/theory_runs/ratio-30/seed-6/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7484999999999999,
+      "nearest_boundary_abs": 0.8096120491240537,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.749,
+      "nearest_boundary_abs": 0.8034976651097349,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.75,
+      "nearest_boundary_abs": 0.805664102097648,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7455,
+      "nearest_boundary_abs": 0.8172417377734041,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.75,
+      "nearest_boundary_abs": 0.8056641020973478,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.736,
+      "nearest_boundary_abs": 0.8167334159381744,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 7,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.75,
+      "nearest_boundary_abs": 0.8056641020976938,
+      "roots": 1,
+      "file": "results/research/theory_runs/ratio-30/seed-7/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.558,
+      "nearest_boundary_abs": 2.4617022513244238,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.5609999999999999,
+      "nearest_boundary_abs": 2.4597132287452337,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.56,
+      "nearest_boundary_abs": 2.411956941318157,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.5609999999999999,
+      "nearest_boundary_abs": 2.0515540560322676,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.5589999999999999,
+      "nearest_boundary_abs": 2.259559738884382,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.5535,
+      "nearest_boundary_abs": 1.8300789265730795,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 8,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.5589999999999999,
+      "nearest_boundary_abs": 2.2595597388045077,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-8/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.749,
+      "nearest_boundary_abs": 0.34132724753745197,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.749,
+      "nearest_boundary_abs": 0.3382410348824382,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7515000000000001,
+      "nearest_boundary_abs": 0.33173982996060636,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.753,
+      "nearest_boundary_abs": 0.08683578348856302,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.753,
+      "nearest_boundary_abs": 0.31771096637220225,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7515000000000001,
+      "nearest_boundary_abs": 0.005546797585286229,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 9,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.753,
+      "nearest_boundary_abs": 0.31771096637189117,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-9/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.74,
+      "nearest_boundary_abs": 0.7060966950786477,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7384999999999999,
+      "nearest_boundary_abs": 0.7010986942194184,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7364999999999999,
+      "nearest_boundary_abs": 0.6792759711254828,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.728,
+      "nearest_boundary_abs": 0.7230034147915098,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.733,
+      "nearest_boundary_abs": 0.6058253345584476,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.736,
+      "nearest_boundary_abs": 0.6747547243012149,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 10,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.733,
+      "nearest_boundary_abs": 0.6049621074977111,
+      "roots": 2,
+      "file": "results/research/theory_runs/ratio-30/seed-10/conditional_gaussian-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "none",
+      "Cu": 0.0,
+      "balanced_accuracy": 0.7649999999999999,
+      "nearest_boundary_abs": 0.27576167914988187,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/none-Cu-0.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7589999999999999,
+      "nearest_boundary_abs": 0.28800629024125385,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/random_average-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 0.1,
+      "balanced_accuracy": 0.7649999999999999,
+      "nearest_boundary_abs": 0.2757616791498032,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/conditional_gaussian-Cu-0.1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.75,
+      "nearest_boundary_abs": 0.33380597248648475,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/random_average-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 1.0,
+      "balanced_accuracy": 0.7649999999999999,
+      "nearest_boundary_abs": 0.275761679149844,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/conditional_gaussian-Cu-1.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "random_average",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7765,
+      "nearest_boundary_abs": 0.2949890313327535,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/random_average-Cu-10.json"
+    },
+    {
+      "ratio": 30,
+      "seed": 11,
+      "strategy": "conditional_gaussian",
+      "Cu": 10.0,
+      "balanced_accuracy": 0.7649999999999999,
+      "nearest_boundary_abs": 0.2757616791499195,
+      "roots": 3,
+      "file": "results/research/theory_runs/ratio-30/seed-11/conditional_gaussian-Cu-10.json"
+    }
+  ],
+  "contrasts": [
+    {
+      "ratio": 1,
+      "Cu": 0.1,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": -0.0008749999999999961,
+      "std_delta": 0.0015094399924836723,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.007276693091236641
+    },
+    {
+      "ratio": 1,
+      "Cu": 1.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.002416666666666678,
+      "std_delta": 0.006966913146285001,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.038961235022042344
+    },
+    {
+      "ratio": 1,
+      "Cu": 10.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.0037916666666667023,
+      "std_delta": 0.0075662478191376925,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.032185720041717214
+    },
+    {
+      "ratio": 3,
+      "Cu": 0.1,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.0001666666666666853,
+      "std_delta": 0.002405801069888964,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.002005721368709669
+    },
+    {
+      "ratio": 3,
+      "Cu": 1.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": -0.0009166666666666675,
+      "std_delta": 0.008805559538602832,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": 0.014972993473982834
+    },
+    {
+      "ratio": 3,
+      "Cu": 10.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.0009166666666666675,
+      "std_delta": 0.009692624499946813,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.006591007905059107
+    },
+    {
+      "ratio": 9,
+      "Cu": 0.1,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": -0.0005416666666666717,
+      "std_delta": 0.008643069565562428,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.023132517518706347
+    },
+    {
+      "ratio": 9,
+      "Cu": 1.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.005250000000000014,
+      "std_delta": 0.015139502813981215,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": -0.007792372151557474
+    },
+    {
+      "ratio": 9,
+      "Cu": 10.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.003374999999999989,
+      "std_delta": 0.014540109103004434,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": 0.02507254248829847
+    },
+    {
+      "ratio": 30,
+      "Cu": 0.1,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": 0.0004166666666667133,
+      "std_delta": 0.008808140174482525,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": 0.03236128727030603
+    },
+    {
+      "ratio": 30,
+      "Cu": 1.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": -0.004500000000000041,
+      "std_delta": 0.015210642207468978,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": 0.05842024753778199
+    },
+    {
+      "ratio": 30,
+      "Cu": 10.0,
+      "seeds": 12,
+      "mean_balanced_accuracy_delta": -0.003083333333333336,
+      "std_delta": 0.01623524971576765,
+      "boundary_pairs": 12,
+      "mean_boundary_distance_delta": 0.02055830034357158
+    }
+  ],
+  "high_imbalance_mean_accuracy_delta": 0.0001527777777777778,
+  "high_imbalance_mean_boundary_distance_delta": 0.01758124799494904,
+  "transfer_prediction_supported": false,
+  "interpretation": "The actual estimator transfer is supported only if both predeclared directions hold; no penalty or seed is discarded."
+}

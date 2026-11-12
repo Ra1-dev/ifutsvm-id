@@ -1,0 +1,115 @@
+{
+  "source": "Tanveer and Quadir, supplied IFUTSVM-ID-Supplementary.pdf, Table S.II, IFUTSVM-ID column",
+  "unreported_C3_default": 1.0,
+  "note": "Factual transcription. C3 is not reported in the four-parameter table; the default is explicit, not inferred or test-tuned. haberman appears as haber.",
+  "datasets": {
+    "abalone9-18": {
+      "rows": 731,
+      "features": 7,
+      "accuracy_percent": 89.95,
+      "C": 0.1,
+      "Cu": 1,
+      "eps": 0.1,
+      "mu": 1
+    },
+    "ecoli-0-1_vs_5": {
+      "rows": 240,
+      "features": 6,
+      "accuracy_percent": 97.22,
+      "C": 1000,
+      "Cu": 0.01,
+      "eps": 0.6,
+      "mu": 16
+    },
+    "ecoli3": {
+      "rows": 336,
+      "features": 7,
+      "accuracy_percent": 91,
+      "C": 1,
+      "Cu": 1e-05,
+      "eps": 0.2,
+      "mu": 1
+    },
+    "ecoli4": {
+      "rows": 336,
+      "features": 7,
+      "accuracy_percent": 96,
+      "C": 0.01,
+      "Cu": 0.1,
+      "eps": 0.1,
+      "mu": 1
+    },
+    "glass4": {
+      "rows": 214,
+      "features": 9,
+      "accuracy_percent": 91.98,
+      "C": 0.0001,
+      "Cu": 0.1,
+      "eps": 0.4,
+      "mu": 4
+    },
+    "haberman": {
+      "rows": 306,
+      "features": 3,
+      "accuracy_percent": 75.82,
+      "C": 0.0001,
+      "Cu": 1,
+      "eps": 0.4,
+      "mu": 4
+    },
+    "new-thyroid1": {
+      "rows": 215,
+      "features": 5,
+      "accuracy_percent": 96.88,
+      "C": 0.01,
+      "Cu": 1,
+      "eps": 0.6,
+      "mu": 4
+    },
+    "pima": {
+      "rows": 768,
+      "features": 8,
+      "accuracy_percent": 71.74,
+      "C": 0.001,
+      "Cu": 1,
+      "eps": 0.5,
+      "mu": 32
+    },
+    "vehicle1": {
+      "rows": 846,
+      "features": 18,
+      "accuracy_percent": 69.96,
+      "C": 100000,
+      "Cu": 0.0001,
+      "eps": 0.6,
+      "mu": 8
+    },
+    "yeast1": {
+      "rows": 1484,
+      "features": 8,
+      "accuracy_percent": 92.14,
+      "C": 1,
+      "Cu": 0.01,
+      "eps": 0.3,
+      "mu": 1
+    },
+    "yeast-2_vs_4": {
+      "rows": 514,
+      "features": 8,
+      "accuracy_percent": 79.22,
+      "C": 10,
+      "Cu": 0.01,
+      "eps": 0.2,
+      "mu": 1
+    },
+    "yeast3": {
+      "rows": 1484,
+      "features": 8,
+      "accuracy_percent": 89.44,
+      "C": 1,
+      "Cu": 1,
+      "eps": 0.6,
+      "mu": 1
+    }
+  }
+}

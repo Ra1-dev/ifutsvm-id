@@ -1,0 +1,3749 @@
+{
+  "complete": true,
+  "source_hash": "b2008b1597c1d53e073b8abdd9231a2af89c19f282b46c4f253f0ff2eef4a911",
+  "friedman_nemenyi": {
+    "holdout": {
+      "gmean": {
+        "datasets": 12,
+        "models": [
+          "svm_balanced",
+          "smote_svm",
+          "tsvm",
+          "utsvm",
+          "faithful_raw",
+          "faithful_scaled",
+          "paper"
+        ],
+        "alpha": 0.05,
+        "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+        "per_dataset_values": [
+          [
+            0.7975005831928382,
+            0.7731828466659567,
+            0.6014756707058482,
+            0.8181013314267631,
+            0.6974662978849746,
+            0.41988852269739896,
+            0.5924399996231108
+          ],
+          [
+            0.8845184333072817,
+            0.9037933029567918,
+            0.856893612861187,
+            0.8908838814915143,
+            0.646831020080959,
+            0.6802169013567214,
+            0.8859068503074674
+          ],
+          [
+            0.8575182156399628,
+            0.8555143192826273,
+            0.7574480938560294,
+            0.8323299953176096,
+            0.8246718724988403,
+            0.8039058734163758,
+            0.8653716743673128
+          ],
+          [
+            0.9205392825164731,
+            0.9517287641992601,
+            0.8916691417393763,
+            0.9027010316454177,
+            0.8790224594607698,
+            0.7579167067931334,
+            0.8833758614840319
+          ],
+          [
+            0.8693481680816928,
+            0.9246709589346697,
+            0.8010323742825548,
+            0.8864329612064692,
+            0.6140011127492999,
+            0.5685509084483045,
+            0.8830583778983077
+          ],
+          [
+            0.6055334284300626,
+            0.624608293645998,
+            0.5377394289357845,
+            0.5419522057151475,
+            0.5277993270608496,
+            0.4048514919973882,
+            0.5978922040249208
+          ],
+          [
+            0.9888193303684858,
+            0.9703775322890908,
+            0.9758035190358039,
+            0.9409485484907476,
+            0.8471193223334605,
+            0.878443121957727,
+            0.9288307904299868
+          ],
+          [
+            0.7125369215815427,
+            0.7292424447755663,
+            0.688146483333905,
+            0.6933151906092487,
+            0.33528420779017515,
+            0.6124569445682204,
+            0.7053984411268169
+          ],
+          [
+            0.8416005566155101,
+            0.842258644917757,
+            0.8005747881567465,
+            0.8038245111066649,
+            0.4647994753461006,
+            0.56533760612805,
+            0.7371091222952252
+          ],
+          [
+            0.7123596216109105,
+            0.7116603288832724,
+            0.6785337111242884,
+            0.6824817698250024,
+            0.6789536857094716,
+            0.5827149753095531,
+            0.7169171594917225
+          ],
+          [
+            0.7908882089148258,
+            0.8140036211812133,
+            0.771705128234338,
+            0.80569127072565,
+            0.8163566969160035,
+            0.6126650113464575,
+            0.8098697485050532
+          ],
+          [
+            0.9138988581631077,
+            0.9185337376130438,
+            0.8916867185466828,
+            0.8893721290117151,
+            0.9100076636878356,
+            0.8101432831934687,
+            0.8982243512802706
+          ]
+        ],
+        "per_dataset_ranks": [
+          [
+            2.0,
+            3.0,
+            5.0,
+            1.0,
+            4.0,
+            7.0,
+            6.0
+          ],
+          [
+            4.0,
+            1.0,
+            5.0,
+            2.0,
+            7.0,
+            6.0,
+            3.0
+          ],
+          [
+            2.0,
+            3.0,
+            7.0,
+            4.0,
+            5.0,
+            6.0,
+            1.0
+          ],
+          [
+            2.0,
+            1.0,
+            4.0,
+            3.0,
+            6.0,
+            7.0,
+            5.0
+          ],
+          [
+            4.0,
+            1.0,
+            5.0,
+            2.0,
+            6.0,
+            7.0,
+            3.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            4.0,
+            6.0,
+            7.0,
+            3.0
+          ],
+          [
+            1.0,
+            3.0,
+            2.0,
+            4.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            4.0,
+            7.0,
+            6.0,
+            3.0
+          ],
+          [
+            2.0,
+            1.0,
+            4.0,
+            3.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          [
+            2.0,
+            3.0,
+            6.0,
+            4.0,
+            5.0,
+            7.0,
+            1.0
+          ],
+          [
+            5.0,
+            2.0,
+            6.0,
+            4.0,
+            1.0,
+            7.0,
+            3.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            6.0,
+            3.0,
+            7.0,
+            4.0
+          ]
+        ],
+        "friedman_statistic": 44.21428571428572,
+        "friedman_p": 6.702934346606597e-08,
+        "average_ranks": {
+          "svm_balanced": 2.5,
+          "smote_svm": 1.75,
+          "tsvm": 4.916666666666667,
+          "utsvm": 3.4166666666666665,
+          "faithful_raw": 5.333333333333333,
+          "faithful_scaled": 6.583333333333333,
+          "paper": 3.5
+        },
+        "q_alpha": 2.9483200175296744,
+        "critical_difference": 2.6001738506057044,
+        "pairs": [
+          {
+            "first": "svm_balanced",
+            "second": "smote_svm",
+            "rank_difference": 0.75,
+            "nemenyi_p": 0.979494003776345,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "tsvm",
+            "rank_difference": 2.416666666666667,
+            "nemenyi_p": 0.08848962556351725,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "utsvm",
+            "rank_difference": 0.9166666666666665,
+            "nemenyi_p": 0.9449086246884447,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_raw",
+            "rank_difference": 2.833333333333333,
+            "nemenyi_p": 0.022342846723211518,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_scaled",
+            "rank_difference": 4.083333333333333,
+            "nemenyi_p": 7.476771680248184e-05,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "paper",
+            "rank_difference": 1.0,
+            "nemenyi_p": 0.9177741185273568,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "tsvm",
+            "rank_difference": 3.166666666666667,
+            "nemenyi_p": 0.006091517576218064,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "utsvm",
+            "rank_difference": 1.6666666666666665,
+            "nemenyi_p": 0.48705524200424066,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_raw",
+            "rank_difference": 3.583333333333333,
+            "nemenyi_p": 0.0009527715723310903,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_scaled",
+            "rank_difference": 4.833333333333333,
+            "nemenyi_p": 8.857508786430657e-07,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "paper",
+            "rank_difference": 1.75,
+            "nemenyi_p": 0.424638508944577,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "utsvm",
+            "rank_difference": 1.5000000000000004,
+            "nemenyi_p": 0.6154924735671985,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_raw",
+            "rank_difference": 0.4166666666666661,
+            "nemenyi_p": 0.9991769743896434,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 1.666666666666666,
+            "nemenyi_p": 0.4870552420042412,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "paper",
+            "rank_difference": 1.416666666666667,
+            "nemenyi_p": 0.6782701475012056,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_raw",
+            "rank_difference": 1.9166666666666665,
+            "nemenyi_p": 0.3100738170257832,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 3.1666666666666665,
+            "nemenyi_p": 0.006091517576218064,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "utsvm",
+            "second": "paper",
+            "rank_difference": 0.08333333333333348,
+            "nemenyi_p": 0.9999999396116281,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "faithful_scaled",
+            "rank_difference": 1.25,
+            "nemenyi_p": 0.7926644975408463,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "paper",
+            "rank_difference": 1.833333333333333,
+            "nemenyi_p": 0.36528881326077356,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_scaled",
+            "second": "paper",
+            "rank_difference": 3.083333333333333,
+            "nemenyi_p": 0.008564480255145557,
+            "exceeds_critical_difference": true,
+            "significant": true
+          }
+        ],
+        "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+      },
+      "balanced_accuracy": {
+        "datasets": 12,
+        "models": [
+          "svm_balanced",
+          "smote_svm",
+          "tsvm",
+          "utsvm",
+          "faithful_raw",
+          "faithful_scaled",
+          "paper"
+        ],
+        "alpha": 0.05,
+        "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+        "per_dataset_values": [
+          [
+            0.8006317354143441,
+            0.7814195466369379,
+            0.6773690078037904,
+            0.8246748420661465,
+            0.7306205871423261,
+            0.5725752508361204,
+            0.6671869193608324
+          ],
+          [
+            0.8924242424242426,
+            0.909090909090909,
+            0.8666666666666666,
+            0.8954545454545455,
+            0.7181818181818181,
+            0.7454545454545455,
+            0.8939393939393939
+          ],
+          [
+            0.8602020202020203,
+            0.8590909090909091,
+            0.7768686868686869,
+            0.8382828282828282,
+            0.827979797979798,
+            0.8191919191919192,
+            0.8661616161616162
+          ],
+          [
+            0.9228070175438596,
+            0.9529824561403508,
+            0.8978947368421053,
+            0.9071929824561404,
+            0.8842105263157896,
+            0.7978947368421053,
+            0.891578947368421
+          ],
+          [
+            0.8807377049180328,
+            0.9286885245901638,
+            0.8233606557377049,
+            0.8971311475409836,
+            0.7471311475409836,
+            0.7127049180327869,
+            0.8905737704918032
+          ],
+          [
+            0.6240196078431373,
+            0.6502450980392156,
+            0.5948529411764707,
+            0.6007352941176471,
+            0.5897058823529411,
+            0.5232843137254901,
+            0.6421568627450981
+          ],
+          [
+            0.9888888888888887,
+            0.9707070707070706,
+            0.9762626262626263,
+            0.9434343434343434,
+            0.8616161616161616,
+            0.8905723905723905,
+            0.9326599326599327
+          ],
+          [
+            0.7148395061728394,
+            0.731753086419753,
+            0.7029135802469135,
+            0.7091604938271605,
+            0.525432098765432,
+            0.6395555555555555,
+            0.7096296296296296
+          ],
+          [
+            0.8425071225071225,
+            0.8429955229955229,
+            0.8089214489214488,
+            0.8106959706959707,
+            0.593032153032153,
+            0.6313715913715914,
+            0.7487179487179487
+          ],
+          [
+            0.7143007360672976,
+            0.7135524417381948,
+            0.688773139657154,
+            0.6929645660626512,
+            0.6945296260973761,
+            0.6285990267282909,
+            0.7185190619421415
+          ],
+          [
+            0.8088095238095239,
+            0.8264285714285714,
+            0.799047619047619,
+            0.8283333333333334,
+            0.8300000000000001,
+            0.7295238095238095,
+            0.8269047619047619
+          ],
+          [
+            0.9142188865470622,
+            0.9187785945612502,
+            0.8939083945920938,
+            0.891415205880841,
+            0.9108672184238935,
+            0.8188557034904642,
+            0.8998817663085387
+          ]
+        ],
+        "per_dataset_ranks": [
+          [
+            2.0,
+            3.0,
+            5.0,
+            1.0,
+            4.0,
+            7.0,
+            6.0
+          ],
+          [
+            4.0,
+            1.0,
+            5.0,
+            2.0,
+            7.0,
+            6.0,
+            3.0
+          ],
+          [
+            2.0,
+            3.0,
+            7.0,
+            4.0,
+            5.0,
+            6.0,
+            1.0
+          ],
+          [
+            2.0,
+            1.0,
+            4.0,
+            3.0,
+            6.0,
+            7.0,
+            5.0
+          ],
+          [
+            4.0,
+            1.0,
+            5.0,
+            2.0,
+            6.0,
+            7.0,
+            3.0
+          ],
+          [
+            3.0,
+            1.0,
+            5.0,
+            4.0,
+            6.0,
+            7.0,
+            2.0
+          ],
+          [
+            1.0,
+            3.0,
+            2.0,
+            4.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            4.0,
+            7.0,
+            6.0,
+            3.0
+          ],
+          [
+            2.0,
+            1.0,
+            4.0,
+            3.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          [
+            2.0,
+            3.0,
+            6.0,
+            5.0,
+            4.0,
+            7.0,
+            1.0
+          ],
+          [
+            5.0,
+            4.0,
+            6.0,
+            2.0,
+            1.0,
+            7.0,
+            3.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            6.0,
+            3.0,
+            7.0,
+            4.0
+          ]
+        ],
+        "friedman_statistic": 41.67857142857139,
+        "friedman_p": 2.1279904583929345e-07,
+        "average_ranks": {
+          "svm_balanced": 2.5833333333333335,
+          "smote_svm": 1.9166666666666667,
+          "tsvm": 4.916666666666667,
+          "utsvm": 3.3333333333333335,
+          "faithful_raw": 5.25,
+          "faithful_scaled": 6.583333333333333,
+          "paper": 3.4166666666666665
+        },
+        "q_alpha": 2.9483200175296744,
+        "critical_difference": 2.6001738506057044,
+        "pairs": [
+          {
+            "first": "svm_balanced",
+            "second": "smote_svm",
+            "rank_difference": 0.6666666666666667,
+            "nemenyi_p": 0.9888953312578365,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "tsvm",
+            "rank_difference": 2.3333333333333335,
+            "nemenyi_p": 0.11251507845316988,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "utsvm",
+            "rank_difference": 0.75,
+            "nemenyi_p": 0.979494003776345,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_raw",
+            "rank_difference": 2.6666666666666665,
+            "nemenyi_p": 0.040096466944737785,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_scaled",
+            "rank_difference": 3.9999999999999996,
+            "nemenyi_p": 0.0001169715722022513,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "paper",
+            "rank_difference": 0.833333333333333,
+            "nemenyi_p": 0.9651964236142417,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "tsvm",
+            "rank_difference": 3.0,
+            "nemenyi_p": 0.011916321976932487,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "utsvm",
+            "rank_difference": 1.4166666666666667,
+            "nemenyi_p": 0.6782701475012056,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_raw",
+            "rank_difference": 3.333333333333333,
+            "nemenyi_p": 0.0029883395824067405,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_scaled",
+            "rank_difference": 4.666666666666666,
+            "nemenyi_p": 2.527115375849931e-06,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "paper",
+            "rank_difference": 1.4999999999999998,
+            "nemenyi_p": 0.615492473567199,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "utsvm",
+            "rank_difference": 1.5833333333333335,
+            "nemenyi_p": 0.551193527530523,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_raw",
+            "rank_difference": 0.33333333333333304,
+            "nemenyi_p": 0.9997729547393781,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 1.666666666666666,
+            "nemenyi_p": 0.4870552420042412,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "paper",
+            "rank_difference": 1.5000000000000004,
+            "nemenyi_p": 0.6154924735671985,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_raw",
+            "rank_difference": 1.9166666666666665,
+            "nemenyi_p": 0.3100738170257832,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 3.2499999999999996,
+            "nemenyi_p": 0.004288261956366224,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "utsvm",
+            "second": "paper",
+            "rank_difference": 0.08333333333333304,
+            "nemenyi_p": 0.9999999396116281,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "faithful_scaled",
+            "rank_difference": 1.333333333333333,
+            "nemenyi_p": 0.7378437888373468,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "paper",
+            "rank_difference": 1.8333333333333335,
+            "nemenyi_p": 0.3652888132607732,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_scaled",
+            "second": "paper",
+            "rank_difference": 3.1666666666666665,
+            "nemenyi_p": 0.006091517576218064,
+            "exceeds_critical_difference": true,
+            "significant": true
+          }
+        ],
+        "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+      }
+    },
+    "nested_cv": {
+      "gmean": {
+        "datasets": 12,
+        "models": [
+          "svm_balanced",
+          "smote_svm",
+          "tsvm",
+          "utsvm",
+          "faithful_raw",
+          "faithful_scaled",
+          "paper"
+        ],
+        "alpha": 0.05,
+        "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+        "per_dataset_values": [
+          [
+            0.8639138841917025,
+            0.8181925653096371,
+            0.6731083725676826,
+            0.5931112615691514,
+            0.6915159370237312,
+            0.6549542299000913,
+            0.66465301578372
+          ],
+          [
+            0.8815634700843594,
+            0.9133703496169447,
+            0.8855457283959172,
+            0.883566176746642,
+            0.8060115181074554,
+            0.857077495209422,
+            0.883566176746642
+          ],
+          [
+            0.8754443144099102,
+            0.8667641574153254,
+            0.8680733327094952,
+            0.8736399393527643,
+            0.8381350125259072,
+            0.7411714205532066,
+            0.8889279403102994
+          ],
+          [
+            0.92987562803616,
+            0.9245251491850978,
+            0.8566964867301985,
+            0.9606715668915378,
+            0.9282422937598017,
+            0.8006812217956979,
+            0.9152501312678034
+          ],
+          [
+            0.8749348304727878,
+            0.8821525509009677,
+            0.6201907262607798,
+            0.8826169944569997,
+            0.5859913756214014,
+            0.6518786441498869,
+            0.9643318270479231
+          ],
+          [
+            0.6026424024351685,
+            0.628612509987463,
+            0.5773347531983125,
+            0.5589593448463667,
+            0.4909203802667125,
+            0.3850587510640392,
+            0.5233587639881215
+          ],
+          [
+            0.9916079783099615,
+            0.9944053188733077,
+            0.9513975303368675,
+            0.9767719982644719,
+            0.8599393240082988,
+            0.9365615502913777,
+            0.9795693388278182
+          ],
+          [
+            0.727461875270919,
+            0.730160725831842,
+            0.6920186266921449,
+            0.6680226098278796,
+            0.3465094251083577,
+            0.5240085465163992,
+            0.7448276130388607
+          ],
+          [
+            0.8633126465546009,
+            0.8620589835488502,
+            0.8180247608569455,
+            0.8132793476099389,
+            0.5759787979409717,
+            0.612177942304222,
+            0.7816257033027733
+          ],
+          [
+            0.7062362997223639,
+            0.7070459740024411,
+            0.6969451144663819,
+            0.6859556001054827,
+            0.6915669262668259,
+            0.5718517889407079,
+            0.7142634452435488
+          ],
+          [
+            0.8723901023944783,
+            0.8710202597529711,
+            0.8509329568103615,
+            0.8459968378508865,
+            0.879483760227935,
+            0.8300741879714975,
+            0.812827006070882
+          ],
+          [
+            0.9167694059106528,
+            0.9079158656367945,
+            0.8664592661693085,
+            0.8909366326360739,
+            0.9089175172698527,
+            0.807168766123732,
+            0.8847217126195762
+          ]
+        ],
+        "per_dataset_ranks": [
+          [
+            1.0,
+            2.0,
+            4.0,
+            7.0,
+            3.0,
+            6.0,
+            5.0
+          ],
+          [
+            5.0,
+            1.0,
+            2.0,
+            3.5,
+            7.0,
+            6.0,
+            3.5
+          ],
+          [
+            2.0,
+            5.0,
+            4.0,
+            3.0,
+            6.0,
+            7.0,
+            1.0
+          ],
+          [
+            2.0,
+            4.0,
+            6.0,
+            1.0,
+            3.0,
+            7.0,
+            5.0
+          ],
+          [
+            4.0,
+            3.0,
+            6.0,
+            2.0,
+            7.0,
+            5.0,
+            1.0
+          ],
+          [
+            2.0,
+            1.0,
+            3.0,
+            4.0,
+            6.0,
+            7.0,
+            5.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            4.0,
+            7.0,
+            6.0,
+            3.0
+          ],
+          [
+            3.0,
+            2.0,
+            4.0,
+            5.0,
+            7.0,
+            6.0,
+            1.0
+          ],
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          [
+            3.0,
+            2.0,
+            4.0,
+            6.0,
+            5.0,
+            7.0,
+            1.0
+          ],
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            1.0,
+            6.0,
+            7.0
+          ],
+          [
+            1.0,
+            3.0,
+            6.0,
+            4.0,
+            2.0,
+            7.0,
+            5.0
+          ]
+        ],
+        "friedman_statistic": 31.359165424739196,
+        "friedman_p": 2.164424081758405e-05,
+        "average_ranks": {
+          "svm_balanced": 2.3333333333333335,
+          "smote_svm": 2.4166666666666665,
+          "tsvm": 4.25,
+          "utsvm": 4.041666666666667,
+          "faithful_raw": 5.083333333333333,
+          "faithful_scaled": 6.333333333333333,
+          "paper": 3.5416666666666665
+        },
+        "q_alpha": 2.9483200175296744,
+        "critical_difference": 2.6001738506057044,
+        "pairs": [
+          {
+            "first": "svm_balanced",
+            "second": "smote_svm",
+            "rank_difference": 0.08333333333333304,
+            "nemenyi_p": 0.9999999396116281,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "tsvm",
+            "rank_difference": 1.9166666666666665,
+            "nemenyi_p": 0.3100738170257832,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "utsvm",
+            "rank_difference": 1.7083333333333335,
+            "nemenyi_p": 0.45554164499700955,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_raw",
+            "rank_difference": 2.7499999999999996,
+            "nemenyi_p": 0.03009826615003952,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_scaled",
+            "rank_difference": 3.9999999999999996,
+            "nemenyi_p": 0.0001169715722022513,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "paper",
+            "rank_difference": 1.208333333333333,
+            "nemenyi_p": 0.817878214510437,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "tsvm",
+            "rank_difference": 1.8333333333333335,
+            "nemenyi_p": 0.3652888132607732,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "utsvm",
+            "rank_difference": 1.6250000000000004,
+            "nemenyi_p": 0.5190026568576509,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_raw",
+            "rank_difference": 2.6666666666666665,
+            "nemenyi_p": 0.040096466944737785,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_scaled",
+            "rank_difference": 3.9166666666666665,
+            "nemenyi_p": 0.00018131270893351203,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "paper",
+            "rank_difference": 1.125,
+            "nemenyi_p": 0.8632819364085171,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "utsvm",
+            "rank_difference": 0.20833333333333304,
+            "nemenyi_p": 0.9999856934528502,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_raw",
+            "rank_difference": 0.833333333333333,
+            "nemenyi_p": 0.9651964236142417,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 2.083333333333333,
+            "nemenyi_p": 0.21478267777786808,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "paper",
+            "rank_difference": 0.7083333333333335,
+            "nemenyi_p": 0.9847330641662914,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_raw",
+            "rank_difference": 1.041666666666666,
+            "nemenyi_p": 0.9014688107759959,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 2.291666666666666,
+            "nemenyi_p": 0.1262959393794969,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "paper",
+            "rank_difference": 0.5000000000000004,
+            "nemenyi_p": 0.9976901619146414,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "faithful_scaled",
+            "rank_difference": 1.25,
+            "nemenyi_p": 0.7926644975408463,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "paper",
+            "rank_difference": 1.5416666666666665,
+            "nemenyi_p": 0.5834265067365395,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_scaled",
+            "second": "paper",
+            "rank_difference": 2.7916666666666665,
+            "nemenyi_p": 0.02596806292197884,
+            "exceeds_critical_difference": true,
+            "significant": true
+          }
+        ],
+        "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+      },
+      "balanced_accuracy": {
+        "datasets": 12,
+        "models": [
+          "svm_balanced",
+          "smote_svm",
+          "tsvm",
+          "utsvm",
+          "faithful_raw",
+          "faithful_scaled",
+          "paper"
+        ],
+        "alpha": 0.05,
+        "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+        "per_dataset_values": [
+          [
+            0.8675482210233083,
+            0.8283128812722593,
+            0.7281189393137981,
+            0.7304264078423075,
+            0.7137544518495009,
+            0.6973284495221974,
+            0.723190609682993
+          ],
+          [
+            0.8931818181818182,
+            0.9181818181818182,
+            0.8977272727272727,
+            0.8954545454545455,
+            0.825,
+            0.8704545454545455,
+            0.8954545454545455
+          ],
+          [
+            0.8779937548790008,
+            0.8687626854020296,
+            0.8710616705698673,
+            0.8754020296643248,
+            0.8396409055425449,
+            0.7677829820452772,
+            0.8912724434035908
+          ],
+          [
+            0.9325644841269842,
+            0.9279017857142857,
+            0.8702628968253968,
+            0.9623015873015873,
+            0.9309771825396826,
+            0.8357142857142857,
+            0.9202380952380953
+          ],
+          [
+            0.8845325203252032,
+            0.8919715447154472,
+            0.75,
+            0.8916666666666666,
+            0.7183333333333334,
+            0.7391666666666666,
+            0.9651829268292683
+          ],
+          [
+            0.625204248366013,
+            0.6536764705882352,
+            0.6244117647058822,
+            0.6163562091503267,
+            0.5854738562091504,
+            0.5352941176470588,
+            0.6038562091503268
+          ],
+          [
+            0.9916666666666668,
+            0.9944444444444445,
+            0.9543650793650794,
+            0.9773809523809524,
+            0.869047619047619,
+            0.9400793650793652,
+            0.98015873015873
+          ],
+          [
+            0.7289783368273934,
+            0.7310545073375261,
+            0.7007155835080363,
+            0.6812753319357092,
+            0.533606568832984,
+            0.6207742837176798,
+            0.7453053808525507
+          ],
+          [
+            0.8649378905332394,
+            0.8641569381522871,
+            0.8238975401859122,
+            0.8164765126346522,
+            0.642717869727172,
+            0.6442285110238599,
+            0.7841748850632572
+          ],
+          [
+            0.7075575236156405,
+            0.7103570386602784,
+            0.7095073942725992,
+            0.7018473038945545,
+            0.7021855408095125,
+            0.6322439558872154,
+            0.7150188341621229
+          ],
+          [
+            0.8764231374049046,
+            0.8750720387606783,
+            0.8650108376896595,
+            0.860852564919886,
+            0.8845106039355688,
+            0.862547707084874,
+            0.8317616558289771
+          ],
+          [
+            0.9169764865637507,
+            0.9085570325900514,
+            0.8733987278444826,
+            0.8948173956546599,
+            0.909496855345912,
+            0.8126461549456833,
+            0.888367995997713
+          ]
+        ],
+        "per_dataset_ranks": [
+          [
+            1.0,
+            2.0,
+            4.0,
+            3.0,
+            6.0,
+            7.0,
+            5.0
+          ],
+          [
+            5.0,
+            1.0,
+            2.0,
+            3.5,
+            7.0,
+            6.0,
+            3.5
+          ],
+          [
+            2.0,
+            5.0,
+            4.0,
+            3.0,
+            6.0,
+            7.0,
+            1.0
+          ],
+          [
+            2.0,
+            4.0,
+            6.0,
+            1.0,
+            3.0,
+            7.0,
+            5.0
+          ],
+          [
+            4.0,
+            2.0,
+            5.0,
+            3.0,
+            7.0,
+            6.0,
+            1.0
+          ],
+          [
+            2.0,
+            1.0,
+            3.0,
+            4.0,
+            6.0,
+            7.0,
+            5.0
+          ],
+          [
+            2.0,
+            1.0,
+            5.0,
+            4.0,
+            7.0,
+            6.0,
+            3.0
+          ],
+          [
+            3.0,
+            2.0,
+            4.0,
+            5.0,
+            7.0,
+            6.0,
+            1.0
+          ],
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          [
+            4.0,
+            2.0,
+            3.0,
+            6.0,
+            5.0,
+            7.0,
+            1.0
+          ],
+          [
+            2.0,
+            3.0,
+            4.0,
+            6.0,
+            1.0,
+            5.0,
+            7.0
+          ],
+          [
+            1.0,
+            3.0,
+            6.0,
+            4.0,
+            2.0,
+            7.0,
+            5.0
+          ]
+        ],
+        "friedman_statistic": 33.82712369597616,
+        "friedman_p": 7.264715264543569e-06,
+        "average_ranks": {
+          "svm_balanced": 2.4166666666666665,
+          "smote_svm": 2.3333333333333335,
+          "tsvm": 4.083333333333333,
+          "utsvm": 3.875,
+          "faithful_raw": 5.333333333333333,
+          "faithful_scaled": 6.416666666666667,
+          "paper": 3.5416666666666665
+        },
+        "q_alpha": 2.9483200175296744,
+        "critical_difference": 2.6001738506057044,
+        "pairs": [
+          {
+            "first": "svm_balanced",
+            "second": "smote_svm",
+            "rank_difference": 0.08333333333333304,
+            "nemenyi_p": 0.9999999396116281,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "tsvm",
+            "rank_difference": 1.6666666666666665,
+            "nemenyi_p": 0.48705524200424066,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "utsvm",
+            "rank_difference": 1.4583333333333335,
+            "nemenyi_p": 0.647178164993632,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_raw",
+            "rank_difference": 2.9166666666666665,
+            "nemenyi_p": 0.016405118847434674,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "faithful_scaled",
+            "rank_difference": 4.0,
+            "nemenyi_p": 0.0001169715722022513,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "svm_balanced",
+            "second": "paper",
+            "rank_difference": 1.125,
+            "nemenyi_p": 0.8632819364085171,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "tsvm",
+            "rank_difference": 1.7499999999999996,
+            "nemenyi_p": 0.42463850894457766,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "utsvm",
+            "rank_difference": 1.5416666666666665,
+            "nemenyi_p": 0.5834265067365395,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_raw",
+            "rank_difference": 2.9999999999999996,
+            "nemenyi_p": 0.011916321976932487,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "faithful_scaled",
+            "rank_difference": 4.083333333333334,
+            "nemenyi_p": 7.476771680248184e-05,
+            "exceeds_critical_difference": true,
+            "significant": true
+          },
+          {
+            "first": "smote_svm",
+            "second": "paper",
+            "rank_difference": 1.208333333333333,
+            "nemenyi_p": 0.817878214510437,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "utsvm",
+            "rank_difference": 0.20833333333333304,
+            "nemenyi_p": 0.9999856934528502,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_raw",
+            "rank_difference": 1.25,
+            "nemenyi_p": 0.7926644975408463,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 2.333333333333334,
+            "nemenyi_p": 0.11251507845316988,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "tsvm",
+            "second": "paper",
+            "rank_difference": 0.5416666666666665,
+            "nemenyi_p": 0.9963947158655208,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_raw",
+            "rank_difference": 1.458333333333333,
+            "nemenyi_p": 0.6471781649936325,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "faithful_scaled",
+            "rank_difference": 2.541666666666667,
+            "nemenyi_p": 0.06035203909435616,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "utsvm",
+            "second": "paper",
+            "rank_difference": 0.3333333333333335,
+            "nemenyi_p": 0.9997729547393781,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "faithful_scaled",
+            "rank_difference": 1.083333333333334,
+            "nemenyi_p": 0.8833014872787892,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_raw",
+            "second": "paper",
+            "rank_difference": 1.7916666666666665,
+            "nemenyi_p": 0.39450653890798093,
+            "exceeds_critical_difference": false,
+            "significant": false
+          },
+          {
+            "first": "faithful_scaled",
+            "second": "paper",
+            "rank_difference": 2.8750000000000004,
+            "nemenyi_p": 0.019171164025213794,
+            "exceeds_critical_difference": true,
+            "significant": true
+          }
+        ],
+        "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+      }
+    }
+  },
+  "family_sensitivity": {
+    "families": {
+      "abalone9-18": [
+        "abalone9-18"
+      ],
+      "ecoli": [
+        "ecoli-0-1_vs_5",
+        "ecoli3",
+        "ecoli4"
+      ],
+      "glass4": [
+        "glass4"
+      ],
+      "haberman": [
+        "haberman"
+      ],
+      "new-thyroid1": [
+        "new-thyroid1"
+      ],
+      "pima": [
+        "pima"
+      ],
+      "vehicle1": [
+        "vehicle1"
+      ],
+      "yeast": [
+        "yeast1",
+        "yeast-2_vs_4",
+        "yeast3"
+      ]
+    },
+    "friedman_nemenyi": {
+      "holdout": {
+        "gmean": {
+          "datasets": 8,
+          "models": [
+            "svm_balanced",
+            "smote_svm",
+            "tsvm",
+            "utsvm",
+            "faithful_raw",
+            "faithful_scaled",
+            "paper"
+          ],
+          "alpha": 0.05,
+          "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+          "per_dataset_values": [
+            [
+              0.7975005831928382,
+              0.7731828466659567,
+              0.6014756707058482,
+              0.8181013314267631,
+              0.6974662978849746,
+              0.41988852269739896,
+              0.5924399996231108
+            ],
+            [
+              0.8875253104879058,
+              0.9036787954795598,
+              0.8353369494855309,
+              0.8753049694848473,
+              0.7835084506801898,
+              0.7473464938554102,
+              0.8782181287196039
+            ],
+            [
+              0.8693481680816928,
+              0.9246709589346697,
+              0.8010323742825548,
+              0.8864329612064692,
+              0.6140011127492999,
+              0.5685509084483045,
+              0.8830583778983077
+            ],
+            [
+              0.6055334284300626,
+              0.624608293645998,
+              0.5377394289357845,
+              0.5419522057151475,
+              0.5277993270608496,
+              0.4048514919973882,
+              0.5978922040249208
+            ],
+            [
+              0.9888193303684858,
+              0.9703775322890908,
+              0.9758035190358039,
+              0.9409485484907476,
+              0.8471193223334605,
+              0.878443121957727,
+              0.9288307904299868
+            ],
+            [
+              0.7125369215815427,
+              0.7292424447755663,
+              0.688146483333905,
+              0.6933151906092487,
+              0.33528420779017515,
+              0.6124569445682204,
+              0.7053984411268169
+            ],
+            [
+              0.8416005566155101,
+              0.842258644917757,
+              0.8005747881567465,
+              0.8038245111066649,
+              0.4647994753461006,
+              0.56533760612805,
+              0.7371091222952252
+            ],
+            [
+              0.8057155628962813,
+              0.8147325625591764,
+              0.7806418526351031,
+              0.7925150565207891,
+              0.801772682104437,
+              0.6685077566164931,
+              0.8083370864256821
+            ]
+          ],
+          "per_dataset_ranks": [
+            [
+              2.0,
+              3.0,
+              5.0,
+              1.0,
+              4.0,
+              7.0,
+              6.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              4.0,
+              1.0,
+              5.0,
+              2.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              1.0,
+              3.0,
+              2.0,
+              4.0,
+              7.0,
+              6.0,
+              5.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              7.0,
+              6.0,
+              3.0
+            ],
+            [
+              2.0,
+              1.0,
+              4.0,
+              3.0,
+              7.0,
+              6.0,
+              5.0
+            ],
+            [
+              3.0,
+              1.0,
+              6.0,
+              5.0,
+              4.0,
+              7.0,
+              2.0
+            ]
+          ],
+          "friedman_statistic": 35.25,
+          "friedman_p": 3.854539373468698e-06,
+          "average_ranks": {
+            "svm_balanced": 2.25,
+            "smote_svm": 1.5,
+            "tsvm": 4.625,
+            "utsvm": 3.375,
+            "faithful_raw": 5.875,
+            "faithful_scaled": 6.625,
+            "paper": 3.75
+          },
+          "q_alpha": 2.9483200175296744,
+          "critical_difference": 3.1845495882558565,
+          "pairs": [
+            {
+              "first": "svm_balanced",
+              "second": "smote_svm",
+              "rank_difference": 0.75,
+              "nemenyi_p": 0.9929499116300371,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "tsvm",
+              "rank_difference": 2.375,
+              "nemenyi_p": 0.2959728370042999,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "utsvm",
+              "rank_difference": 1.125,
+              "nemenyi_p": 0.9443711504673511,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_raw",
+              "rank_difference": 3.625,
+              "nemenyi_p": 0.01392183090265009,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_scaled",
+              "rank_difference": 4.375,
+              "nemenyi_p": 0.0010045393641522349,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "paper",
+              "rank_difference": 1.5,
+              "nemenyi_p": 0.8081365854087043,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "tsvm",
+              "rank_difference": 3.125,
+              "nemenyi_p": 0.058486919113228675,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "utsvm",
+              "rank_difference": 1.875,
+              "nemenyi_p": 0.5917129068565248,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_raw",
+              "rank_difference": 4.375,
+              "nemenyi_p": 0.0010045393641522349,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_scaled",
+              "rank_difference": 5.125,
+              "nemenyi_p": 4.2882885713413366e-05,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "paper",
+              "rank_difference": 2.25,
+              "nemenyi_p": 0.36268512039278056,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "utsvm",
+              "rank_difference": 1.25,
+              "nemenyi_p": 0.9099368098352828,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_raw",
+              "rank_difference": 1.25,
+              "nemenyi_p": 0.9099368098352828,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 2.0,
+              "nemenyi_p": 0.5128490907712597,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "paper",
+              "rank_difference": 0.875,
+              "nemenyi_p": 0.9840367921256806,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_raw",
+              "rank_difference": 2.5,
+              "nemenyi_p": 0.2368123969983703,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 3.25,
+              "nemenyi_p": 0.04189606680346314,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "utsvm",
+              "second": "paper",
+              "rank_difference": 0.375,
+              "nemenyi_p": 0.9998616654734144,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "faithful_scaled",
+              "rank_difference": 0.75,
+              "nemenyi_p": 0.9929499116300371,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "paper",
+              "rank_difference": 2.125,
+              "nemenyi_p": 0.4356419861778922,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_scaled",
+              "second": "paper",
+              "rank_difference": 2.875,
+              "nemenyi_p": 0.10812764056486479,
+              "exceeds_critical_difference": false,
+              "significant": false
+            }
+          ],
+          "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+        },
+        "balanced_accuracy": {
+          "datasets": 8,
+          "models": [
+            "svm_balanced",
+            "smote_svm",
+            "tsvm",
+            "utsvm",
+            "faithful_raw",
+            "faithful_scaled",
+            "paper"
+          ],
+          "alpha": 0.05,
+          "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+          "per_dataset_values": [
+            [
+              0.8006317354143441,
+              0.7814195466369379,
+              0.6773690078037904,
+              0.8246748420661465,
+              0.7306205871423261,
+              0.5725752508361204,
+              0.6671869193608324
+            ],
+            [
+              0.8918110933900408,
+              0.9070547581073897,
+              0.8471433634591529,
+              0.8803101187311713,
+              0.8101240474924686,
+              0.7875137338295234,
+              0.8838933191564772
+            ],
+            [
+              0.8807377049180328,
+              0.9286885245901638,
+              0.8233606557377049,
+              0.8971311475409836,
+              0.7471311475409836,
+              0.7127049180327869,
+              0.8905737704918032
+            ],
+            [
+              0.6240196078431373,
+              0.6502450980392156,
+              0.5948529411764707,
+              0.6007352941176471,
+              0.5897058823529411,
+              0.5232843137254901,
+              0.6421568627450981
+            ],
+            [
+              0.9888888888888887,
+              0.9707070707070706,
+              0.9762626262626263,
+              0.9434343434343434,
+              0.8616161616161616,
+              0.8905723905723905,
+              0.9326599326599327
+            ],
+            [
+              0.7148395061728394,
+              0.731753086419753,
+              0.7029135802469135,
+              0.7091604938271605,
+              0.525432098765432,
+              0.6395555555555555,
+              0.7096296296296296
+            ],
+            [
+              0.8425071225071225,
+              0.8429955229955229,
+              0.8089214489214488,
+              0.8106959706959707,
+              0.593032153032153,
+              0.6313715913715914,
+              0.7487179487179487
+            ],
+            [
+              0.8124430488079613,
+              0.8195865359093388,
+              0.7939097177656222,
+              0.8042377017589418,
+              0.8117989481737565,
+              0.7256595132475215,
+              0.8151018633851473
+            ]
+          ],
+          "per_dataset_ranks": [
+            [
+              2.0,
+              3.0,
+              5.0,
+              1.0,
+              4.0,
+              7.0,
+              6.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              4.0,
+              1.0,
+              5.0,
+              2.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              3.0,
+              1.0,
+              5.0,
+              4.0,
+              6.0,
+              7.0,
+              2.0
+            ],
+            [
+              1.0,
+              3.0,
+              2.0,
+              4.0,
+              7.0,
+              6.0,
+              5.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              7.0,
+              6.0,
+              3.0
+            ],
+            [
+              2.0,
+              1.0,
+              4.0,
+              3.0,
+              7.0,
+              6.0,
+              5.0
+            ],
+            [
+              3.0,
+              1.0,
+              6.0,
+              5.0,
+              4.0,
+              7.0,
+              2.0
+            ]
+          ],
+          "friedman_statistic": 34.66071428571428,
+          "friedman_p": 5.013303498722746e-06,
+          "average_ranks": {
+            "svm_balanced": 2.375,
+            "smote_svm": 1.5,
+            "tsvm": 4.625,
+            "utsvm": 3.375,
+            "faithful_raw": 5.875,
+            "faithful_scaled": 6.625,
+            "paper": 3.625
+          },
+          "q_alpha": 2.9483200175296744,
+          "critical_difference": 3.1845495882558565,
+          "pairs": [
+            {
+              "first": "svm_balanced",
+              "second": "smote_svm",
+              "rank_difference": 0.875,
+              "nemenyi_p": 0.9840367921256806,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "tsvm",
+              "rank_difference": 2.25,
+              "nemenyi_p": 0.36268512039278056,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "utsvm",
+              "rank_difference": 1.0,
+              "nemenyi_p": 0.96853518982105,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_raw",
+              "rank_difference": 3.5,
+              "nemenyi_p": 0.020433278883492112,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_scaled",
+              "rank_difference": 4.25,
+              "nemenyi_p": 0.001616524721669954,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "paper",
+              "rank_difference": 1.25,
+              "nemenyi_p": 0.9099368098352828,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "tsvm",
+              "rank_difference": 3.125,
+              "nemenyi_p": 0.058486919113228675,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "utsvm",
+              "rank_difference": 1.875,
+              "nemenyi_p": 0.5917129068565248,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_raw",
+              "rank_difference": 4.375,
+              "nemenyi_p": 0.0010045393641522349,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_scaled",
+              "rank_difference": 5.125,
+              "nemenyi_p": 4.2882885713413366e-05,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "paper",
+              "rank_difference": 2.125,
+              "nemenyi_p": 0.4356419861778922,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "utsvm",
+              "rank_difference": 1.25,
+              "nemenyi_p": 0.9099368098352828,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_raw",
+              "rank_difference": 1.25,
+              "nemenyi_p": 0.9099368098352828,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 2.0,
+              "nemenyi_p": 0.5128490907712597,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "paper",
+              "rank_difference": 1.0,
+              "nemenyi_p": 0.96853518982105,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_raw",
+              "rank_difference": 2.5,
+              "nemenyi_p": 0.2368123969983703,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 3.25,
+              "nemenyi_p": 0.04189606680346314,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "utsvm",
+              "second": "paper",
+              "rank_difference": 0.25,
+              "nemenyi_p": 0.9999873243735946,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "faithful_scaled",
+              "rank_difference": 0.75,
+              "nemenyi_p": 0.9929499116300371,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "paper",
+              "rank_difference": 2.25,
+              "nemenyi_p": 0.36268512039278056,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_scaled",
+              "second": "paper",
+              "rank_difference": 3.0,
+              "nemenyi_p": 0.0802362536176201,
+              "exceeds_critical_difference": false,
+              "significant": false
+            }
+          ],
+          "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+        }
+      },
+      "nested_cv": {
+        "gmean": {
+          "datasets": 8,
+          "models": [
+            "svm_balanced",
+            "smote_svm",
+            "tsvm",
+            "utsvm",
+            "faithful_raw",
+            "faithful_scaled",
+            "paper"
+          ],
+          "alpha": 0.05,
+          "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+          "per_dataset_values": [
+            [
+              0.8639138841917025,
+              0.8181925653096371,
+              0.6731083725676826,
+              0.5931112615691514,
+              0.6915159370237312,
+              0.6549542299000913,
+              0.66465301578372
+            ],
+            [
+              0.8956278041768099,
+              0.9015532187391226,
+              0.8701051826118702,
+              0.905959227663648,
+              0.8574629414643882,
+              0.7996433791861088,
+              0.8959147494415817
+            ],
+            [
+              0.8749348304727878,
+              0.8821525509009677,
+              0.6201907262607798,
+              0.8826169944569997,
+              0.5859913756214014,
+              0.6518786441498869,
+              0.9643318270479231
+            ],
+            [
+              0.6026424024351685,
+              0.628612509987463,
+              0.5773347531983125,
+              0.5589593448463667,
+              0.4909203802667125,
+              0.3850587510640392,
+              0.5233587639881215
+            ],
+            [
+              0.9916079783099615,
+              0.9944053188733077,
+              0.9513975303368675,
+              0.9767719982644719,
+              0.8599393240082988,
+              0.9365615502913777,
+              0.9795693388278182
+            ],
+            [
+              0.727461875270919,
+              0.730160725831842,
+              0.6920186266921449,
+              0.6680226098278796,
+              0.3465094251083577,
+              0.5240085465163992,
+              0.7448276130388607
+            ],
+            [
+              0.8633126465546009,
+              0.8620589835488502,
+              0.8180247608569455,
+              0.8132793476099389,
+              0.5759787979409717,
+              0.612177942304222,
+              0.7816257033027733
+            ],
+            [
+              0.8317986026758316,
+              0.8286606997974021,
+              0.8047791124820174,
+              0.8076296901974812,
+              0.8266560679215379,
+              0.7363649143453124,
+              0.8039373879780024
+            ]
+          ],
+          "per_dataset_ranks": [
+            [
+              1.0,
+              2.0,
+              4.0,
+              7.0,
+              3.0,
+              6.0,
+              5.0
+            ],
+            [
+              4.0,
+              2.0,
+              5.0,
+              1.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              4.0,
+              3.0,
+              6.0,
+              2.0,
+              7.0,
+              5.0,
+              1.0
+            ],
+            [
+              2.0,
+              1.0,
+              3.0,
+              4.0,
+              6.0,
+              7.0,
+              5.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              7.0,
+              6.0,
+              3.0
+            ],
+            [
+              3.0,
+              2.0,
+              4.0,
+              5.0,
+              7.0,
+              6.0,
+              1.0
+            ],
+            [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              7.0,
+              6.0,
+              5.0
+            ],
+            [
+              1.0,
+              2.0,
+              5.0,
+              4.0,
+              3.0,
+              7.0,
+              6.0
+            ]
+          ],
+          "friedman_statistic": 27.428571428571416,
+          "friedman_p": 0.00012034028377078107,
+          "average_ranks": {
+            "svm_balanced": 2.25,
+            "smote_svm": 1.875,
+            "tsvm": 4.375,
+            "utsvm": 3.875,
+            "faithful_raw": 5.75,
+            "faithful_scaled": 6.25,
+            "paper": 3.625
+          },
+          "q_alpha": 2.9483200175296744,
+          "critical_difference": 3.1845495882558565,
+          "pairs": [
+            {
+              "first": "svm_balanced",
+              "second": "smote_svm",
+              "rank_difference": 0.375,
+              "nemenyi_p": 0.9998616654734144,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "tsvm",
+              "rank_difference": 2.125,
+              "nemenyi_p": 0.4356419861778922,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "utsvm",
+              "rank_difference": 1.625,
+              "nemenyi_p": 0.7423273272839314,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_raw",
+              "rank_difference": 3.5,
+              "nemenyi_p": 0.020433278883492112,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_scaled",
+              "rank_difference": 4.0,
+              "nemenyi_p": 0.004004344132322646,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "paper",
+              "rank_difference": 1.375,
+              "nemenyi_p": 0.8644433689410914,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "tsvm",
+              "rank_difference": 2.5,
+              "nemenyi_p": 0.2368123969983703,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "utsvm",
+              "rank_difference": 2.0,
+              "nemenyi_p": 0.5128490907712597,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_raw",
+              "rank_difference": 3.875,
+              "nemenyi_p": 0.0061612195425252425,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_scaled",
+              "rank_difference": 4.375,
+              "nemenyi_p": 0.0010045393641522349,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "paper",
+              "rank_difference": 1.75,
+              "nemenyi_p": 0.6692385968666651,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "utsvm",
+              "rank_difference": 0.5,
+              "nemenyi_p": 0.9992677098246028,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_raw",
+              "rank_difference": 1.375,
+              "nemenyi_p": 0.8644433689410914,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 1.875,
+              "nemenyi_p": 0.5917129068565248,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "paper",
+              "rank_difference": 0.75,
+              "nemenyi_p": 0.9929499116300371,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_raw",
+              "rank_difference": 1.875,
+              "nemenyi_p": 0.5917129068565248,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 2.375,
+              "nemenyi_p": 0.2959728370042999,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "paper",
+              "rank_difference": 0.25,
+              "nemenyi_p": 0.9999873243735946,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "faithful_scaled",
+              "rank_difference": 0.5,
+              "nemenyi_p": 0.9992677098246028,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "paper",
+              "rank_difference": 2.125,
+              "nemenyi_p": 0.4356419861778922,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_scaled",
+              "second": "paper",
+              "rank_difference": 2.625,
+              "nemenyi_p": 0.18583497324594567,
+              "exceeds_critical_difference": false,
+              "significant": false
+            }
+          ],
+          "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+        },
+        "balanced_accuracy": {
+          "datasets": 8,
+          "models": [
+            "svm_balanced",
+            "smote_svm",
+            "tsvm",
+            "utsvm",
+            "faithful_raw",
+            "faithful_scaled",
+            "paper"
+          ],
+          "alpha": 0.05,
+          "source": "https://www.jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+          "per_dataset_values": [
+            [
+              0.8675482210233083,
+              0.8283128812722593,
+              0.7281189393137981,
+              0.7304264078423075,
+              0.7137544518495009,
+              0.6973284495221974,
+              0.723190609682993
+            ],
+            [
+              0.9012466857292677,
+              0.9049487630993779,
+              0.8796839467075123,
+              0.9110527208068192,
+              0.8652060293607425,
+              0.8246506044047028,
+              0.9023216946987439
+            ],
+            [
+              0.8845325203252032,
+              0.8919715447154472,
+              0.75,
+              0.8916666666666666,
+              0.7183333333333334,
+              0.7391666666666666,
+              0.9651829268292683
+            ],
+            [
+              0.625204248366013,
+              0.6536764705882352,
+              0.6244117647058822,
+              0.6163562091503267,
+              0.5854738562091504,
+              0.5352941176470588,
+              0.6038562091503268
+            ],
+            [
+              0.9916666666666668,
+              0.9944444444444445,
+              0.9543650793650794,
+              0.9773809523809524,
+              0.869047619047619,
+              0.9400793650793652,
+              0.98015873015873
+            ],
+            [
+              0.7289783368273934,
+              0.7310545073375261,
+              0.7007155835080363,
+              0.6812753319357092,
+              0.533606568832984,
+              0.6207742837176798,
+              0.7453053808525507
+            ],
+            [
+              0.8649378905332394,
+              0.8641569381522871,
+              0.8238975401859122,
+              0.8164765126346522,
+              0.642717869727172,
+              0.6442285110238599,
+              0.7841748850632572
+            ],
+            [
+              0.8336523825280987,
+              0.8313287033370026,
+              0.8159723199355803,
+              0.8191724214897002,
+              0.8320643333636643,
+              0.7691459393059242,
+              0.8117161619962711
+            ]
+          ],
+          "per_dataset_ranks": [
+            [
+              1.0,
+              2.0,
+              4.0,
+              3.0,
+              6.0,
+              7.0,
+              5.0
+            ],
+            [
+              4.0,
+              2.0,
+              5.0,
+              1.0,
+              6.0,
+              7.0,
+              3.0
+            ],
+            [
+              4.0,
+              2.0,
+              5.0,
+              3.0,
+              7.0,
+              6.0,
+              1.0
+            ],
+            [
+              2.0,
+              1.0,
+              3.0,
+              4.0,
+              6.0,
+              7.0,
+              5.0
+            ],
+            [
+              2.0,
+              1.0,
+              5.0,
+              4.0,
+              7.0,
+              6.0,
+              3.0
+            ],
+            [
+              3.0,
+              2.0,
+              4.0,
+              5.0,
+              7.0,
+              6.0,
+              1.0
+            ],
+            [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              7.0,
+              6.0,
+              5.0
+            ],
+            [
+              1.0,
+              3.0,
+              5.0,
+              4.0,
+              2.0,
+              7.0,
+              6.0
+            ]
+          ],
+          "friedman_statistic": 31.339285714285694,
+          "friedman_p": 2.1834500695315366e-05,
+          "average_ranks": {
+            "svm_balanced": 2.25,
+            "smote_svm": 1.875,
+            "tsvm": 4.25,
+            "utsvm": 3.5,
+            "faithful_raw": 6.0,
+            "faithful_scaled": 6.5,
+            "paper": 3.625
+          },
+          "q_alpha": 2.9483200175296744,
+          "critical_difference": 3.1845495882558565,
+          "pairs": [
+            {
+              "first": "svm_balanced",
+              "second": "smote_svm",
+              "rank_difference": 0.375,
+              "nemenyi_p": 0.9998616654734144,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "tsvm",
+              "rank_difference": 2.0,
+              "nemenyi_p": 0.5128490907712597,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "utsvm",
+              "rank_difference": 1.25,
+              "nemenyi_p": 0.9099368098352828,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_raw",
+              "rank_difference": 3.75,
+              "nemenyi_p": 0.00933459657071789,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "faithful_scaled",
+              "rank_difference": 4.25,
+              "nemenyi_p": 0.001616524721669954,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "svm_balanced",
+              "second": "paper",
+              "rank_difference": 1.375,
+              "nemenyi_p": 0.8644433689410914,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "tsvm",
+              "rank_difference": 2.375,
+              "nemenyi_p": 0.2959728370042999,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "utsvm",
+              "rank_difference": 1.625,
+              "nemenyi_p": 0.7423273272839314,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_raw",
+              "rank_difference": 4.125,
+              "nemenyi_p": 0.002563315821196399,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "faithful_scaled",
+              "rank_difference": 4.625,
+              "nemenyi_p": 0.0003714392411350298,
+              "exceeds_critical_difference": true,
+              "significant": true
+            },
+            {
+              "first": "smote_svm",
+              "second": "paper",
+              "rank_difference": 1.75,
+              "nemenyi_p": 0.6692385968666651,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "utsvm",
+              "rank_difference": 0.75,
+              "nemenyi_p": 0.9929499116300371,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_raw",
+              "rank_difference": 1.75,
+              "nemenyi_p": 0.6692385968666651,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 2.25,
+              "nemenyi_p": 0.36268512039278056,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "tsvm",
+              "second": "paper",
+              "rank_difference": 0.625,
+              "nemenyi_p": 0.9974111254473893,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_raw",
+              "rank_difference": 2.5,
+              "nemenyi_p": 0.2368123969983703,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "faithful_scaled",
+              "rank_difference": 3.0,
+              "nemenyi_p": 0.0802362536176201,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "utsvm",
+              "second": "paper",
+              "rank_difference": 0.125,
+              "nemenyi_p": 0.9999997967728854,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "faithful_scaled",
+              "rank_difference": 0.5,
+              "nemenyi_p": 0.9992677098246028,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_raw",
+              "second": "paper",
+              "rank_difference": 2.375,
+              "nemenyi_p": 0.2959728370042999,
+              "exceeds_critical_difference": false,
+              "significant": false
+            },
+            {
+              "first": "faithful_scaled",
+              "second": "paper",
+              "rank_difference": 2.875,
+              "nemenyi_p": 0.10812764056486479,
+              "exceeds_critical_difference": false,
+              "significant": false
+            }
+          ],
+          "posthoc_gate": "Nemenyi significance requires rejected omnibus Friedman test; non-significance does not establish equivalence."
+        }
+      }
+    },
+    "reason": "Ecoli and yeast derived tasks share a source family, so the required twelve-task analysis need not contain twelve independent datasets. This sensitivity gives each source family equal weight.",
+    "paired": {
+      "alpha": 0.05,
+      "family": "all declared metric/pair contrasts jointly",
+      "unit": "dataset mean over fixed seeds",
+      "rounding_decimal_places": 12,
+      "comparisons": [
+        {
+          "metric": "gmean",
+          "first": "conditional_gaussian",
+          "second": "random_average",
+          "mean_difference": 0.012571202808159931,
+          "median_difference": 0.00855707897861252,
+          "differences": [
+            0.0855079467815617,
+            -0.0313846173911837,
+            0.04028705050332304,
+            0.0,
+            -0.03288820139359516,
+            0.005132567654424491,
+            0.011981590302800549,
+            0.021933286007948527
+          ],
+          "statistic": 9.0,
+          "pvalue": 0.46875,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "gmean",
+          "first": "conditional_gaussian",
+          "second": "paper_main",
+          "mean_difference": 0.012571202808159931,
+          "median_difference": 0.00855707897861252,
+          "differences": [
+            0.0855079467815617,
+            -0.0313846173911837,
+            0.04028705050332304,
+            0.0,
+            -0.03288820139359516,
+            0.005132567654424491,
+            0.011981590302800549,
+            0.021933286007948527
+          ],
+          "statistic": 9.0,
+          "pvalue": 0.46875,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "gmean",
+          "first": "random_average",
+          "second": "paper_main",
+          "mean_difference": 0.0,
+          "median_difference": 0.0,
+          "differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "statistic": 0.0,
+          "pvalue": 1.0,
+          "nonzero": 0,
+          "assignments": 1,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "balanced_accuracy",
+          "first": "conditional_gaussian",
+          "second": "random_average",
+          "mean_difference": 0.008769700636248018,
+          "median_difference": 0.007014109347442676,
+          "differences": [
+            0.05046451133407648,
+            -0.01999113946482378,
+            0.036475409836065564,
+            0.0,
+            -0.027272727272727337,
+            0.006197530864197498,
+            0.007830687830687855,
+            0.016453331962507867
+          ],
+          "statistic": 9.0,
+          "pvalue": 0.46875,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "balanced_accuracy",
+          "first": "conditional_gaussian",
+          "second": "paper_main",
+          "mean_difference": 0.008769700636248018,
+          "median_difference": 0.007014109347442676,
+          "differences": [
+            0.05046451133407648,
+            -0.01999113946482378,
+            0.036475409836065564,
+            0.0,
+            -0.027272727272727337,
+            0.006197530864197498,
+            0.007830687830687855,
+            0.016453331962507867
+          ],
+          "statistic": 9.0,
+          "pvalue": 0.46875,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "balanced_accuracy",
+          "first": "random_average",
+          "second": "paper_main",
+          "mean_difference": 0.0,
+          "median_difference": 0.0,
+          "differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "statistic": 0.0,
+          "pvalue": 1.0,
+          "nonzero": 0,
+          "assignments": 1,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "f1",
+          "first": "conditional_gaussian",
+          "second": "random_average",
+          "mean_difference": 0.009736279095256727,
+          "median_difference": 0.001675404465730057,
+          "differences": [
+            0.07497068124271561,
+            -0.03662666767929923,
+            0.08207282913165259,
+            0.0,
+            -0.03809523809523807,
+            0.003350808931460114,
+            0.005641025641025643,
+            -0.013423206410262845
+          ],
+          "statistic": 12.0,
+          "pvalue": 0.8125,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "f1",
+          "first": "conditional_gaussian",
+          "second": "paper_main",
+          "mean_difference": 0.009736279095256727,
+          "median_difference": 0.001675404465730057,
+          "differences": [
+            0.07497068124271561,
+            -0.03662666767929923,
+            0.08207282913165259,
+            0.0,
+            -0.03809523809523807,
+            0.003350808931460114,
+            0.005641025641025643,
+            -0.013423206410262845
+          ],
+          "statistic": 12.0,
+          "pvalue": 0.8125,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "f1",
+          "first": "random_average",
+          "second": "paper_main",
+          "mean_difference": 0.0,
+          "median_difference": 0.0,
+          "differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "statistic": 0.0,
+          "pvalue": 1.0,
+          "nonzero": 0,
+          "assignments": 1,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "roc_auc",
+          "first": "conditional_gaussian",
+          "second": "random_average",
+          "mean_difference": 0.011568476775688369,
+          "median_difference": 0.002138603776243364,
+          "differences": [
+            0.03136380527684868,
+            0.012578415736310578,
+            0.050819672131147464,
+            0.0,
+            -0.0013468013468014295,
+            0.001185185185185289,
+            -0.005144485144485067,
+            0.003092022367301439
+          ],
+          "statistic": 6.0,
+          "pvalue": 0.21875,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "roc_auc",
+          "first": "conditional_gaussian",
+          "second": "paper_main",
+          "mean_difference": 0.011568476775688369,
+          "median_difference": 0.002138603776243364,
+          "differences": [
+            0.03136380527684868,
+            0.012578415736310578,
+            0.050819672131147464,
+            0.0,
+            -0.0013468013468014295,
+            0.001185185185185289,
+            -0.005144485144485067,
+            0.003092022367301439
+          ],
+          "statistic": 6.0,
+          "pvalue": 0.21875,
+          "nonzero": 7,
+          "assignments": 128,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        },
+        {
+          "metric": "roc_auc",
+          "first": "random_average",
+          "second": "paper_main",
+          "mean_difference": 0.0,
+          "median_difference": 0.0,
+          "differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "statistic": 0.0,
+          "pvalue": 1.0,
+          "nonzero": 0,
+          "assignments": 1,
+          "zero_method": "wilcox",
+          "holm_p": 1.0,
+          "significant": false
+        }
+      ],
+      "assumptions": "Independent datasets; symmetric paired-difference distribution for signed-rank interpretation."
+    }
+  },
+  "omnibus_families": "Each predeclared protocol/metric has a separate omnibus and Nemenyi family; no global across-outcome significance claim.",
+  "paired": {
+    "alpha": 0.05,
+    "family": "all declared metric/pair contrasts jointly",
+    "unit": "dataset mean over fixed seeds",
+    "rounding_decimal_places": 12,
+    "comparisons": [
+      {
+        "metric": "gmean",
+        "first": "conditional_gaussian",
+        "second": "random_average",
+        "mean_difference": 0.00680557997490074,
+        "median_difference": 0.0043248252628170225,
+        "differences": [
+          0.0855079467815617,
+          0.0,
+          0.0035170828712095537,
+          -0.09767093504476088,
+          0.04028705050332304,
+          0.0,
+          -0.03288820139359516,
+          0.005132567654424491,
+          0.011981590302800549,
+          0.0,
+          0.0585633527398125,
+          0.007236505284033079
+        ],
+        "statistic": 14.0,
+        "pvalue": 0.359375,
+        "nonzero": 9,
+        "assignments": 512,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "gmean",
+        "first": "conditional_gaussian",
+        "second": "paper_main",
+        "mean_difference": 0.00680557997490074,
+        "median_difference": 0.0043248252628170225,
+        "differences": [
+          0.0855079467815617,
+          0.0,
+          0.0035170828712095537,
+          -0.09767093504476088,
+          0.04028705050332304,
+          0.0,
+          -0.03288820139359516,
+          0.005132567654424491,
+          0.011981590302800549,
+          0.0,
+          0.0585633527398125,
+          0.007236505284033079
+        ],
+        "statistic": 14.0,
+        "pvalue": 0.359375,
+        "nonzero": 9,
+        "assignments": 512,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "gmean",
+        "first": "random_average",
+        "second": "paper_main",
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "differences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "nonzero": 0,
+        "assignments": 1,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "balanced_accuracy",
+        "first": "conditional_gaussian",
+        "second": "random_average",
+        "mean_difference": 0.0052568325071127115,
+        "median_difference": 0.0048664421997755,
+        "differences": [
+          0.05046451133407648,
+          0.0,
+          0.0035353535353535026,
+          -0.06350877192982463,
+          0.036475409836065564,
+          0.0,
+          -0.027272727272727337,
+          0.006197530864197498,
+          0.007830687830687855,
+          0.0,
+          0.042857142857142816,
+          0.006502853030380784
+        ],
+        "statistic": 14.0,
+        "pvalue": 0.359375,
+        "nonzero": 9,
+        "assignments": 512,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "balanced_accuracy",
+        "first": "conditional_gaussian",
+        "second": "paper_main",
+        "mean_difference": 0.0052568325071127115,
+        "median_difference": 0.0048664421997755,
+        "differences": [
+          0.05046451133407648,
+          0.0,
+          0.0035353535353535026,
+          -0.06350877192982463,
+          0.036475409836065564,
+          0.0,
+          -0.027272727272727337,
+          0.006197530864197498,
+          0.007830687830687855,
+          0.0,
+          0.042857142857142816,
+          0.006502853030380784
+        ],
+        "statistic": 14.0,
+        "pvalue": 0.359375,
+        "nonzero": 9,
+        "assignments": 512,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "balanced_accuracy",
+        "first": "random_average",
+        "second": "paper_main",
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "differences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "nonzero": 0,
+        "assignments": 1,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "f1",
+        "first": "conditional_gaussian",
+        "second": "random_average",
+        "mean_difference": -0.0018507929514225464,
+        "median_difference": 0.0,
+        "differences": [
+          0.07497068124271561,
+          0.0,
+          -0.008888888888888946,
+          -0.10099111414900896,
+          0.08207282913165259,
+          0.0,
+          -0.03809523809523807,
+          0.003350808931460114,
+          0.005641025641025643,
+          0.0,
+          -0.003341514655625044,
+          -0.03692810457516349
+        ],
+        "statistic": 20.0,
+        "pvalue": 0.8203125,
+        "nonzero": 9,
+        "assignments": 512,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "f1",
+        "first": "conditional_gaussian",
+        "second": "paper_main",
+        "mean_difference": -0.0018507929514225464,
+        "median_difference": 0.0,
+        "differences": [
+          0.07497068124271561,
+          0.0,
+          -0.008888888888888946,
+          -0.10099111414900896,
+          0.08207282913165259,
+          0.0,
+          -0.03809523809523807,
+          0.003350808931460114,
+          0.005641025641025643,
+          0.0,
+          -0.003341514655625044,
+          -0.03692810457516349
+        ],
+        "statistic": 20.0,
+        "pvalue": 0.8203125,
+        "nonzero": 9,
+        "assignments": 512,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "f1",
+        "first": "random_average",
+        "second": "paper_main",
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "differences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "nonzero": 0,
+        "assignments": 1,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      },
+      {
+        "metric": "roc_auc",
+        "first": "conditional_gaussian",
+        "second": "random_average",
+        "mean_difference": 0.010324057534394202,
+        "median_difference": 0.0033996101364522913,
+        "differences": [
+          0.03136380527684868,
+          0.02020202020202022,
+          0.011919191919191996,
+          0.0056140350877192935,
+          0.050819672131147464,
+          0.0,
+          -0.0013468013468014295,
+          0.001185185185185289,
+          -0.005144485144485067,
+          0.0,
+          0.01419047619047642,
+          -0.004914409088572436
+        ],
+        "statistic": 9.0,
+        "pvalue": 0.064453125,
+        "nonzero": 10,
+        "assignments": 1024,
+        "zero_method": "wilcox",
+        "holm_p": 0.7734375,
+        "significant": false
+      },
+      {
+        "metric": "roc_auc",
+        "first": "conditional_gaussian",
+        "second": "paper_main",
+        "mean_difference": 0.010324057534394202,
+        "median_difference": 0.0033996101364522913,
+        "differences": [
+          0.03136380527684868,
+          0.02020202020202022,
+          0.011919191919191996,
+          0.0056140350877192935,
+          0.050819672131147464,
+          0.0,
+          -0.0013468013468014295,
+          0.001185185185185289,
+          -0.005144485144485067,
+          0.0,
+          0.01419047619047642,
+          -0.004914409088572436
+        ],
+        "statistic": 9.0,
+        "pvalue": 0.064453125,
+        "nonzero": 10,
+        "assignments": 1024,
+        "zero_method": "wilcox",
+        "holm_p": 0.7734375,
+        "significant": false
+      },
+      {
+        "metric": "roc_auc",
+        "first": "random_average",
+        "second": "paper_main",
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "differences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "nonzero": 0,
+        "assignments": 1,
+        "zero_method": "wilcox",
+        "holm_p": 1.0,
+        "significant": false
+      }
+    ],
+    "assumptions": "Independent datasets; symmetric paired-difference distribution for signed-rank interpretation."
+  },
+  "paper_identity": "IFUTSVM-ID (corrected) uses random averaging. The separately run ablation random control must match it; this duplicate control is not a third scientific method."
+}

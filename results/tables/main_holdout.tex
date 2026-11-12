@@ -1,0 +1,504 @@
+% Generated from results/summary.json; requires graphicx.
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / abalone9-18 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+abalone9-18 & SVM (balanced) & 85.55 \(\pm\) 5.91 & 27.20 \(\pm\) 8.09 & 73.85 \(\pm\) 8.77 & 39.36 \(\pm\) 9.78 \\
+abalone9-18 & SMOTE + SVM & 86.00 \(\pm\) 4.93 & 26.68 \(\pm\) 8.34 & 69.23 \(\pm\) 14.39 & 38.06 \(\pm\) 10.17 \\
+abalone9-18 & TSVM & \textbf{94.91 \(\pm\) 1.04} & \textbf{63.83 \(\pm\) 15.54} & 36.92 \(\pm\) 6.44 & \textbf{46.34 \(\pm\) 8.06} \\
+abalone9-18 & UTSVM & 86.00 \(\pm\) 8.43 & 34.67 \(\pm\) 20.51 & \textbf{78.46 \(\pm\) 12.64} & 44.44 \(\pm\) 15.38 \\
+abalone9-18 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 91.36 \(\pm\) 1.87 & 35.77 \(\pm\) 4.97 & 52.31 \(\pm\) 10.03 & 41.83 \(\pm\) 3.10 \\
+abalone9-18 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 41.27 \(\pm\) 34.30 & 9.66 \(\pm\) 5.30 & 75.38 \(\pm\) 33.26 & 14.92 \(\pm\) 3.93 \\
+abalone9-18 & IFUTSVM-ID (corrected) & 91.64 \(\pm\) 2.68 & 37.54 \(\pm\) 12.72 & 38.46 \(\pm\) 14.39 & 34.83 \(\pm\) 9.29 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / abalone9-18 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+abalone9-18 & SVM (balanced) & 88.29 \(\pm\) 8.16 & 79.75 \(\pm\) 6.71 & 80.06 \(\pm\) 6.59 & \textbf{0.0144 \(\pm\) 0.0035} \\
+abalone9-18 & SMOTE + SVM & 87.90 \(\pm\) 7.50 & 77.32 \(\pm\) 8.80 & 78.14 \(\pm\) 8.14 & 0.0316 \(\pm\) 0.0030 \\
+abalone9-18 & TSVM & 84.95 \(\pm\) 9.02 & 60.15 \(\pm\) 5.31 & 67.74 \(\pm\) 3.39 & 0.0680 \(\pm\) 0.0122 \\
+abalone9-18 & UTSVM & \textbf{89.34 \(\pm\) 7.02} & \textbf{81.81 \(\pm\) 4.28} & \textbf{82.47 \(\pm\) 3.82} & 0.2763 \(\pm\) 0.0240 \\
+abalone9-18 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 81.43 \(\pm\) 5.77 & 69.75 \(\pm\) 5.51 & 73.06 \(\pm\) 3.90 & 0.3965 \(\pm\) 0.0738 \\
+abalone9-18 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 73.21 \(\pm\) 6.43 & 41.99 \(\pm\) 15.95 & 57.26 \(\pm\) 5.63 & 0.4214 \(\pm\) 0.1821 \\
+abalone9-18 & IFUTSVM-ID (corrected) & 80.08 \(\pm\) 4.50 & 59.24 \(\pm\) 12.21 & 66.72 \(\pm\) 6.30 & 0.1058 \(\pm\) 0.0133 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / ecoli-0-1\_vs\_5 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+ecoli-0-1\_vs\_5 & SVM (balanced) & 96.94 \(\pm\) 1.16 & 86.00 \(\pm\) 14.22 & 80.00 \(\pm\) 13.94 & 81.39 \(\pm\) 6.58 \\
+ecoli-0-1\_vs\_5 & SMOTE + SVM & \textbf{97.22 \(\pm\) 1.39} & 86.00 \(\pm\) 14.22 & \textbf{83.33 \(\pm\) 11.79} & \textbf{83.58 \(\pm\) 7.72} \\
+ecoli-0-1\_vs\_5 & TSVM & 95.00 \(\pm\) 2.71 & 74.42 \(\pm\) 20.10 & 76.67 \(\pm\) 14.91 & 72.86 \(\pm\) 8.65 \\
+ecoli-0-1\_vs\_5 & UTSVM & 94.72 \(\pm\) 3.60 & 70.62 \(\pm\) 21.81 & \textbf{83.33 \(\pm\) 11.79} & 74.22 \(\pm\) 12.62 \\
+ecoli-0-1\_vs\_5 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 65.00 \(\pm\) 32.93 & 41.47 \(\pm\) 38.44 & 80.00 \(\pm\) 27.39 & 40.20 \(\pm\) 21.15 \\
+ecoli-0-1\_vs\_5 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 95.00 \(\pm\) 1.58 & \textbf{92.50 \(\pm\) 16.77} & 50.00 \(\pm\) 26.35 & 59.33 \(\pm\) 20.38 \\
+ecoli-0-1\_vs\_5 & IFUTSVM-ID (corrected) & \textbf{97.22 \(\pm\) 1.39} & 89.33 \(\pm\) 15.35 & 80.00 \(\pm\) 13.94 & 82.91 \(\pm\) 7.88 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / ecoli-0-1\_vs\_5 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+ecoli-0-1\_vs\_5 & SVM (balanced) & 96.06 \(\pm\) 3.06 & 88.45 \(\pm\) 7.06 & 89.24 \(\pm\) 6.32 & \textbf{0.0066 \(\pm\) 0.0013} \\
+ecoli-0-1\_vs\_5 & SMOTE + SVM & 96.26 \(\pm\) 2.42 & \textbf{90.38 \(\pm\) 5.97} & \textbf{90.91 \(\pm\) 5.41} & 0.0101 \(\pm\) 0.0017 \\
+ecoli-0-1\_vs\_5 & TSVM & 90.20 \(\pm\) 5.81 & 85.69 \(\pm\) 7.17 & 86.67 \(\pm\) 6.46 & 0.0189 \(\pm\) 0.0025 \\
+ecoli-0-1\_vs\_5 & UTSVM & 88.08 \(\pm\) 8.70 & 89.09 \(\pm\) 5.91 & 89.55 \(\pm\) 5.45 & 0.0381 \(\pm\) 0.0019 \\
+ecoli-0-1\_vs\_5 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 95.00 \(\pm\) 6.51 & 64.68 \(\pm\) 16.20 & 71.82 \(\pm\) 10.61 & 0.0940 \(\pm\) 0.0659 \\
+ecoli-0-1\_vs\_5 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & \textbf{98.43 \(\pm\) 1.40} & 68.02 \(\pm\) 19.28 & 74.55 \(\pm\) 12.48 & 0.0504 \(\pm\) 0.0063 \\
+ecoli-0-1\_vs\_5 & IFUTSVM-ID (corrected) & 96.87 \(\pm\) 5.04 & 88.59 \(\pm\) 7.12 & 89.39 \(\pm\) 6.38 & 0.0276 \(\pm\) 0.0081 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / ecoli3 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+ecoli3 & SVM (balanced) & 89.31 \(\pm\) 2.56 & 51.81 \(\pm\) 8.28 & 81.82 \(\pm\) 9.09 & 62.84 \(\pm\) 5.46 \\
+ecoli3 & SMOTE + SVM & 89.11 \(\pm\) 2.43 & 50.70 \(\pm\) 7.92 & 81.82 \(\pm\) 12.86 & 62.13 \(\pm\) 7.33 \\
+ecoli3 & TSVM & 90.10 \(\pm\) 2.10 & 56.67 \(\pm\) 10.82 & 61.82 \(\pm\) 9.96 & 57.74 \(\pm\) 3.52 \\
+ecoli3 & UTSVM & \textbf{91.09 \(\pm\) 2.43} & \textbf{57.77 \(\pm\) 9.71} & 74.55 \(\pm\) 7.61 & \textbf{64.85 \(\pm\) 8.03} \\
+ecoli3 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 83.56 \(\pm\) 13.53 & 46.06 \(\pm\) 19.01 & 81.82 \(\pm\) 6.43 & 57.09 \(\pm\) 17.44 \\
+ecoli3 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 89.11 \(\pm\) 1.21 & 50.00 \(\pm\) 3.41 & 72.73 \(\pm\) 21.32 & 58.06 \(\pm\) 9.93 \\
+ecoli3 & IFUTSVM-ID (corrected) & 87.52 \(\pm\) 3.47 & 47.58 \(\pm\) 9.87 & \textbf{85.45 \(\pm\) 4.98} & 60.54 \(\pm\) 7.09 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / ecoli3 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+ecoli3 & SVM (balanced) & 92.79 \(\pm\) 5.70 & 85.75 \(\pm\) 3.92 & 86.02 \(\pm\) 3.68 & \textbf{0.0067 \(\pm\) 0.0009} \\
+ecoli3 & SMOTE + SVM & 91.92 \(\pm\) 5.87 & 85.55 \(\pm\) 6.57 & 85.91 \(\pm\) 6.08 & 0.0130 \(\pm\) 0.0034 \\
+ecoli3 & TSVM & 89.84 \(\pm\) 5.01 & 75.74 \(\pm\) 5.28 & 77.69 \(\pm\) 3.57 & 0.0359 \(\pm\) 0.0080 \\
+ecoli3 & UTSVM & 90.28 \(\pm\) 6.98 & 83.23 \(\pm\) 4.71 & 83.83 \(\pm\) 4.31 & 0.0800 \(\pm\) 0.0213 \\
+ecoli3 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 88.77 \(\pm\) 9.93 & 82.47 \(\pm\) 8.93 & 82.80 \(\pm\) 8.57 & 0.0785 \(\pm\) 0.0193 \\
+ecoli3 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & \textbf{92.81 \(\pm\) 2.22} & 80.39 \(\pm\) 12.51 & 81.92 \(\pm\) 9.56 & 0.0907 \(\pm\) 0.0316 \\
+ecoli3 & IFUTSVM-ID (corrected) & 91.86 \(\pm\) 4.17 & \textbf{86.54 \(\pm\) 2.30} & \textbf{86.62 \(\pm\) 2.34} & 0.0411 \(\pm\) 0.0239 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / ecoli4 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+ecoli4 & SVM (balanced) & 97.23 \(\pm\) 1.08 & 72.50 \(\pm\) 8.34 & 86.67 \(\pm\) 7.45 & 78.90 \(\pm\) 7.86 \\
+ecoli4 & SMOTE + SVM & 97.03 \(\pm\) 0.70 & 68.90 \(\pm\) 5.79 & \textbf{93.33 \(\pm\) 9.13} & 78.91 \(\pm\) 4.20 \\
+ecoli4 & TSVM & \textbf{98.42 \(\pm\) 0.54} & \textbf{93.33 \(\pm\) 9.13} & 80.00 \(\pm\) 7.45 & \textbf{85.70 \(\pm\) 4.95} \\
+ecoli4 & UTSVM & 97.23 \(\pm\) 2.92 & 79.67 \(\pm\) 24.68 & 83.33 \(\pm\) 11.79 & 80.17 \(\pm\) 17.19 \\
+ecoli4 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 95.84 \(\pm\) 3.53 & 70.92 \(\pm\) 25.29 & 80.00 \(\pm\) 7.45 & 72.73 \(\pm\) 15.78 \\
+ecoli4 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 97.23 \(\pm\) 1.77 & 89.33 \(\pm\) 15.35 & 60.00 \(\pm\) 25.28 & 69.80 \(\pm\) 21.99 \\
+ecoli4 & IFUTSVM-ID (corrected) & 97.23 \(\pm\) 2.47 & 85.23 \(\pm\) 23.50 & 80.00 \(\pm\) 13.94 & 79.54 \(\pm\) 11.97 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / ecoli4 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+ecoli4 & SVM (balanced) & 98.88 \(\pm\) 0.64 & 92.05 \(\pm\) 4.15 & 92.28 \(\pm\) 4.03 & \textbf{0.0086 \(\pm\) 0.0036} \\
+ecoli4 & SMOTE + SVM & \textbf{99.30 \(\pm\) 0.81} & \textbf{95.17 \(\pm\) 4.45} & \textbf{95.30 \(\pm\) 4.29} & 0.0155 \(\pm\) 0.0034 \\
+ecoli4 & TSVM & 91.33 \(\pm\) 7.26 & 89.17 \(\pm\) 4.21 & 89.79 \(\pm\) 3.62 & 0.0279 \(\pm\) 0.0043 \\
+ecoli4 & UTSVM & 96.53 \(\pm\) 3.72 & 90.27 \(\pm\) 7.14 & 90.72 \(\pm\) 6.72 & 0.0469 \(\pm\) 0.0085 \\
+ecoli4 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 95.26 \(\pm\) 6.21 & 87.90 \(\pm\) 4.11 & 88.42 \(\pm\) 3.64 & 0.1102 \(\pm\) 0.0365 \\
+ecoli4 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 98.60 \(\pm\) 0.67 & 75.79 \(\pm\) 17.12 & 79.79 \(\pm\) 12.75 & 0.1013 \(\pm\) 0.0301 \\
+ecoli4 & IFUTSVM-ID (corrected) & 99.19 \(\pm\) 1.52 & 88.34 \(\pm\) 6.62 & 89.16 \(\pm\) 5.88 & 0.0251 \(\pm\) 0.0042 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / glass4 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+glass4 & SVM (balanced) & 90.77 \(\pm\) 7.38 & 55.24 \(\pm\) 33.18 & 85.00 \(\pm\) 22.36 & 58.86 \(\pm\) 19.64 \\
+glass4 & SMOTE + SVM & 95.38 \(\pm\) 3.26 & 69.43 \(\pm\) 28.56 & \textbf{90.00 \(\pm\) 13.69} & 73.59 \(\pm\) 12.38 \\
+glass4 & TSVM & \textbf{97.54 \(\pm\) 0.84} & \textbf{95.00 \(\pm\) 11.18} & 65.00 \(\pm\) 13.69 & \textbf{75.95 \(\pm\) 9.54} \\
+glass4 & UTSVM & 93.85 \(\pm\) 6.25 & 64.67 \(\pm\) 28.05 & 85.00 \(\pm\) 22.36 & 67.53 \(\pm\) 18.14 \\
+glass4 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 74.46 \(\pm\) 38.35 & 38.72 \(\pm\) 22.55 & 75.00 \(\pm\) 35.36 & 41.25 \(\pm\) 19.24 \\
+glass4 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 85.54 \(\pm\) 20.37 & 51.05 \(\pm\) 47.59 & 55.00 \(\pm\) 44.72 & 37.54 \(\pm\) 28.13 \\
+glass4 & IFUTSVM-ID (corrected) & 92.62 \(\pm\) 6.74 & 57.58 \(\pm\) 33.29 & 85.00 \(\pm\) 22.36 & 64.59 \(\pm\) 26.02 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / glass4 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+glass4 & SVM (balanced) & \textbf{95.74 \(\pm\) 5.54} & 86.93 \(\pm\) 10.60 & 88.07 \(\pm\) 9.03 & \textbf{0.0125 \(\pm\) 0.0037} \\
+glass4 & SMOTE + SVM & 93.61 \(\pm\) 10.07 & \textbf{92.47 \(\pm\) 5.43} & \textbf{92.87 \(\pm\) 4.98} & 0.0185 \(\pm\) 0.0073 \\
+glass4 & TSVM & 89.67 \(\pm\) 13.22 & 80.10 \(\pm\) 8.58 & 82.34 \(\pm\) 6.71 & 0.0337 \(\pm\) 0.0154 \\
+glass4 & UTSVM & 94.10 \(\pm\) 10.49 & 88.64 \(\pm\) 11.70 & 89.71 \(\pm\) 10.05 & 0.0414 \(\pm\) 0.0049 \\
+glass4 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 94.84 \(\pm\) 9.04 & 61.40 \(\pm\) 38.95 & 74.71 \(\pm\) 19.47 & 0.0968 \(\pm\) 0.0393 \\
+glass4 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 95.25 \(\pm\) 9.29 & 56.86 \(\pm\) 35.74 & 71.27 \(\pm\) 16.98 & 0.0843 \(\pm\) 0.0106 \\
+glass4 & IFUTSVM-ID (corrected) & 92.79 \(\pm\) 8.87 & 88.31 \(\pm\) 13.45 & 89.06 \(\pm\) 12.40 & 0.0376 \(\pm\) 0.0107 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / haberman / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+haberman & SVM (balanced) & 69.13 \(\pm\) 6.90 & 43.80 \(\pm\) 11.34 & 48.33 \(\pm\) 6.97 & 45.36 \(\pm\) 7.47 \\
+haberman & SMOTE + SVM & 72.61 \(\pm\) 6.26 & 51.12 \(\pm\) 14.30 & \textbf{49.17 \(\pm\) 10.79} & \textbf{48.35 \(\pm\) 6.97} \\
+haberman & TSVM & 70.00 \(\pm\) 5.02 & 41.82 \(\pm\) 12.21 & 37.50 \(\pm\) 16.67 & 38.45 \(\pm\) 12.60 \\
+haberman & UTSVM & 70.87 \(\pm\) 5.77 & 46.77 \(\pm\) 19.63 & 37.50 \(\pm\) 15.87 & 39.39 \(\pm\) 11.40 \\
+haberman & \shortstack[l]{IFUTSVM-ID (published\\code)} & 70.43 \(\pm\) 6.76 & 45.24 \(\pm\) 16.45 & 35.00 \(\pm\) 13.37 & 37.71 \(\pm\) 11.89 \\
+haberman & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 67.39 \(\pm\) 6.10 & 32.88 \(\pm\) 16.66 & 20.83 \(\pm\) 10.62 & 24.73 \(\pm\) 11.20 \\
+haberman & IFUTSVM-ID (corrected) & \textbf{75.00 \(\pm\) 5.49} & \textbf{54.76 \(\pm\) 12.31} & 41.67 \(\pm\) 8.84 & 46.57 \(\pm\) 8.29 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / haberman / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+haberman & SVM (balanced) & \textbf{68.78 \(\pm\) 10.13} & 60.55 \(\pm\) 5.53 & 62.40 \(\pm\) 5.52 & \textbf{0.0142 \(\pm\) 0.0029} \\
+haberman & SMOTE + SVM & 68.13 \(\pm\) 5.69 & \textbf{62.46 \(\pm\) 6.25} & \textbf{65.02 \(\pm\) 5.06} & 0.0247 \(\pm\) 0.0049 \\
+haberman & TSVM & 63.44 \(\pm\) 7.03 & 53.77 \(\pm\) 11.64 & 59.49 \(\pm\) 7.07 & 0.1002 \(\pm\) 0.0162 \\
+haberman & UTSVM & 63.67 \(\pm\) 7.97 & 54.20 \(\pm\) 10.60 & 60.07 \(\pm\) 6.41 & 0.3858 \(\pm\) 0.1246 \\
+haberman & \shortstack[l]{IFUTSVM-ID (published\\code)} & 66.56 \(\pm\) 11.33 & 52.78 \(\pm\) 10.27 & 58.97 \(\pm\) 6.84 & 0.1068 \(\pm\) 0.0139 \\
+haberman & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 54.03 \(\pm\) 9.17 & 40.49 \(\pm\) 10.90 & 52.33 \(\pm\) 6.06 & 0.0912 \(\pm\) 0.0166 \\
+haberman & IFUTSVM-ID (corrected) & 68.11 \(\pm\) 7.72 & 59.79 \(\pm\) 6.55 & 64.22 \(\pm\) 5.33 & 0.2404 \(\pm\) 0.0794 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / new-thyroid1 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+new-thyroid1 & SVM (balanced) & 98.15 \(\pm\) 0.69 & 90.26 \(\pm\) 3.15 & \textbf{100.00 \(\pm\) 0.00} & 94.86 \(\pm\) 1.78 \\
+new-thyroid1 & SMOTE + SVM & 97.54 \(\pm\) 0.84 & 89.95 \(\pm\) 3.01 & 96.36 \(\pm\) 4.98 & 92.96 \(\pm\) 2.48 \\
+new-thyroid1 & TSVM & \textbf{98.46 \(\pm\) 0.00} & 95.00 \(\pm\) 4.56 & 96.36 \(\pm\) 4.98 & \textbf{95.49 \(\pm\) 0.23} \\
+new-thyroid1 & UTSVM & 96.62 \(\pm\) 2.53 & 90.78 \(\pm\) 10.94 & 90.91 \(\pm\) 11.13 & 90.15 \(\pm\) 7.34 \\
+new-thyroid1 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 93.85 \(\pm\) 3.08 & 89.13 \(\pm\) 12.11 & 74.55 \(\pm\) 18.63 & 79.63 \(\pm\) 12.27 \\
+new-thyroid1 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 93.85 \(\pm\) 4.35 & 85.22 \(\pm\) 14.73 & 81.82 \(\pm\) 22.27 & 81.21 \(\pm\) 14.46 \\
+new-thyroid1 & IFUTSVM-ID (corrected) & 97.23 \(\pm\) 2.01 & \textbf{96.33 \(\pm\) 5.06} & 87.27 \(\pm\) 12.20 & 91.12 \(\pm\) 6.66 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / new-thyroid1 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+new-thyroid1 & SVM (balanced) & \textbf{99.93 \(\pm\) 0.09} & \textbf{98.88 \(\pm\) 0.42} & \textbf{98.89 \(\pm\) 0.41} & \textbf{0.0083 \(\pm\) 0.0012} \\
+new-thyroid1 & SMOTE + SVM & 99.87 \(\pm\) 0.14 & 97.04 \(\pm\) 2.38 & 97.07 \(\pm\) 2.35 & 0.0120 \(\pm\) 0.0017 \\
+new-thyroid1 & TSVM & \textbf{99.93 \(\pm\) 0.09} & 97.58 \(\pm\) 2.04 & 97.63 \(\pm\) 1.98 & 0.0349 \(\pm\) 0.0057 \\
+new-thyroid1 & UTSVM & 99.29 \(\pm\) 0.84 & 94.09 \(\pm\) 5.58 & 94.34 \(\pm\) 5.20 & 0.0627 \(\pm\) 0.0203 \\
+new-thyroid1 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 96.09 \(\pm\) 3.43 & 84.71 \(\pm\) 10.80 & 86.16 \(\pm\) 8.77 & 0.0489 \(\pm\) 0.0108 \\
+new-thyroid1 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 98.15 \(\pm\) 2.40 & 87.84 \(\pm\) 12.34 & 89.06 \(\pm\) 10.27 & 0.0438 \(\pm\) 0.0043 \\
+new-thyroid1 & IFUTSVM-ID (corrected) & 99.83 \(\pm\) 0.17 & 92.88 \(\pm\) 6.39 & 93.27 \(\pm\) 5.98 & 0.0324 \(\pm\) 0.0133 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / pima / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+pima & SVM (balanced) & 72.55 \(\pm\) 3.93 & 59.97 \(\pm\) 5.17 & 67.90 \(\pm\) 5.09 & 63.50 \(\pm\) 3.66 \\
+pima & SMOTE + SVM & 73.94 \(\pm\) 2.55 & 61.52 \(\pm\) 3.85 & \textbf{70.62 \(\pm\) 6.44} & \textbf{65.50 \(\pm\) 2.37} \\
+pima & TSVM & \textbf{74.55 \(\pm\) 2.71} & \textbf{66.58 \(\pm\) 5.81} & 56.05 \(\pm\) 1.41 & 60.77 \(\pm\) 2.72 \\
+pima & UTSVM & 74.55 \(\pm\) 2.57 & 65.92 \(\pm\) 5.05 & 58.77 \(\pm\) 11.67 & 61.36 \(\pm\) 6.60 \\
+pima & \shortstack[l]{IFUTSVM-ID (published\\code)} & 64.33 \(\pm\) 2.54 & 46.17 \(\pm\) 11.89 & 13.09 \(\pm\) 6.21 & 19.94 \(\pm\) 8.73 \\
+pima & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 67.79 \(\pm\) 4.08 & 55.93 \(\pm\) 6.89 & 51.11 \(\pm\) 15.58 & 51.69 \(\pm\) 9.03 \\
+pima & IFUTSVM-ID (corrected) & 72.47 \(\pm\) 4.27 & 60.60 \(\pm\) 6.18 & 65.93 \(\pm\) 4.83 & 62.81 \(\pm\) 2.51 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / pima / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+pima & SVM (balanced) & 81.35 \(\pm\) 3.50 & 71.25 \(\pm\) 3.32 & 71.48 \(\pm\) 3.24 & \textbf{0.0323 \(\pm\) 0.0066} \\
+pima & SMOTE + SVM & \textbf{82.05 \(\pm\) 2.07} & \textbf{72.92 \(\pm\) 2.10} & \textbf{73.18 \(\pm\) 1.88} & 0.0409 \(\pm\) 0.0052 \\
+pima & TSVM & 80.11 \(\pm\) 2.67 & 68.81 \(\pm\) 1.93 & 70.29 \(\pm\) 2.20 & 3.1246 \(\pm\) 1.1569 \\
+pima & UTSVM & 80.17 \(\pm\) 2.42 & 69.33 \(\pm\) 5.58 & 70.92 \(\pm\) 3.71 & 4.5535 \(\pm\) 0.7789 \\
+pima & \shortstack[l]{IFUTSVM-ID (published\\code)} & 68.51 \(\pm\) 3.63 & 33.53 \(\pm\) 9.24 & 52.54 \(\pm\) 2.71 & 1.0790 \(\pm\) 0.2820 \\
+pima & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 69.51 \(\pm\) 6.91 & 61.25 \(\pm\) 7.39 & 63.96 \(\pm\) 3.91 & 0.8164 \(\pm\) 0.1413 \\
+pima & IFUTSVM-ID (corrected) & 81.30 \(\pm\) 2.65 & 70.54 \(\pm\) 2.51 & 70.96 \(\pm\) 2.54 & 3.3146 \(\pm\) 0.9505 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / vehicle1 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+vehicle1 & SVM (balanced) & 83.62 \(\pm\) 2.93 & 63.81 \(\pm\) 5.52 & \textbf{85.54 \(\pm\) 5.06} & 72.88 \(\pm\) 3.41 \\
+vehicle1 & SMOTE + SVM & 85.20 \(\pm\) 3.28 & 67.24 \(\pm\) 5.37 & 82.46 \(\pm\) 7.35 & \textbf{74.02 \(\pm\) 5.72} \\
+vehicle1 & TSVM & \textbf{85.98 \(\pm\) 2.55} & \textbf{73.94 \(\pm\) 5.53} & 70.46 \(\pm\) 9.13 & 71.85 \(\pm\) 5.63 \\
+vehicle1 & UTSVM & 85.20 \(\pm\) 0.77 & 71.07 \(\pm\) 4.54 & 72.62 \(\pm\) 10.05 & 71.29 \(\pm\) 3.20 \\
+vehicle1 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 70.08 \(\pm\) 12.20 & 48.37 \(\pm\) 12.66 & 37.23 \(\pm\) 31.84 & 34.40 \(\pm\) 16.62 \\
+vehicle1 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 76.54 \(\pm\) 1.98 & 57.35 \(\pm\) 6.22 & 35.69 \(\pm\) 7.33 & 43.48 \(\pm\) 5.62 \\
+vehicle1 & IFUTSVM-ID (corrected) & 80.63 \(\pm\) 1.51 & 62.15 \(\pm\) 3.26 & 63.08 \(\pm\) 9.48 & 62.27 \(\pm\) 4.41 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / vehicle1 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+vehicle1 & SVM (balanced) & 91.44 \(\pm\) 1.74 & 84.16 \(\pm\) 2.35 & 84.25 \(\pm\) 2.40 & \textbf{0.0460 \(\pm\) 0.0178} \\
+vehicle1 & SMOTE + SVM & 91.93 \(\pm\) 2.41 & \textbf{84.23 \(\pm\) 4.49} & \textbf{84.30 \(\pm\) 4.43} & 0.0996 \(\pm\) 0.0307 \\
+vehicle1 & TSVM & \textbf{93.14 \(\pm\) 1.33} & 80.06 \(\pm\) 4.95 & 80.89 \(\pm\) 4.34 & 1.7914 \(\pm\) 0.3912 \\
+vehicle1 & UTSVM & 92.12 \(\pm\) 2.28 & 80.38 \(\pm\) 4.16 & 81.07 \(\pm\) 3.47 & 3.2110 \(\pm\) 0.8319 \\
+vehicle1 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 69.61 \(\pm\) 1.94 & 46.48 \(\pm\) 16.59 & 59.30 \(\pm\) 4.94 & 1.3464 \(\pm\) 0.3935 \\
+vehicle1 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 75.08 \(\pm\) 3.00 & 56.53 \(\pm\) 5.17 & 63.14 \(\pm\) 2.68 & 0.8046 \(\pm\) 0.1766 \\
+vehicle1 & IFUTSVM-ID (corrected) & 87.88 \(\pm\) 1.65 & 73.71 \(\pm\) 4.44 & 74.87 \(\pm\) 3.69 & 1.3026 \(\pm\) 0.4847 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / yeast1 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+yeast1 & SVM (balanced) & 70.63 \(\pm\) 1.22 & 49.55 \(\pm\) 1.57 & 73.33 \(\pm\) 7.45 & 58.99 \(\pm\) 2.30 \\
+yeast1 & SMOTE + SVM & 70.72 \(\pm\) 1.62 & 49.76 \(\pm\) 2.04 & 72.87 \(\pm\) 6.46 & 58.95 \(\pm\) 1.24 \\
+yeast1 & TSVM & 69.42 \(\pm\) 3.39 & 49.15 \(\pm\) 5.18 & 67.60 \(\pm\) 14.96 & 55.63 \(\pm\) 3.84 \\
+yeast1 & UTSVM & 69.69 \(\pm\) 3.97 & 49.91 \(\pm\) 6.76 & 68.37 \(\pm\) 14.78 & 56.21 \(\pm\) 3.19 \\
+yeast1 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 64.48 \(\pm\) 6.03 & 44.66 \(\pm\) 5.42 & \textbf{81.24 \(\pm\) 7.40} & 57.17 \(\pm\) 2.32 \\
+yeast1 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & \textbf{71.97 \(\pm\) 7.01} & \textbf{56.30 \(\pm\) 15.41} & 41.24 \(\pm\) 12.49 & 45.78 \(\pm\) 8.88 \\
+yeast1 & IFUTSVM-ID (corrected) & 71.03 \(\pm\) 1.14 & 50.07 \(\pm\) 1.50 & 73.80 \(\pm\) 5.94 & \textbf{59.52 \(\pm\) 1.28} \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / yeast1 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+yeast1 & SVM (balanced) & 79.69 \(\pm\) 0.78 & 71.24 \(\pm\) 1.93 & 71.43 \(\pm\) 2.12 & \textbf{0.0433 \(\pm\) 0.0013} \\
+yeast1 & SMOTE + SVM & 79.49 \(\pm\) 0.90 & 71.17 \(\pm\) 1.12 & 71.36 \(\pm\) 1.11 & 0.0844 \(\pm\) 0.0049 \\
+yeast1 & TSVM & 77.67 \(\pm\) 1.89 & 67.85 \(\pm\) 3.96 & 68.88 \(\pm\) 2.39 & 5.5462 \(\pm\) 2.0412 \\
+yeast1 & UTSVM & 78.20 \(\pm\) 1.18 & 68.25 \(\pm\) 3.60 & 69.30 \(\pm\) 2.03 & 34.5149 \(\pm\) 4.5644 \\
+yeast1 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 78.73 \(\pm\) 1.20 & 67.90 \(\pm\) 3.50 & 69.45 \(\pm\) 2.29 & 2.4040 \(\pm\) 1.1075 \\
+yeast1 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 72.65 \(\pm\) 11.26 & 58.27 \(\pm\) 7.79 & 62.86 \(\pm\) 6.49 & 1.9256 \(\pm\) 0.6202 \\
+yeast1 & IFUTSVM-ID (corrected) & \textbf{80.07 \(\pm\) 0.70} & \textbf{71.69 \(\pm\) 1.19} & \textbf{71.85 \(\pm\) 1.14} & 7.8422 \(\pm\) 3.4389 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / yeast-2\_vs\_4 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+yeast-2\_vs\_4 & SVM (balanced) & 90.19 \(\pm\) 2.56 & 51.70 \(\pm\) 8.95 & 69.33 \(\pm\) 20.87 & 57.19 \(\pm\) 8.16 \\
+yeast-2\_vs\_4 & SMOTE + SVM & 91.23 \(\pm\) 1.68 & 54.54 \(\pm\) 7.33 & 72.00 \(\pm\) 16.60 & 60.95 \(\pm\) 7.42 \\
+yeast-2\_vs\_4 & TSVM & \textbf{93.81 \(\pm\) 0.58} & \textbf{74.19 \(\pm\) 14.72} & 62.67 \(\pm\) 19.78 & \textbf{65.07 \(\pm\) 7.50} \\
+yeast-2\_vs\_4 & UTSVM & 92.65 \(\pm\) 2.87 & 68.48 \(\pm\) 21.67 & 70.67 \(\pm\) 25.65 & 64.36 \(\pm\) 10.75 \\
+yeast-2\_vs\_4 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 91.87 \(\pm\) 2.83 & 60.31 \(\pm\) 13.92 & \textbf{72.00 \(\pm\) 17.26} & 63.25 \(\pm\) 8.05 \\
+yeast-2\_vs\_4 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 92.00 \(\pm\) 2.44 & 54.93 \(\pm\) 33.59 & 49.33 \(\pm\) 30.04 & 50.14 \(\pm\) 28.15 \\
+yeast-2\_vs\_4 & IFUTSVM-ID (corrected) & 92.39 \(\pm\) 1.96 & 62.09 \(\pm\) 11.58 & 70.67 \(\pm\) 19.21 & 63.62 \(\pm\) 8.66 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / yeast-2\_vs\_4 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+yeast-2\_vs\_4 & SVM (balanced) & \textbf{94.64 \(\pm\) 2.68} & 79.09 \(\pm\) 11.35 & 80.88 \(\pm\) 9.03 & \textbf{0.0104 \(\pm\) 0.0016} \\
+yeast-2\_vs\_4 & SMOTE + SVM & 93.25 \(\pm\) 5.11 & 81.40 \(\pm\) 9.11 & 82.64 \(\pm\) 7.45 & 0.0182 \(\pm\) 0.0050 \\
+yeast-2\_vs\_4 & TSVM & 91.58 \(\pm\) 5.58 & 77.17 \(\pm\) 11.28 & 79.90 \(\pm\) 8.93 & 0.1462 \(\pm\) 0.0219 \\
+yeast-2\_vs\_4 & UTSVM & 90.27 \(\pm\) 5.40 & 80.57 \(\pm\) 13.80 & 82.83 \(\pm\) 11.24 & 0.2494 \(\pm\) 0.0489 \\
+yeast-2\_vs\_4 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 92.26 \(\pm\) 4.90 & \textbf{81.64 \(\pm\) 9.28} & \textbf{83.00 \(\pm\) 7.53} & 0.1358 \(\pm\) 0.0127 \\
+yeast-2\_vs\_4 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 84.39 \(\pm\) 19.91 & 61.27 \(\pm\) 34.83 & 72.95 \(\pm\) 14.22 & 0.2380 \(\pm\) 0.0603 \\
+yeast-2\_vs\_4 & IFUTSVM-ID (corrected) & 92.08 \(\pm\) 5.90 & 80.99 \(\pm\) 11.14 & 82.69 \(\pm\) 8.53 & 0.1843 \(\pm\) 0.0154 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / yeast3 / Class metrics}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ACC \% & Precision \% & Recall \% & F1 \% \\
+\hline
+yeast3 & SVM (balanced) & 92.69 \(\pm\) 1.18 & 61.68 \(\pm\) 4.74 & 89.80 \(\pm\) 3.82 & 73.05 \(\pm\) 3.72 \\
+yeast3 & SMOTE + SVM & 93.18 \(\pm\) 1.39 & 63.61 \(\pm\) 5.39 & \textbf{90.20 \(\pm\) 3.03} & 74.53 \(\pm\) 4.33 \\
+yeast3 & TSVM & \textbf{94.17 \(\pm\) 1.28} & \textbf{70.31 \(\pm\) 6.99} & 83.27 \(\pm\) 1.71 & \textbf{76.03 \(\pm\) 3.59} \\
+yeast3 & UTSVM & 93.41 \(\pm\) 0.86 & 66.08 \(\pm\) 4.21 & 83.67 \(\pm\) 4.33 & 73.67 \(\pm\) 2.00 \\
+yeast3 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 93.05 \(\pm\) 1.17 & 63.67 \(\pm\) 5.62 & 88.57 \(\pm\) 5.12 & 73.80 \(\pm\) 2.66 \\
+yeast3 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 90.04 \(\pm\) 2.26 & 55.41 \(\pm\) 9.27 & 71.43 \(\pm\) 8.78 & 61.48 \(\pm\) 3.39 \\
+yeast3 & IFUTSVM-ID (corrected) & 93.00 \(\pm\) 4.07 & 66.97 \(\pm\) 14.13 & 86.12 \(\pm\) 3.93 & 74.34 \(\pm\) 9.06 \\
+\hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\caption{Five outer runs: mean \(\pm\) sample SD; bold best per dataset / yeast3 / AUC, balance and time}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\hline
+Dataset & Model & ROC-AUC \% & G-mean \% & Balanced ACC \% & Fit seconds \\
+\hline
+yeast3 & SVM (balanced) & 96.87 \(\pm\) 0.65 & 91.39 \(\pm\) 2.03 & 91.42 \(\pm\) 2.02 & \textbf{0.0350 \(\pm\) 0.0060} \\
+yeast3 & SMOTE + SVM & \textbf{96.88 \(\pm\) 0.71} & \textbf{91.85 \(\pm\) 1.90} & \textbf{91.88 \(\pm\) 1.88} & 0.1665 \(\pm\) 0.0763 \\
+yeast3 & TSVM & 95.38 \(\pm\) 0.89 & 89.17 \(\pm\) 0.37 & 89.39 \(\pm\) 0.34 & 1.8180 \(\pm\) 0.2156 \\
+yeast3 & UTSVM & 95.20 \(\pm\) 1.62 & 88.94 \(\pm\) 1.79 & 89.14 \(\pm\) 1.65 & 6.4854 \(\pm\) 2.1002 \\
+yeast3 & \shortstack[l]{IFUTSVM-ID (published\\code)} & 96.16 \(\pm\) 1.13 & 91.00 \(\pm\) 2.07 & 91.09 \(\pm\) 1.91 & 1.3053 \(\pm\) 0.1808 \\
+yeast3 & \shortstack[l]{IFUTSVM-ID (published\\code, scaled)} & 93.38 \(\pm\) 1.47 & 81.01 \(\pm\) 3.67 & 81.89 \(\pm\) 2.94 & 2.1202 \(\pm\) 1.1771 \\
+yeast3 & IFUTSVM-ID (corrected) & 96.57 \(\pm\) 1.08 & 89.82 \(\pm\) 1.29 & 89.99 \(\pm\) 1.27 & 2.2771 \(\pm\) 1.1286 \\
+\hline
+\end{tabular}%
+}
+\end{table*}

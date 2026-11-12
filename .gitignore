@@ -1,0 +1,12 @@
+# local environments and caches
+.venv/
+.venv310/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+tmp/
+build/
+dist/
+# generated notebook (rebuilt with: python -m experiments.notebook --execute)
+*.ipynb

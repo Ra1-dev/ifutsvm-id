@@ -1,0 +1,672 @@
+{
+  "collection_url": "https://sci2s.ugr.es/keel/imbalanced.php",
+  "datasets": {
+    "abalone9-18": {
+      "file": "abalone9-18.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/abalone9-18.zip",
+      "sha256": "061b0ff6b94bfce3a914bfcb157aad64209cd139a1b77f90445feb97ee0dfcb9",
+      "archive_sha256": "d767459421b23ae1d7855579741be6e7c62bdf08a842d1be4c4020269533109c",
+      "rows": 731,
+      "features": 8,
+      "class_counts": {
+        "negative": 689,
+        "positive": 42
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 16.404761904761905,
+      "attributes": [
+        {
+          "name": "Sex",
+          "kind": "{M, F, I}",
+          "nominal": true
+        },
+        {
+          "name": "Length",
+          "kind": "real [0.075, 0.815]",
+          "nominal": false
+        },
+        {
+          "name": "Diameter",
+          "kind": "real [0.055, 0.65]",
+          "nominal": false
+        },
+        {
+          "name": "Height",
+          "kind": "real [0.0, 1.13]",
+          "nominal": false
+        },
+        {
+          "name": "Whole_weight",
+          "kind": "real [0.0020, 2.8255]",
+          "nominal": false
+        },
+        {
+          "name": "Shucked_weight",
+          "kind": "real [0.0010, 1.488]",
+          "nominal": false
+        },
+        {
+          "name": "Viscera_weight",
+          "kind": "real [5.0E-4, 0.76]",
+          "nominal": false
+        },
+        {
+          "name": "Shell_weight",
+          "kind": "real [0.0015, 1.005]",
+          "nominal": false
+        }
+      ]
+    },
+    "ecoli-0-1_vs_5": {
+      "file": "ecoli-0-1_vs_5.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p2/ecoli-0-1_vs_5.zip",
+      "sha256": "2c1bd7102e3c3f14dc8e0c47c9ab4bc211f56d316fb8e414381ec831e4689927",
+      "archive_sha256": "937fc44501aa70ef5dbfb710c09be250f41f2054c5acc7f897fef2881e413200",
+      "rows": 240,
+      "features": 6,
+      "class_counts": {
+        "negative": 220,
+        "positive": 20
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 11.0,
+      "attributes": [
+        {
+          "name": "a1",
+          "kind": "real [0.0, 89.0]",
+          "nominal": false
+        },
+        {
+          "name": "a2",
+          "kind": "real [3.0, 88.0]",
+          "nominal": false
+        },
+        {
+          "name": "a3",
+          "kind": "real [1.0, 48.0]",
+          "nominal": false
+        },
+        {
+          "name": "a5",
+          "kind": "real [0.0, 88.0]",
+          "nominal": false
+        },
+        {
+          "name": "a6",
+          "kind": "real [1.0, 94.0]",
+          "nominal": false
+        },
+        {
+          "name": "a7",
+          "kind": "real [0.0, 99.0]",
+          "nominal": false
+        }
+      ]
+    },
+    "ecoli3": {
+      "file": "ecoli3.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/ecoli3.zip",
+      "sha256": "1316077f98ffb7044d0381d947b6955662cce574ac436bbb17979a710427154b",
+      "archive_sha256": "706090b031a17a75a7dbec22b24979e5b14879efe82feb829669596613e30336",
+      "rows": 336,
+      "features": 7,
+      "class_counts": {
+        "negative": 301,
+        "positive": 35
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 8.6,
+      "attributes": [
+        {
+          "name": "Mcg",
+          "kind": "real [0.0, 0.89]",
+          "nominal": false
+        },
+        {
+          "name": "Gvh",
+          "kind": "real [0.16, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Lip",
+          "kind": "real [0.48, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Chg",
+          "kind": "real [0.5, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Aac",
+          "kind": "real [0.0, 0.88]",
+          "nominal": false
+        },
+        {
+          "name": "Alm1",
+          "kind": "real [0.03, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Alm2",
+          "kind": "real [0.0, 0.99]",
+          "nominal": false
+        }
+      ]
+    },
+    "ecoli4": {
+      "file": "ecoli4.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/ecoli4.zip",
+      "sha256": "1890c32ba2550cfe106d0524ebf6a42c2b50730f6521bd4f22eb58e7bda86bcb",
+      "archive_sha256": "75f3a62a1d23b0081976131f6c18331219e29b07ea616620a650b68a27c831d7",
+      "rows": 336,
+      "features": 7,
+      "class_counts": {
+        "negative": 316,
+        "positive": 20
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 15.8,
+      "attributes": [
+        {
+          "name": "Mcg",
+          "kind": "real [0.0, 0.89]",
+          "nominal": false
+        },
+        {
+          "name": "Gvh",
+          "kind": "real [0.16, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Lip",
+          "kind": "real [0.48, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Chg",
+          "kind": "real [0.5, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Aac",
+          "kind": "real [0.0, 0.88]",
+          "nominal": false
+        },
+        {
+          "name": "Alm1",
+          "kind": "real [0.03, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Alm2",
+          "kind": "real [0.0, 0.99]",
+          "nominal": false
+        }
+      ]
+    },
+    "glass4": {
+      "file": "glass4.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/glass4.zip",
+      "sha256": "b78de8acd826471d03101077a3c6b3d476100291fa52738b9d1e1abba774609c",
+      "archive_sha256": "2d8d3727f087eba5144f5ad6544418acd34ae08b4bc4504cac04091986da7711",
+      "rows": 214,
+      "features": 9,
+      "class_counts": {
+        "negative": 201,
+        "positive": 13
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 15.461538461538462,
+      "attributes": [
+        {
+          "name": "RI",
+          "kind": "real [1.51115, 1.53393]",
+          "nominal": false
+        },
+        {
+          "name": "Na",
+          "kind": "real [10.73, 17.38]",
+          "nominal": false
+        },
+        {
+          "name": "Mg",
+          "kind": "real [0.0, 4.49]",
+          "nominal": false
+        },
+        {
+          "name": "Al",
+          "kind": "real [0.29, 3.5]",
+          "nominal": false
+        },
+        {
+          "name": "Si",
+          "kind": "real [69.81, 75.41]",
+          "nominal": false
+        },
+        {
+          "name": "K",
+          "kind": "real [0.0, 6.21]",
+          "nominal": false
+        },
+        {
+          "name": "Ca",
+          "kind": "real [5.43, 16.19]",
+          "nominal": false
+        },
+        {
+          "name": "Ba",
+          "kind": "real [0.0, 3.15]",
+          "nominal": false
+        },
+        {
+          "name": "Fe",
+          "kind": "real [0.0, 0.51]",
+          "nominal": false
+        }
+      ]
+    },
+    "haberman": {
+      "file": "haberman.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/haberman.zip",
+      "sha256": "68e2c4726eed6c99f219714220f6917cf38f7d9291a54e244a65c8bfb71d27a6",
+      "archive_sha256": "a5a4d6ff481ca337b6622d5fb8a1b4fe32387115331f2df33ce6930035715656",
+      "rows": 306,
+      "features": 3,
+      "class_counts": {
+        "negative": 225,
+        "positive": 81
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 2.7777777777777777,
+      "attributes": [
+        {
+          "name": "Age",
+          "kind": "integer [30, 83]",
+          "nominal": false
+        },
+        {
+          "name": "Year",
+          "kind": "integer [58, 69]",
+          "nominal": false
+        },
+        {
+          "name": "Positive",
+          "kind": "integer [0, 52]",
+          "nominal": false
+        }
+      ]
+    },
+    "new-thyroid1": {
+      "file": "new-thyroid1.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/new-thyroid1.zip",
+      "sha256": "bff6e1e9851878786f5c0581b5c79a36fe806a136b27908ebf298aab0e4ad7ee",
+      "archive_sha256": "5f736fc1f4e0800b9a3eec8a96f4589e3c3c71989c2852146a6259972507d550",
+      "rows": 215,
+      "features": 5,
+      "class_counts": {
+        "negative": 180,
+        "positive": 35
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 5.142857142857143,
+      "attributes": [
+        {
+          "name": "T3resin",
+          "kind": "integer [65, 144]",
+          "nominal": false
+        },
+        {
+          "name": "Thyroxin",
+          "kind": "real [0.5, 25.3]",
+          "nominal": false
+        },
+        {
+          "name": "Triiodothyronine",
+          "kind": "real [0.2, 10.0]",
+          "nominal": false
+        },
+        {
+          "name": "Thyroidstimulating",
+          "kind": "real [0.1, 56.4]",
+          "nominal": false
+        },
+        {
+          "name": "TSH_value",
+          "kind": "real [-0.7, 56.3]",
+          "nominal": false
+        }
+      ]
+    },
+    "pima": {
+      "file": "pima.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/pima.zip",
+      "sha256": "bc102136cd19de85c8affa7e87a22b2acab02cbc820214f94fe914d1532da932",
+      "archive_sha256": "f8bf7b956c3bd850384a374ebb3de9e6f343874abed1c45a30326e0de6a0a7a9",
+      "rows": 768,
+      "features": 8,
+      "class_counts": {
+        "negative": 500,
+        "positive": 268
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 1.8656716417910448,
+      "attributes": [
+        {
+          "name": "Preg",
+          "kind": "real [0.0, 17.0]",
+          "nominal": false
+        },
+        {
+          "name": "Plas",
+          "kind": "real [0.0, 199.0]",
+          "nominal": false
+        },
+        {
+          "name": "Pres",
+          "kind": "real [0.0, 122.0]",
+          "nominal": false
+        },
+        {
+          "name": "Skin",
+          "kind": "real [0.0, 99.0]",
+          "nominal": false
+        },
+        {
+          "name": "Insu",
+          "kind": "real [0.0, 846.0]",
+          "nominal": false
+        },
+        {
+          "name": "Mass",
+          "kind": "real [0.0, 67.1]",
+          "nominal": false
+        },
+        {
+          "name": "Pedi",
+          "kind": "real [0.078, 2.42]",
+          "nominal": false
+        },
+        {
+          "name": "Age",
+          "kind": "real [21.0, 81.0]",
+          "nominal": false
+        }
+      ]
+    },
+    "vehicle1": {
+      "file": "vehicle1.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/vehicle1.zip",
+      "sha256": "737e5ca08e5391c7eb3a576d833304b963daf435c49607808bf5413d24e2ae3e",
+      "archive_sha256": "f27299ca2350d67e337c1e122d222e7fcbcc8f2fd2c183e26b06c19e2e1e99b8",
+      "rows": 846,
+      "features": 18,
+      "class_counts": {
+        "negative": 629,
+        "positive": 217
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 2.8986175115207375,
+      "attributes": [
+        {
+          "name": "Compactness",
+          "kind": "integer [73, 119]",
+          "nominal": false
+        },
+        {
+          "name": "Circularity",
+          "kind": "integer [33, 59]",
+          "nominal": false
+        },
+        {
+          "name": "Distance_circularity",
+          "kind": "integer [40, 112]",
+          "nominal": false
+        },
+        {
+          "name": "Radius_ratio",
+          "kind": "integer [104, 333]",
+          "nominal": false
+        },
+        {
+          "name": "Praxis_aspect_ratio",
+          "kind": "integer [47, 138]",
+          "nominal": false
+        },
+        {
+          "name": "Max_length_aspect_ratio",
+          "kind": "integer [2, 55]",
+          "nominal": false
+        },
+        {
+          "name": "Scatter_ratio",
+          "kind": "integer [112, 265]",
+          "nominal": false
+        },
+        {
+          "name": "Elongatedness",
+          "kind": "integer [26, 61]",
+          "nominal": false
+        },
+        {
+          "name": "Praxis_rectangular",
+          "kind": "integer [17, 29]",
+          "nominal": false
+        },
+        {
+          "name": "Length_rectangular",
+          "kind": "integer [118, 188]",
+          "nominal": false
+        },
+        {
+          "name": "Major_variance",
+          "kind": "integer [130, 320]",
+          "nominal": false
+        },
+        {
+          "name": "Minor_variance",
+          "kind": "integer [184, 1018]",
+          "nominal": false
+        },
+        {
+          "name": "Gyration_radius",
+          "kind": "integer [109, 268]",
+          "nominal": false
+        },
+        {
+          "name": "Major_skewness",
+          "kind": "integer [59, 135]",
+          "nominal": false
+        },
+        {
+          "name": "Minor_skewness",
+          "kind": "integer [0, 22]",
+          "nominal": false
+        },
+        {
+          "name": "Minor_kurtosis",
+          "kind": "integer [0, 41]",
+          "nominal": false
+        },
+        {
+          "name": "Major_kurtosis",
+          "kind": "integer [176, 206]",
+          "nominal": false
+        },
+        {
+          "name": "Hollows_ratio",
+          "kind": "integer [181, 211]",
+          "nominal": false
+        }
+      ]
+    },
+    "yeast1": {
+      "file": "yeast1.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/yeast1.zip",
+      "sha256": "52ddd9e099eb4bed478430eec046332b53f5e574605e924b301cc1a4c35f4120",
+      "archive_sha256": "1284f4e3b3320826d7af20019c9cc3e4bd318b0cc8e8df02a70077ab1f63dec7",
+      "rows": 1484,
+      "features": 8,
+      "class_counts": {
+        "negative": 1055,
+        "positive": 429
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 2.4592074592074593,
+      "attributes": [
+        {
+          "name": "Mcg",
+          "kind": "real [0.11, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Gvh",
+          "kind": "real [0.13, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Alm",
+          "kind": "real [0.21, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Mit",
+          "kind": "real [0.0, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Erl",
+          "kind": "real [0.5, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Pox",
+          "kind": "real [0.0, 0.83]",
+          "nominal": false
+        },
+        {
+          "name": "Vac",
+          "kind": "real [0.0, 0.73]",
+          "nominal": false
+        },
+        {
+          "name": "Nuc",
+          "kind": "real [0.0, 1.0]",
+          "nominal": false
+        }
+      ]
+    },
+    "yeast-2_vs_4": {
+      "file": "yeast-2_vs_4.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/yeast-2_vs_4.zip",
+      "sha256": "7c0a3b9a5b1e44e0f2492e65d497b0e6c61faa924a15e4abf9a086d7791969d4",
+      "archive_sha256": "22ab669e5d6773475a443cdd930925587fcc73cfe1fecf5e96179815a316dd9b",
+      "rows": 514,
+      "features": 8,
+      "class_counts": {
+        "negative": 463,
+        "positive": 51
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 9.07843137254902,
+      "attributes": [
+        {
+          "name": "Mcg",
+          "kind": "real [0.11, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Gvh",
+          "kind": "real [0.13, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Alm",
+          "kind": "real [0.21, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Mit",
+          "kind": "real [0.0, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Erl",
+          "kind": "real [0.5, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Pox",
+          "kind": "real [0.0, 0.83]",
+          "nominal": false
+        },
+        {
+          "name": "Vac",
+          "kind": "real [0.0, 0.73]",
+          "nominal": false
+        },
+        {
+          "name": "Nuc",
+          "kind": "real [0.0, 1.0]",
+          "nominal": false
+        }
+      ]
+    },
+    "yeast3": {
+      "file": "yeast3.dat",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/yeast3.zip",
+      "sha256": "fda5bea98b4891a3320d02394d11c691eca642cc5cd72e7a206c2cf9cae6092e",
+      "archive_sha256": "9827788f17f3bcf36d57bb4cb3b0bc278f9aa539843d567cf1c8c884b29bd94d",
+      "rows": 1484,
+      "features": 8,
+      "class_counts": {
+        "negative": 1321,
+        "positive": 163
+      },
+      "minority_label": "positive",
+      "imbalance_ratio": 8.104294478527608,
+      "attributes": [
+        {
+          "name": "Mcg",
+          "kind": "real [0.11, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Gvh",
+          "kind": "real [0.13, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Alm",
+          "kind": "real [0.21, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Mit",
+          "kind": "real [0.0, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Erl",
+          "kind": "real [0.5, 1.0]",
+          "nominal": false
+        },
+        {
+          "name": "Pox",
+          "kind": "real [0.0, 0.83]",
+          "nominal": false
+        },
+        {
+          "name": "Vac",
+          "kind": "real [0.0, 0.73]",
+          "nominal": false
+        },
+        {
+          "name": "Nuc",
+          "kind": "real [0.0, 1.0]",
+          "nominal": false
+        }
+      ]
+    }
+  }
+}
